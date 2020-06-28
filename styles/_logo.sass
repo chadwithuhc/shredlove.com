@@ -1,0 +1,19 @@
+.logo-link
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: $brand-tan-og
+  border-bottom: solid 0.3rem darkkhaki
+  border-radius: 50%
+  width: $size-2
+  height: $size-2
+  .logo
+    max-width: $size-2 + 1
+    transition: max-width 100ms linear
+  &:hover .logo
+    max-width: $size-2 + 2
+.logo
+  &.size-1
+    width: $size-1
+  &.size-2
+    width: $size-2
