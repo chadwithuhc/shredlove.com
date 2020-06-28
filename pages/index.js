@@ -9,8 +9,9 @@ export default function Home() {
       </Head>
 
       <nav className="main-nav">
-        <a href="/" className="logo-link">
+        <a href="/" className="logo-link folder-style">
           <img className="logo" src="/images/shredlove-logo.svg" />
+          <span className="archives"><small>The</small> Archives</span>
         </a>
         <ul className="link-list">
           <li><a href="/photos">Photos</a></li>
