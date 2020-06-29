@@ -16,8 +16,8 @@ export default function Home() {
         <ul className="link-list">
           <li><a href="/timeline">Timeline</a></li>
           <li><a href="/photos">Photos</a></li>
-          <li><a href="/photos">Videos</a></li>
-          <li><a href="/photos">Articles</a></li>
+          <li><a href="/videos">Videos</a></li>
+          <li><a href="/articles">Articles</a></li>
           <li><a href="/crew">Crew</a></li>
         </ul>
       </nav>

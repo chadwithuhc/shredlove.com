@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import datastore from '../../stores/datastore'
+import PeopleModel from '../../stores/PeopleModel'
 
 export default function Crew({ people }) {
+  const superPeople = people.map(p => new PeopleModel(p))
+
   return (
     <main className="shredlove-v4">
       <Head>
@@ -10,7 +13,7 @@ export default function Crew({ people }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {people.map(person => <li key={person.id}><Link href="/crew/[person]" as={`/crew/${person.id}`}>{person.displayName}</Link></li>)}
+      {superPeople.map(person => <li key={person.id}><Link {...person.linkProps}>{person.displayName}</Link></li>)}
     </main>
   )
 }

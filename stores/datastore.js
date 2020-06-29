@@ -1,10 +1,11 @@
 import fs from 'fs'
 import path from 'path'
+import peopleDecorator from './peopleDecorator'
 
 import people from '../data/people.json'
 
 export default {
-  people
+  people//: people.map(peopleDecorator)
 }
 
 // export async function getStore(name) {
