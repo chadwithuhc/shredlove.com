@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import datastore from '../../stores/datastore'
 
-export default function Person({ people, person }) {
+export default function Person({ personId }) {
+  const { people } = datastore
+  const person = people.find(p => p.id === personId)
+
   return (
     <main className="shredlove-v4">
       <Head>
@@ -18,16 +21,15 @@ export default function Person({ people, person }) {
 export async function getStaticProps({ params }) {
   return {
     props: {
-      people: datastore.people,
-      person: datastore.people.find(p => p.id === params.person)
+      personId: params.personId,
     }
   }
 }
 
 export async function getStaticPaths() {
   return {
-    paths: datastore.people.map(person => ({
-      params: { person: person.id }
+    paths: datastore.raw.people.map(person => ({
+      params: { personId: person.id }
     })),
     fallback: false
   }

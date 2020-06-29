@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import datastore from '../../stores/datastore'
-import PeopleModel from '../../stores/PeopleModel'
 
-export default function Crew({ people }) {
-  const superPeople = people.map(p => new PeopleModel(p))
+export default function Crew() {
+  const { people } = datastore
 
   return (
     <main className="shredlove-v4">
@@ -13,15 +12,15 @@ export default function Crew({ people }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {superPeople.map(person => <li key={person.id}><Link {...person.linkProps}>{person.displayName}</Link></li>)}
+      {people.map(person => <li key={person.id}><Link {...person.linkProps}>{person.displayName}</Link></li>)}
     </main>
   )
 }
 
-export async function getStaticProps() {
-  return {
-    props: {
-      people: datastore.people
-    }
-  }
-}
+// export async function getStaticProps() {
+//   return {
+//     props: {
+//       people: datastore.raw.people
+//     }
+//   }
+// }

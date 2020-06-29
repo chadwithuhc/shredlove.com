@@ -1,11 +1,19 @@
-import fs from 'fs'
-import path from 'path'
+// import fs from 'fs'
+// import path from 'path'
 import peopleDecorator from './peopleDecorator'
+import PeopleModel from './PeopleModel'
 
 import people from '../data/people.json'
 
 export default {
-  people//: people.map(peopleDecorator)
+
+  // raw data is JSON serializable
+  raw: {
+    people
+  },
+
+  // model populated versions
+  people: people.map(p => new PeopleModel(p))
 }
 
 // export async function getStore(name) {
