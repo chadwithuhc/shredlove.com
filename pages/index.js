@@ -14,10 +14,11 @@ export default function Home() {
           <span className="archives"><small>The</small> Archives</span>
         </a>
         <ul className="link-list">
+          <li><a href="/timeline">Timeline</a></li>
           <li><a href="/photos">Photos</a></li>
           <li><a href="/photos">Videos</a></li>
           <li><a href="/photos">Articles</a></li>
-          <li><a href="/photos">Crew</a></li>
+          <li><a href="/crew">Crew</a></li>
         </ul>
       </nav>
     </main>
