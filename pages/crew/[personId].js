@@ -10,24 +10,34 @@ export default function Person({ personId }) {
       { href: '/crew', label: 'Crew' },
       { href: person.url, label: person.id }
     ]}>
-      <h1>{person.displayName}</h1>
-      <pre>{JSON.stringify(person, null, ' ')}</pre>
+      <h1 className="title">{person.displayName}</h1>
+      <dl className="meta-list">
+        <dt>Media</dt>
+        <dd className="meta-sublist-group">
+          <dl className="meta-sublist">
+          {person.media.map(entry => (
+            <React.Fragment key={entry.id}>
+              <dt>{entry.Link}</dt>
+              <dd>{entry.mediaType.label}</dd>
+            </React.Fragment>
+          ))}
+          </dl>
+        </dd>
 
-      <h2>Media:</h2>
-      {person.media.map(media => (
-        <dl key={media.id}>
-          <dt>{media.type}</dt>
-          <dd>{media.Link}</dd>
-        </dl>
-      ))}
+        <dt>Credits</dt>
+        <dd>
+          <dl className="meta-sublist">
+          {person.credits.map(credit => (
+            <React.Fragment key={credit.id}>
+              <dt>{credit.type}</dt>
+              {/* <dd>{credit.person.Link}</dd> */}
+            </React.Fragment>
+          ))}
+          </dl>
+        </dd>
+      </dl>
 
-      <h2>Credits:</h2>
-      {person.credits.map(credit => (
-        <dl key={credit.id}>
-          <dt>{credit.type}</dt>
-          {/* <dd>{credit.person.Link}</dd> */}
-        </dl>
-      ))}
+      {/* <pre>{JSON.stringify(person, null, ' ')}</pre> */}
     </Layout>
   )
 }

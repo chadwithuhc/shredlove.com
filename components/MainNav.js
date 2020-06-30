@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import MediaTypes from '../stores/MediaTypes'
 
 export default function MainNav() {
   return (
@@ -11,9 +12,9 @@ export default function MainNav() {
       </Link>
       <ul className="link-list">
         <li><a href="/timeline">Timeline</a></li>
-        <li><a href="/photos">Photos</a></li>
-        <li><a href="/videos">Videos</a></li>
-        <li><a href="/articles">Articles</a></li>
+        {Object.values(MediaTypes).map(mediaType => (
+          <li><Link href={mediaType.url}><a>{mediaType.labelPlural}</a></Link></li>
+        ))}
         <li><a href="/crew">Crew</a></li>
       </ul>
     </nav>

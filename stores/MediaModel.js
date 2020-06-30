@@ -1,11 +1,6 @@
 import Link from 'next/link'
 import datastore from './datastore'
-
-const MediaTypes = {
-  photo: { label: 'Photo', labelPlural: 'Photos', url: '/photos' },
-  video: { label: 'Video', labelPlural: 'Videos', url: '/videos' },
-  article: { label: 'Article', labelPlural: 'Articles', url: '/articles' },
-}
+import MediaTypes from './MediaTypes'
 
 class MediaModel {
 
@@ -14,9 +9,10 @@ class MediaModel {
     return this
   }
 
+  // database props
   id = null // string: '1'
   date = null // timestamp: 123456789
-  type = null // enum: ['photo','video']
+  type = null // enum: ['photo','video'] matching MediaTypes
   config = {} // object: { ..anyData }
   title = null // string: 'Working Title'
   description = null // string: 'Text Description'

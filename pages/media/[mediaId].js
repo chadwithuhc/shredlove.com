@@ -10,18 +10,27 @@ export default function Media({ mediaId }) {
       { href: entry.mediaType.url, label: entry.mediaType.labelPlural },
       { href: entry.url, label: entry.title }
     ]}>
-      <h1>Title: {entry.title}</h1>
-      <p>Description: {entry.description}</p>
+      <dl className="meta-list">
+        <dt>Title</dt>
+        <dd>{entry.title}</dd>
 
-      <h2>Credits:</h2>
-      {entry.credits.map(credit => (
-        <dl key={credit.id}>
-          <dt>{credit.type}</dt>
-          <dd>{credit.person.Link}</dd>
-        </dl>
-      ))}
+        <dt>Description</dt>
+        <dd>{entry.description}</dd>
 
-      <pre>{JSON.stringify(entry, null, ' ')}</pre>
+        <dt>Credits</dt>
+        <dd className="meta-sublist-group">
+          <dl className="meta-sublist">
+          {entry.credits.map(credit => (
+            <React.Fragment key={credit.id}>
+              <dt>{credit.type}</dt>
+              <dd>{credit.person.Link}</dd>
+            </React.Fragment>
+          ))}
+          </dl>
+        </dd>
+      </dl>
+
+      {/* <pre>{JSON.stringify(entry, null, ' ')}</pre> */}
     </Layout>
   )
 }
