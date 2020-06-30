@@ -2,15 +2,21 @@
   {
     "id": "cheddar",
     "displayName": "chadwithuhc",
-    "dob": 1234567890,
-    "links": "",
-    "pics": []
+    "dob": null
   },
   {
     "id": "geralle",
     "displayName": "g-rail",
-    "dob": 1234567890,
-    "links": "",
-    "pics": []
+    "dob": null
+  },
+  {
+    "id": "don",
+    "displayName": "yerdone",
+    "dob": null
+  },
+  {
+    "id": "mattmc",
+    "displayName": "mattMc",
+    "dob": null
   }
 ]

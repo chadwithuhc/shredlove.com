@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "type": "skateboarder",
+    "personId": "don"
+  },
+  {
+    "id": "2",
+    "type": "photographer",
+    "personId": "mattmc"
+  },
+  {
+    "id": "3",
+    "type": "director",
+    "personId": "cheddar"
+  }
+]

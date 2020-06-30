@@ -1,26 +1,14 @@
-import Head from 'next/head'
+import datastore from '../stores/datastore'
+import Layout from '../components/Layout'
 
 export default function Home() {
-  return (
-    <main className="shredlove-v4">
-      <Head>
-        <title>shredlove.com / the archives</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+  const { media } = datastore
 
-      <nav className="main-nav">
-        <a href="/" className="logo-link folder-style">
-          <img className="logo" src="/images/shredlove-logo.svg" />
-          <span className="archives"><small>The</small> Archives</span>
-        </a>
-        <ul className="link-list">
-          <li><a href="/timeline">Timeline</a></li>
-          <li><a href="/photos">Photos</a></li>
-          <li><a href="/videos">Videos</a></li>
-          <li><a href="/articles">Articles</a></li>
-          <li><a href="/crew">Crew</a></li>
-        </ul>
-      </nav>
-    </main>
+  return (
+    <Layout pageTitle="the archives">
+      <ul>
+        {media.map(entry => <li key={entry.id}>{entry.Link}</li>)}
+      </ul>
+    </Layout>
   )
 }

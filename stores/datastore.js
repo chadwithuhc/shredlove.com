@@ -1,20 +1,33 @@
 // import fs from 'fs'
 // import path from 'path'
-import peopleDecorator from './peopleDecorator'
+// import peopleDecorator from './peopleDecorator'
 import PeopleModel from './PeopleModel'
+import MediaModel from './MediaModel'
+import CreditModel from './CreditModel'
 
 import people from '../data/people.json'
+import media from '../data/media.json'
+import credits from '../data/credits.json'
 
 export default {
 
   // raw data is JSON serializable
   raw: {
-    people
+    people,
+    media,
+    credits
   },
 
   // model populated versions
-  people: people.map(p => new PeopleModel(p))
+  people: people.map(p => new PeopleModel(p)),
+  media: media.map(p => new MediaModel(p)),
+  credits: credits.map(p => new CreditModel(p))
 }
+
+
+
+
+// Pulls data from each file
 
 // export async function getStore(name) {
 //   const postsDirectory = path.join(process.cwd(), name)

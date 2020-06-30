@@ -1,20 +1,34 @@
-import Head from 'next/head'
 import datastore from '../../stores/datastore'
+import Layout from '../../components/Layout'
 
 export default function Person({ personId }) {
   const { people } = datastore
   const person = people.find(p => p.id === personId)
 
   return (
-    <main className="shredlove-v4">
-      <Head>
-        <title>{person.displayName} // shredlove.com / crew</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <h1>Crew: {person.displayName}</h1>
+    <Layout pageTitle={person.displayName} breadcrumbs={[
+      { href: '/crew', label: 'Crew' },
+      { href: person.url, label: person.id }
+    ]}>
+      <h1>{person.displayName}</h1>
       <pre>{JSON.stringify(person, null, ' ')}</pre>
-    </main>
+
+      <h2>Media:</h2>
+      {person.media.map(media => (
+        <dl key={media.id}>
+          <dt>{media.type}</dt>
+          <dd>{media.Link}</dd>
+        </dl>
+      ))}
+
+      <h2>Credits:</h2>
+      {person.credits.map(credit => (
+        <dl key={credit.id}>
+          <dt>{credit.type}</dt>
+          {/* <dd>{credit.person.Link}</dd> */}
+        </dl>
+      ))}
+    </Layout>
   )
 }
 

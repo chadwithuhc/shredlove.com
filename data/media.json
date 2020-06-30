@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "date": null,
+    "type": "photo",
+    "config": { "source": "url", "url": "" },
+    "title": "Donny Wonka",
+    "description": "don powers through a candy cane pole ride",
+    "creditIds": ["1", "2"]
+  },
+  {
+    "id": "2",
+    "date": null,
+    "type": "video",
+    "config": { "source": "url", "url": "" },
+    "title": "Must Be Nice",
+    "description": "The third full length video by the shred dogz",
+    "creditIds": ["3", "1"]
+  }
+]
