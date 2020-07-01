@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import datastore from './datastore'
+import datastore from 'src/data/store'
 import MediaTypes from './MediaTypes'
 
 class MediaModel {

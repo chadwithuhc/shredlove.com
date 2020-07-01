@@ -1,13 +1,13 @@
 // import fs from 'fs'
 // import path from 'path'
 // import peopleDecorator from './peopleDecorator'
-import PeopleModel from './PeopleModel'
-import MediaModel from './MediaModel'
-import CreditModel from './CreditModel'
+import PeopleModel from 'src/models/PeopleModel'
+import MediaModel from 'src/models/MediaModel'
+import CreditModel from 'src/models/CreditModel'
 
-import people from '../data/people.json'
-import media from '../data/media.json'
-import credits from '../data/credits.json'
+import people from './people.json'
+import media from './media.json'
+import credits from './credits.json'
 
 export default {
 

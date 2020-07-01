@@ -1,5 +1,5 @@
-import datastore from '../stores/datastore'
-import Layout from '../components/Layout'
+import datastore from 'src/data/store'
+import Layout from 'src/components/Layout'
 
 export default function Home() {
   const { media } = datastore

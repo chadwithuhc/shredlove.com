@@ -1,4 +1,4 @@
-import datastore from './datastore'
+import datastore from 'src/data/store'
 
 class CreditModel {
 
