@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Create a `.env` file with the following contents:
+
+```
+REST_CLIENT_URL=http://localhost:3030
+NODE_CLIENT_URL=http://localhost:3000
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
