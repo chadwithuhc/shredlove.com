@@ -6,7 +6,8 @@ public_folder: img
 collections:
   - name: "people" # Used in routes, e.g., /admin/collections/blog
     label: "People" # Used in the UI
-    folder: "_data/people" # The path to the folder where the documents are stored
+    folder: "src/data/people" # The path to the folder where the documents are stored
+    extension: "json"
     create: true # Allow users to create new documents in this collection
     slug: "{{uid}}" # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: "uid"
@@ -15,7 +16,8 @@ collections:
       - {label: "Display Name", name: "displayName", widget: "string"}
   - name: "media" # Used in routes, e.g., /admin/collections/blog
     label: "Media" # Used in the UI
-    folder: "_data/media" # The path to the folder where the documents are stored
+    folder: "src/data/media" # The path to the folder where the documents are stored
+    extension: "json"
     create: true # Allow users to create new documents in this collection
     slug: "{{fields.slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: "slug"
