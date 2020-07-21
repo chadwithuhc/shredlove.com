@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: chadwithuhc/shredlove.com-content
+  name: git-gateway
+  branch: master
 media_folder: public/img
 public_folder: img
 collections:
