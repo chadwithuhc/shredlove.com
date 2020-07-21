@@ -4,19 +4,21 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - name: "pages"
-    label: "Pages"
-    files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+  - name: "people" # Used in routes, e.g., /admin/collections/blog
+    label: "People" # Used in the UI
+    folder: "_data/people" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{uid}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "ID", name: "uid", widget: "string"}
+      - {label: "Display Name", name: "displayName", widget: "string"}
+  - name: "media" # Used in routes, e.g., /admin/collections/blog
+    label: "Media" # Used in the UI
+    folder: "_data/media" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{id}}-{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
