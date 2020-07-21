@@ -9,6 +9,7 @@ collections:
     folder: "_data/people" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{uid}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: "uid"
     fields: # The fields for each document, usually in front matter
       - {label: "ID", name: "uid", widget: "string"}
       - {label: "Display Name", name: "displayName", widget: "string"}
@@ -16,9 +17,11 @@ collections:
     label: "Media" # Used in the UI
     folder: "_data/media" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{id}}-{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{fields.slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: "slug"
     fields: # The fields for each document, usually in front matter
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
