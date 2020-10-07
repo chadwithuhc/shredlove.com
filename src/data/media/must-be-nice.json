@@ -3,5 +3,19 @@
   "title": "Muse Be Nice",
   "description": "The full length video by the shred dogz",
   "date": "2020-01-18T06:09:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "director",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    }
+  ],
   "thumbnail": "/img/podcastlogo.jpg"
 }
