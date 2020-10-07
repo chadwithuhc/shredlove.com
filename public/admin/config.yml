@@ -1,27 +1,32 @@
 backend:
-  name: git-gateway
-  branch: master
-media_folder: public/img
-public_folder: img
+  # name: git-gateway
+  # branch: master
+  name: test-repo # for testing field setup locally
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: cheddar
+    api_key: 585212835591167
 collections:
-  - name: "people" # Used in routes, e.g., /admin/collections/blog
-    label: "People" # Used in the UI
-    folder: "src/data/people" # The path to the folder where the documents are stored
+  - name: "people"
+    label: "People"
+    folder: "src/data/people"
     extension: "json"
-    create: true # Allow users to create new documents in this collection
-    slug: "{{uid}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    create: true
+    slug: "{{uid}}"
     identifier_field: "uid"
-    fields: # The fields for each document, usually in front matter
+    fields:
       - {label: "ID", name: "uid", widget: "string"}
       - {label: "Display Name", name: "displayName", widget: "string"}
-  - name: "media" # Used in routes, e.g., /admin/collections/blog
-    label: "Media" # Used in the UI
-    folder: "src/data/media" # The path to the folder where the documents are stored
+  - name: "media"
+    label: "Media"
+    folder: "src/data/media"
     extension: "json"
-    create: true # Allow users to create new documents in this collection
-    slug: "{{fields.slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    create: true
+    slug: "{{fields.slug}}"
     identifier_field: "slug"
-    fields: # The fields for each document, usually in front matter
+    fields:
+      - {label: "Credits", name: "credits", widget: "credits"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
