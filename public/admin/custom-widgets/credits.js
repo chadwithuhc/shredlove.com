@@ -78,13 +78,7 @@
     },
 
     getCurrentCredits: function() {
-      if (this.props.value) {
-        return this.props.value.toJS()
-      }
-
-      // default
-      return [{}]
-      // return JSON.parse(JSON.stringify(this.props.value || [{}]))
+      return JSON.parse(JSON.stringify(this.props.value || [{}]))
     },
 
     renderInputRow: function(creditValue = null, valueIndex = 0) {
