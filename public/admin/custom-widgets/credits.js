@@ -78,7 +78,12 @@
     },
 
     getCurrentCredits: function() {
-      return this.props.value.toJS()
+      if (this.props.value) {
+        return this.props.value.toJS()
+      }
+
+      // default
+      return [{}]
       // return JSON.parse(JSON.stringify(this.props.value || [{}]))
     },
 
