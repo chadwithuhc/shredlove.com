@@ -21,24 +21,24 @@
     },
 
     // for debugging purposes
-    getDefaultProps: function() {
-      return {
-        value: [
-          {
-            "type": "skateboarder",
-            "person": "don"
-          },
-          {
-            "type": "director",
-            "person": "chad"
-          },
-          {
-            "type": "skateboarder",
-            "person": "geralle"
-          }
-        ]
-      }
-    },
+    // getDefaultProps: function() {
+    //   return {
+    //     value: [
+    //       {
+    //         "type": "skateboarder",
+    //         "person": "don"
+    //       },
+    //       {
+    //         "type": "director",
+    //         "person": "chad"
+    //       },
+    //       {
+    //         "type": "skateboarder",
+    //         "person": "geralle"
+    //       }
+    //     ]
+    //   }
+    // },
 
     getInitialState: function() {
       return {
