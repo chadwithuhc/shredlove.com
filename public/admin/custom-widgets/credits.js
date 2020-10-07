@@ -90,9 +90,9 @@
   
     render: function() {
       // const separator = this.props.field.get('separator', ', ');
-      const creditValues = this.props.value || [{}];
+      const creditValues = JSON.parse(JSON.stringify(this.props.value || [{}]));
       console.log('credits this.props.value', this.props.value)
-      console.log('credits this.props.value json', JSON.parse(JSON.stringify(this.props.value)))
+      console.log('credits render creditValues', creditValues)
 
       return [
         h('div', {
