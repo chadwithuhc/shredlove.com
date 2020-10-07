@@ -91,6 +91,7 @@
     render: function() {
       // const separator = this.props.field.get('separator', ', ');
       const creditValues = this.props.value || [{}];
+      console.log('credits this.props.value', this.props.value)
 
       return [
         h('div', {
