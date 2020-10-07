@@ -20,6 +20,26 @@
       })
     },
 
+    // for debugging purposes
+    getDefaultProps: function() {
+      return {
+        value: [
+          {
+            "type": "skateboarder",
+            "person": "don"
+          },
+          {
+            "type": "director",
+            "person": "chad"
+          },
+          {
+            "type": "skateboarder",
+            "person": "geralle"
+          }
+        ]
+      }
+    },
+
     getInitialState: function() {
       return {
         focusedField: {
@@ -31,7 +51,7 @@
 
     handleChangeForIndex: function(index) {
       return (e) => {
-        const creditValues = this.props.value || [{}];
+        const creditValues = this.getCurrentCredits();
         if (index > creditValues.length - 1) { // create a new item if needed
           creditValues.push({})
         }
@@ -57,13 +77,17 @@
       }
     },
 
+    getCurrentCredits: function() {
+      return JSON.parse(JSON.stringify(this.props.value || [{}]))
+    },
+
     renderInputRow: function(creditValue = null, valueIndex = 0) {
       const { focusedField } = this.state
       // console.log('focusedField', focusedField)
 
       return [
         h('input', {
-          id: !!creditValue ? this.props.forID : undefined,
+          id: !!creditValue ? undefined : this.props.forID,
           'data-field-index': valueIndex,
           type: 'text',
           className: 'credits-input',
@@ -90,9 +114,9 @@
   
     render: function() {
       // const separator = this.props.field.get('separator', ', ');
-      const creditValues = JSON.parse(JSON.stringify(this.props.value || [{}]));
-      console.log('credits this.props.value', this.props.value)
-      console.log('credits render creditValues', creditValues)
+      const creditValues = this.getCurrentCredits();
+      // console.log('credits this.props.value', this.props.value)
+      // console.log('credits render creditValues', creditValues)
 
       return [
         h('div', {
