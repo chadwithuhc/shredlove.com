@@ -29,3 +29,16 @@ html, body
       font-size: 1rem
       text-transform: capitalize
       margin-right: 1rem
+    &.is-reverse
+      direction: rtl
+      text-align: left
+      grid-auto-flow: dense
+      grid-template-columns: 1fr auto
+      > dt
+        margin-right: 0
+        margin-left: 1rem
+  
+  .info-text
+    display: block
+    margin-bottom: 1rem
+    opacity: 0.5

@@ -3,7 +3,7 @@
     "id": "1",
     "date": null,
     "type": "photo",
-    "config": { "source": "url", "url": "" },
+    "config": { "sourceType": "url", "url": "/img/podcastlogo.jpg" },
     "title": "Donny Wonka",
     "description": "don powers through a candy cane pole ride",
     "creditIds": ["1", "2"]
@@ -12,8 +12,17 @@
     "id": "2",
     "date": null,
     "type": "video",
-    "config": { "source": "url", "url": "" },
+    "config": { "sourceType": "vimeoPlaylist", "vimeoId": "11661446", "fields": { "playlistUrl": "https://vimeo.com/showcase/154707" } },
     "title": "Must Be Nice",
+    "description": "The third full length video by the shred dogz",
+    "creditIds": ["3", "1"]
+  },
+  {
+    "id": "3",
+    "date": null,
+    "type": "video",
+    "config": { "sourceType": "vimeo", "vimeoId": "11661446", "fields": { "length": "4:13" } },
+    "title": "Must Be Nice: Teaser",
     "description": "The third full length video by the shred dogz",
     "creditIds": ["3", "1"]
   }

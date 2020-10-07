@@ -14,7 +14,7 @@ export default function Person({ personId }) {
       <dl className="meta-list">
         <dt>Media</dt>
         <dd className="meta-sublist-group">
-          <dl className="meta-sublist">
+          <dl className="meta-sublist is-reverse">
           {person.media.map(entry => (
             <React.Fragment key={entry.id}>
               <dt>{entry.Link}</dt>

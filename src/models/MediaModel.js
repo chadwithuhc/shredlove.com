@@ -22,6 +22,19 @@ class MediaModel {
     return MediaTypes[this.type]
   }
 
+  // additional data fields provided by `config.fields[]`
+  get mediaFields() {
+    return this.mediaType.fields?.map(field => {
+      if (this.config?.fields?.hasOwnProperty(field.prop)) {
+        return {
+          prop: field.prop,
+          label: field.label,
+          value: renderMediaField(this, field, this.config.fields[field.prop])
+        }
+      }
+    }).filter(Boolean) || []
+  }
+
   get titleFull() {
     return `${this.mediaType.label}: ${this.title}`
   }
@@ -32,6 +45,10 @@ class MediaModel {
 
   get Link() {
     return <Link {...this.linkProps}><a>{this.title}</a></Link>
+  }
+
+  get Media() {
+    return renderMediaType(this.type, this.config)
   }
 
   get linkProps() {
@@ -48,6 +65,52 @@ class MediaModel {
   get url() {
     return `/media/${this.id}`
   }
+}
+
+function renderMediaType(type, config) {
+  if (type === 'video') {
+    if (config.sourceType === 'vimeo') {
+      return <iframe src={`https://player.vimeo.com/video/${config.vimeoId}`} width="640" height="480" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+    }
+
+    if (config.sourceType === 'youtube') {
+      return <iframe width="640" height="480" src={`https://www.youtube.com/embed/${config.youtubeId}`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+    }
+    if (config.sourceType === 'youtubePlaylist') {
+      return <iframe width="640" height="480" src={`https://www.youtube.com/embed/videoseries?list=${config.youtubeId}`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+    }
+  }
+
+  if (type === 'photo') {
+    if (config.sourceType === 'url') {
+      return <img src={config.url} />
+    }
+  }
+
+  return <em className="info-text">Could not load media player for {type}.{config.sourceType}</em>
+}
+
+function renderMediaField(media, field, value) {
+  if (field.renderAs === 'text') {
+    return value
+  }
+
+  if (field.renderAs === 'link') {
+    return <a href={value} rel="noopener noreferer" target="_blank">{value}</a>
+  }
+
+  if (field.renderAs === 'vimeo') {
+    return <>
+      <a href={`https://vimeo.com/${value}`} rel="noopener noreferer" target="_blank" title={`Watch "${media.title}" on Vimeo`}>Watch on Vimeo</a>
+      <details>
+        <summary title={`Watch "${media.title}" here`}>Watch here</summary>
+        <iframe src={`https://player.vimeo.com/video/${value}`} width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </details>
+    </>
+  }
+
+  // just plain text
+  return value
 }
 
 export default MediaModel

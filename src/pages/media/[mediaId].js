@@ -10,6 +10,8 @@ export default function Media({ mediaId }) {
       { href: entry.mediaType.url, label: entry.mediaType.labelPlural },
       { href: entry.url, label: entry.title }
     ]}>
+      {entry.Media}
+      
       <dl className="meta-list">
         <dt>Title</dt>
         <dd>{entry.title}</dd>
@@ -28,6 +30,13 @@ export default function Media({ mediaId }) {
           ))}
           </dl>
         </dd>
+
+        {entry.mediaFields.map(field => (
+          <React.Fragment key={field.prop}>
+            <dt>{field.label}</dt>
+            <dd>{field.value}</dd>
+          </React.Fragment>
+        ))}
       </dl>
 
       {/* <pre>{JSON.stringify(entry, null, ' ')}</pre> */}
