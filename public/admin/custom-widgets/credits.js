@@ -109,8 +109,10 @@
   });
   
   const creditsOptions = [
-    { key: 'skateboarder', value: 'Skateboarder' },
-    { key: 'director', value: 'Director' }
+    'director',
+    'filmer',
+    'photographer',
+    'skateboarder'
   ]
   
   const CreditsPreview = createClass({
