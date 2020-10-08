@@ -1,6 +1,6 @@
 const isLocalhost = typeof window !== 'undefined' && window.location.host === 'localhost:3000'
 
-export default {
+module.exports = {
   backend: isLocalhost ? { name: 'test-repo' } : {
     name: 'git-gateway',
     branch: 'master'
@@ -17,7 +17,7 @@ export default {
     {
       name: 'people',
       label: 'People',
-      folder: 'src/data/people',
+      folder: 'public/data/people',
       extension: 'json',
       create: true,
       slug: '{{uid}}',
@@ -30,7 +30,7 @@ export default {
     {
       name: 'media',
       label: 'Media',
-      folder: 'src/data/media',
+      folder: 'public/data/media',
       extension: 'json',
       create: true,
       slug: '{{fields.slug}}',

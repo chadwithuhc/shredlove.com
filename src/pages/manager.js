@@ -1,7 +1,7 @@
 /* global window */
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
-import config from 'src/admin-config'
+import config from 'admin-config'
 
 // Custom Widgets
 import CreditsWidget from 'src/components/widgets/credits'

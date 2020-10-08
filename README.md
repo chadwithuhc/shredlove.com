@@ -25,6 +25,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## TODO
 
-- [ ] Move data files to `public/data/**`
-- [ ] Create prebuild script
 - [ ] Remove `datastore` code
