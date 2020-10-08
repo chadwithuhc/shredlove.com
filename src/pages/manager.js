@@ -1,6 +1,7 @@
 /* global window */
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
+import config from 'src/admin-config'
 
 // Custom Widgets
 import CreditsWidget from 'src/components/widgets/credits'
@@ -14,7 +15,9 @@ const CMSComponent = dynamic(async () => {
 
   CMS.registerWidget('credits', CreditsWidget.Control, CreditsWidget.Preview, CreditsWidget.schema)
 
-  CMS.init()
+  CMS.init({ config })
+
+  console.log('Netlify CMS init', config)
 }, { ssr: false })
 
 export default function Manager() {
