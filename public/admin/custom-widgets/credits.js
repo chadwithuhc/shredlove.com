@@ -1,5 +1,25 @@
 (function(){
 
+  const creditsOptions = [
+    'director',
+    'photographer',
+    'skateboarder',
+    'videographer'
+  ]
+
+  const creditsPeople = [
+    'alec',
+    'andrew',
+    'ben',
+    'brandon',
+    'chad',
+    'danny',
+    'don',
+    'geralle',
+    'kevin-romar',
+    'youngblood'
+  ]
+
   const CreditsControl = createClass({
 
     // this.props.value
@@ -86,29 +106,58 @@
       // console.log('focusedField', focusedField)
 
       return [
-        h('input', {
+        h('select', {
           id: !!creditValue ? undefined : this.props.forID,
           'data-field-index': valueIndex,
-          type: 'text',
-          className: 'credits-input',
+          className: 'credits-select',
           value: creditValue ? creditValue.type : '',
           'data-target-prop': 'type',
-          placeholder: 'skateboarder',
           onChange: this.handleChangeForIndex(valueIndex),
           onFocus: this.setHasFocus,
           autoFocus: focusedField.index === valueIndex && focusedField.prop === 'type'
-        }),
-        h('input', {
+        }, [
+          h('option', {}, ''),
+          ...creditsOptions.map(optionName => (
+            h('option', {}, optionName)
+          ))
+        ]),
+        h('select', {
           'data-field-index': valueIndex,
-          type: 'text',
-          className: 'credits-input',
+          className: 'credits-select',
           value: creditValue ? creditValue.person : '',
           'data-target-prop': 'person',
-          placeholder: 'don',
           onChange: this.handleChangeForIndex(valueIndex),
           onFocus: this.setHasFocus,
           autoFocus: focusedField.index === valueIndex && focusedField.prop === 'person'
-        })
+        }, [
+          h('option', {}, ''),
+          ...creditsPeople.map(optionName => (
+            h('option', {}, optionName)
+          ))
+        ])
+        // h('input', {
+        //   id: !!creditValue ? undefined : this.props.forID,
+        //   'data-field-index': valueIndex,
+        //   type: 'text',
+        //   className: 'credits-input',
+        //   value: creditValue ? creditValue.type : '',
+        //   'data-target-prop': 'type',
+        //   placeholder: 'skateboarder',
+        //   onChange: this.handleChangeForIndex(valueIndex),
+        //   onFocus: this.setHasFocus,
+        //   autoFocus: focusedField.index === valueIndex && focusedField.prop === 'type'
+        // }),
+        // h('input', {
+        //   'data-field-index': valueIndex,
+        //   type: 'text',
+        //   className: 'credits-input',
+        //   value: creditValue ? creditValue.person : '',
+        //   'data-target-prop': 'person',
+        //   placeholder: 'don',
+        //   onChange: this.handleChangeForIndex(valueIndex),
+        //   onFocus: this.setHasFocus,
+        //   autoFocus: focusedField.index === valueIndex && focusedField.prop === 'person'
+        // }),
       ]
     },
   
@@ -133,13 +182,6 @@
       ]
     },
   });
-  
-  const creditsOptions = [
-    'director',
-    'filmer',
-    'photographer',
-    'skateboarder'
-  ]
   
   const CreditsPreview = createClass({
     render: function() {
