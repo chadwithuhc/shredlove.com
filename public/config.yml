@@ -1,7 +1,7 @@
 backend:
-  # name: git-gateway
-  # branch: master
-  name: test-repo # for testing field setup locally
+  name: git-gateway
+  branch: master
+  # name: test-repo # for testing field setup locally
 media_folder: 'public/img'
 collections:
   - name: "people"
