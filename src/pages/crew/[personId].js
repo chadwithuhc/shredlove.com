@@ -1,10 +1,11 @@
+import utils from 'utils'
 import datastore from 'src/data/store'
 import Layout from 'src/components/Layout'
 
 export default function Person({ personId }) {
   const { people } = datastore
   const person = people.find(p => p.uid === personId)
-  console.log('person', person)
+  utils.log('person', person)
 
   return (
     <Layout pageTitle={`crew: ${person.displayName}`} breadcrumbs={[

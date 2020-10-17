@@ -1,10 +1,11 @@
+import utils from 'utils'
 import datastore from 'src/data/store'
 import Layout from 'src/components/Layout'
 
 export default function Media({ mediaId }) {
   const { media } = datastore
   const entry = media.find(m => m.slug === mediaId)
-  console.log('entry', entry)
+  utils.log('entry', entry)
 
   return (
     <Layout pageTitle={entry.titleFull} breadcrumbs={[
