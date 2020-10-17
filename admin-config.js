@@ -22,6 +22,7 @@ module.exports = {
       create: true,
       slug: '{{uid}}',
       identifier_field: 'uid',
+      sort_by: 'displayName',
       fields: [
         { label: 'ID', name: 'uid', widget: 'string' },
         { label: 'Display Name', name: 'displayName', widget: 'string' }
@@ -35,6 +36,7 @@ module.exports = {
       create: true,
       slug: '{{fields.slug}}',
       identifier_field: 'slug',
+      sort_by: 'date',
       fields: [
         { label: 'Credits', name: 'credits', widget: 'credits' },
         { label: 'Slug', name: 'slug', widget: 'string' },

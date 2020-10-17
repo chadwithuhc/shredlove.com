@@ -11,14 +11,15 @@ const scanDirectories = config.collections
   .filter(collection => collection.extension === 'json')
   .map(collection => ({
     inputDirectory: collection.folder,
-    outputFile: `${collection.folder}.json`
+    outputFile: `${collection.folder}.json`,
+    sortBy: collection.sort_by
   }))
 
 console.log('BUILD JSON DATA')
 scanDirectories.forEach(processFiles)
 
 // finds all json files in directory, processes to markdown, updates original file, updates output file
-function processFiles({ inputDirectory, outputFile }) {
+function processFiles({ inputDirectory, outputFile, sortBy }) {
   const postsDirectory = path.join(process.cwd(), inputDirectory)
   const filenames = fs.readdirSync(postsDirectory)
   
@@ -48,11 +49,15 @@ function processFiles({ inputDirectory, outputFile }) {
     // } while (posts.length < 5000)
 
     // sort
-    posts.sort((a, b) => new Date(b.date) - new Date(a.date))
+    posts.sort({
+      date: (a, b) => new Date(b.date) - new Date(a.date),
+      displayName: (a, b) => a.displayName.localeCompare(b.displayName),
+      uid: (a, b) => a.uid.localeCompare(b.uid)
+    }[sortBy] || Boolean)
     
     const outputPath = path.join(process.cwd(), outputFile)
     fs.writeFileSync(outputPath, JSON.stringify(posts, null, 2))
     
-    console.log([inputDirectory, outputFile].join(' -> '), posts.length)
+    console.log(`sorted:${sortBy}`, [inputDirectory, outputFile].join(' -> '), posts.length)
   })
 }
