@@ -2,6 +2,32 @@
   "date": "2020-10-08T02:00:16.971Z",
   "slug": "must-be-nice-teaser",
   "title": "Must Be Nice: Teaser",
+  "type": "video",
   "description": "A teaser of the full length video",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "director",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    }
+  ],
+  "config": {
+    "sourceType": "vimeo",
+    "vimeoId": "11661446",
+    "fields": {
+      "length": "4:13"
+    }
+  },
   "dateFormatted": "Wednesday, October 7, 2020"
 }

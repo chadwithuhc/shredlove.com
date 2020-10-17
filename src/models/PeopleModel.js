@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import datastore from 'src/data/store'
+import CreditModel from './CreditModel'
 
 class PeopleModel {
 
@@ -8,16 +9,15 @@ class PeopleModel {
     return this
   }
 
-  id = null // string: 'cheddar'
+  uid = null // string: 'cheddar'
   displayName = null // string: 'chadwithuhc'
 
-  get media() { // get all their media through credits
-    const creditIds = this.credits.map(c => c.id)
-    return datastore.media.filter(m => m.credits.some(c => creditIds.includes(c.id)))
+  get media() {
+    return datastore.media.filter(m => m.credits?.some(c => c.person.uid === this.uid))
   }
 
   get credits() {
-    return datastore.credits.filter(c => c.personId === this.id)
+    return datastore.credits.filter(c => c.person.uid === this.uid).map(credit => new CreditModel(credit))
   }
 
   get Link() {
@@ -36,7 +36,7 @@ class PeopleModel {
   }
 
   get url() {
-    return `/crew/${this.id}`
+    return `/crew/${this.uid}`
   }
 }
 

@@ -7,10 +7,10 @@ export default function Crew() {
   return (
     <Layout pageTitle="crew">
       <h1 className="title">Crew</h1>
-      <p className="subtitle">shredlove.com, shred dogz, and friends</p>
+      <p className="subtitle">shredlove, shred dogz, and friends</p>
 
       <ul>
-        {people.map(person => <li key={person.id}>{person.Link}</li>)}
+        {people.map(person => <li key={person.uid}>{person.Link}</li>)}
       </ul>
     </Layout>
   )

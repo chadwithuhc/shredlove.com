@@ -9,10 +9,10 @@ export default function Photos() {
   return (
     <Layout pageTitle="photos">
       <h1 className="title">Photos</h1>
-      <p className="subtitle">photography from the streets</p>
+      <p className="subtitle">film, scans, powershot sd750</p>
 
       <ul>
-        {photos.map(entry => <li key={entry.id}>{entry.Link}</li>)}
+        {photos.map(entry => <li key={entry.slug}>{entry.Link}</li>)}
       </ul>
     </Layout>
   )

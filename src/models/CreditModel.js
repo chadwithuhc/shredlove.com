@@ -1,4 +1,6 @@
-import datastore from 'src/data/store'
+// import datastore from 'src/data/store'
+import people from 'public/data/people'
+import PeopleModel from './PeopleModel'
 
 class CreditModel {
 
@@ -7,27 +9,30 @@ class CreditModel {
     return this
   }
 
-  id = null // string: '1'
   type = null // string: 'photographer'
+  // person = null // string: 'don' -> people.uid
+  // media = null // obj: MediaModel
+
+  get uid() {
+    return `${this.type}-${this.person.uid}-${this.media?.slug}`
+  }
 
   get person() {
-    return datastore.people.find(p => p.id === this.personId)
+    return this._person
   }
 
-  get linkProps() {
-    return {
-      href: this.urlTemplate,
-      as: this.url
-    }
+  set person(personUid) {
+    this._person = new PeopleModel(people.find(p => p.uid === personUid))
   }
 
-  get urlTemplate() {
-    return `/credits/[creditType]`
+  get media() {
+    return this._media
   }
 
-  get url() {
-    return `/credits/${this.type}`
+  set media(media) {
+    this._media = media
   }
+
 }
 
 export default CreditModel

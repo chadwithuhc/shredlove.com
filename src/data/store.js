@@ -6,9 +6,13 @@ import PeopleModel from 'src/models/PeopleModel'
 import MediaModel from 'src/models/MediaModel'
 import CreditModel from 'src/models/CreditModel'
 
-import people from './people.json'
-import media from './media.json'
-import credits from './credits.json'
+import people from 'public/data/people.json'
+import media from 'public/data/media.json'
+// import credits from './credits.json'
+const credits = media.reduce((creds, item) => {
+  return creds.concat(...(item.credits || []).map(credit => new CreditModel({ ...credit, media: new MediaModel(item) })))
+}, [])
+// console.log('credits', credits)
 
 const DataModels = {
   people: PeopleModel,
@@ -18,6 +22,7 @@ const DataModels = {
 
 export default {
 
+  // TODO: not connected
   async fetch() {
     if (this.loaded) {
       console.log('data cache loaded')
@@ -55,33 +60,3 @@ export default {
   media: media.map(p => new MediaModel(p)),
   credits: credits.map(p => new CreditModel(p))
 }
-
-
-
-
-// Pulls data from each file
-
-// export async function getStore(name) {
-//   const postsDirectory = path.join(process.cwd(), name)
-//   const filenames = fs.readdirSync(postsDirectory)
-
-//   const posts = filenames.map((filename) => {
-//     const filePath = path.join(postsDirectory, filename)
-//     const fileContents = fs.readFileSync(filePath, 'utf8')
-
-//     // Generally you would parse/transform the contents
-//     // For example you can transform markdown to HTML here
-
-//     return {
-//       filename,
-//       content: fileContents,
-//     }
-//   })
-//   // By returning { props: posts }, the Blog component
-//   // will receive `posts` as a prop at build time
-//   return {
-//     props: {
-//       posts,
-//     },
-//   }
-// }

@@ -10,10 +10,10 @@ export default function Timeline() {
   return (
     <Layout pageTitle="timeline">
       <h1 className="title">Timeline</h1>
-      <p className="subtitle">a date-driven view of content</p>
+      {/* <p className="subtitle">a date-driven view of content</p> */}
       
       <ul>
-        {content.map(entry => <li key={entry.id}>{entry.Link}</li>)}
+        {content.map(entry => <li key={entry.slug}>{entry.Link}</li>)}
       </ul>
     </Layout>
   )

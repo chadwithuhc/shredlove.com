@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout pageTitle="the archives">
       <ul>
-        {media.map(entry => <li key={entry.id}>{entry.Link}</li>)}
+        {media.map(entry => <li key={entry.slug}>{entry.Link}</li>)}
       </ul>
     </Layout>
   )

@@ -9,10 +9,10 @@ export default function Videos() {
   return (
     <Layout pageTitle="videos">
       <h1 className="title">Videos</h1>
-      <p className="subtitle">video from the streets</p>
+      <p className="subtitle">VX1000, miniDV, hi-8?</p>
 
       <ul>
-        {videos.map(entry => <li key={entry.id}>{entry.Link}</li>)}
+        {videos.map(entry => <li key={entry.slug}>{entry.Link}</li>)}
       </ul>
     </Layout>
   )

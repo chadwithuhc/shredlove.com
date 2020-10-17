@@ -58,6 +58,6 @@ function processFiles({ inputDirectory, outputFile, sortBy }) {
     const outputPath = path.join(process.cwd(), outputFile)
     fs.writeFileSync(outputPath, JSON.stringify(posts, null, 2))
     
-    console.log(`sorted:${sortBy}`, [inputDirectory, outputFile].join(' -> '), posts.length)
+    console.log([inputDirectory, outputFile].join(' -> '), posts.length)
   })
 }

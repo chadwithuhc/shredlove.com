@@ -3,20 +3,22 @@ import Layout from 'src/components/Layout'
 
 export default function Person({ personId }) {
   const { people } = datastore
-  const person = people.find(p => p.id === personId)
+  const person = people.find(p => p.uid === personId)
+  console.log('person', person)
 
   return (
-    <Layout pageTitle={person.displayName} breadcrumbs={[
+    <Layout pageTitle={`crew: ${person.displayName}`} breadcrumbs={[
       { href: '/crew', label: 'Crew' },
-      { href: person.url, label: person.id }
+      { href: person.url, label: person.uid }
     ]}>
       <h1 className="title">{person.displayName}</h1>
       <dl className="meta-list">
         <dt>Media</dt>
         <dd className="meta-sublist-group">
+          {person.media.length === 0 && <em className="info-text">None Yet</em>}
           <dl className="meta-sublist is-reverse">
           {person.media.map(entry => (
-            <React.Fragment key={entry.id}>
+            <React.Fragment key={entry.slug}>
               <dt>{entry.Link}</dt>
               <dd>{entry.mediaType.label}</dd>
             </React.Fragment>
@@ -25,12 +27,13 @@ export default function Person({ personId }) {
         </dd>
 
         <dt>Credits</dt>
-        <dd>
+        <dd className="meta-sublist-group">
+          {person.credits.length === 0 && <em className="info-text">None Yet</em>}
           <dl className="meta-sublist">
           {person.credits.map(credit => (
-            <React.Fragment key={credit.id}>
+            <React.Fragment key={credit.uid}>
               <dt>{credit.type}</dt>
-              {/* <dd>{credit.person.Link}</dd> */}
+              <dd>{credit.media.Link}</dd>
             </React.Fragment>
           ))}
           </dl>
@@ -53,7 +56,7 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   return {
     paths: datastore.raw.people.map(person => ({
-      params: { personId: person.id }
+      params: { personId: person.uid }
     })),
     fallback: false
   }

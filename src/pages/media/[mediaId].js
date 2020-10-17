@@ -3,7 +3,8 @@ import Layout from 'src/components/Layout'
 
 export default function Media({ mediaId }) {
   const { media } = datastore
-  const entry = media.find(m => m.id === mediaId)
+  const entry = media.find(m => m.slug === mediaId)
+  console.log('entry', entry)
 
   return (
     <Layout pageTitle={entry.titleFull} breadcrumbs={[
@@ -23,7 +24,7 @@ export default function Media({ mediaId }) {
         <dd className="meta-sublist-group">
           <dl className="meta-sublist">
           {entry.credits.map(credit => (
-            <React.Fragment key={credit.id}>
+            <React.Fragment key={credit.uid}>
               <dt>{credit.type}</dt>
               <dd>{credit.person.Link}</dd>
             </React.Fragment>
@@ -55,7 +56,7 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   return {
     paths: datastore.raw.media.map(media => ({
-      params: { mediaId: media.id }
+      params: { mediaId: media.slug }
     })),
     fallback: false
   }

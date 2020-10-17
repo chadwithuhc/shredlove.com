@@ -11,7 +11,7 @@ export default function MainNav() {
         </a>
       </Link>
       <ul className="link-list">
-        <li><a href="/timeline">Timeline</a></li>
+        {/* <li><a href="/timeline">Timeline</a></li> */}
         {Object.values(MediaTypes).map(mediaType => (
           <li key={mediaType.label}><Link href={mediaType.url}><a>{mediaType.labelPlural}</a></Link></li>
         ))}

@@ -12,6 +12,10 @@
     "displayName": "balls"
   },
   {
+    "uid": "brandon",
+    "displayName": "bdrum"
+  },
+  {
     "uid": "beaker",
     "displayName": "beaker"
   },
@@ -22,10 +26,6 @@
   {
     "uid": "billy-d",
     "displayName": "billy d"
-  },
-  {
-    "uid": "brandon",
-    "displayName": "bdrum"
   },
   {
     "uid": "carney",
@@ -42,10 +42,6 @@
   {
     "uid": "danny",
     "displayName": "dannyk"
-  },
-  {
-    "uid": "don",
-    "displayName": "yerdone"
   },
   {
     "uid": "geralle",
@@ -78,6 +74,10 @@
   {
     "uid": "ryan-moore",
     "displayName": "ry-mo"
+  },
+  {
+    "uid": "don",
+    "displayName": "yerdone"
   },
   {
     "uid": "youngblood",

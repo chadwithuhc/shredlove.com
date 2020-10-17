@@ -1,6 +1,7 @@
 import Link from 'next/link'
-import datastore from 'src/data/store'
+// import datastore from 'src/data/store'
 import MediaTypes from './MediaTypes'
+import CreditModel from './CreditModel'
 
 class MediaModel {
 
@@ -10,13 +11,13 @@ class MediaModel {
   }
 
   // database props
-  id = null // string: '1'
+  slug = null // string: 'video-name'
   date = null // timestamp: 123456789
   type = null // enum: ['photo','video'] matching MediaTypes
   config = {} // object: { ..anyData }
   title = null // string: 'Working Title'
   description = null // string: 'Text Description'
-  creditIds = [] // array: ['1', '2']
+  //credits = [] // array: [ { type, person } ]
 
   get mediaType() {
     return MediaTypes[this.type]
@@ -40,7 +41,11 @@ class MediaModel {
   }
 
   get credits() {
-    return datastore.credits.filter(c => this.creditIds.includes(c.id))
+    return this._credits
+  }
+
+  set credits(credits) {
+    this._credits = credits.map(credit => new CreditModel(credit))
   }
 
   get Link() {
@@ -63,7 +68,7 @@ class MediaModel {
   }
 
   get url() {
-    return `/media/${this.id}`
+    return `/media/${this.slug}`
   }
 }
 
