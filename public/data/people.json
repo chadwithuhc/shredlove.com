@@ -28,10 +28,6 @@
     "displayName": "billy d"
   },
   {
-    "uid": "carney",
-    "displayName": "carney"
-  },
-  {
     "uid": "chad",
     "displayName": "chadwithuhc"
   },
@@ -49,11 +45,15 @@
   },
   {
     "uid": "julian",
-    "displayName": "julian davidson"
+    "displayName": "juju"
   },
   {
     "uid": "kevin-romar",
     "displayName": "k-ro"
+  },
+  {
+    "uid": "carney",
+    "displayName": "mark carney"
   },
   {
     "uid": "nick-gar",
@@ -69,11 +69,11 @@
   },
   {
     "uid": "ry-cou",
-    "displayName": "ry-cou"
+    "displayName": "ry cou"
   },
   {
     "uid": "ryan-moore",
-    "displayName": "ry-mo"
+    "displayName": "ry mo"
   },
   {
     "uid": "don",

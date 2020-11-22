@@ -8,6 +8,7 @@ export default function Layout({ pageTitle = '', breadcrumbs = [], children }) {
       <Head>
         <title>{pageTitle ? pageTitle + ' // ' : '' }shredlove.com</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
       </Head>
 
       <MainNav />
@@ -26,6 +27,10 @@ export default function Layout({ pageTitle = '', breadcrumbs = [], children }) {
         )}
         {children}
       </section>
+
+      <footer className="main-footer">
+        &copy; shredlove.com 2005 - now
+      </footer>
     </main>
   )
 }

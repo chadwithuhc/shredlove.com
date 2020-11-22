@@ -1,10 +1,10 @@
 // powers main nav links and labels sitewide
 const MediaTypes = {
-  photo: {
-    label: 'Photo', labelPlural: 'Photos', url: '/photos', fields: [
-      { label: '' }
-    ]
-  },
+  // photo: {
+  //   label: 'Photo', labelPlural: 'Photos', url: '/photos', fields: [
+  //     { label: '' }
+  //   ]
+  // },
   video: {
     label: 'Video', labelPlural: 'Videos', url: '/videos', fields: [
       { label: 'Playlist', prop: 'playlistUrl', renderAs: 'link' },

@@ -5,15 +5,20 @@ export default function Timeline() {
   const { media } = datastore
 
   // content with dates
-  const content = media.filter(entry => entry.date)
+  const content = media.filter(entry => entry.date).sort((a,b) => new Date(b.date) - new Date(a.date))
 
   return (
     <Layout pageTitle="timeline">
       <h1 className="title">Timeline</h1>
-      {/* <p className="subtitle">a date-driven view of content</p> */}
+      <p className="subtitle">a date-driven view of the archives</p>
       
       <ul>
-        {content.map(entry => <li key={entry.slug}>{entry.Link}</li>)}
+        {content.map(entry => {
+          const date = new Date(entry.date)
+          return (
+            <li key={entry.slug}>{date.getFullYear()} - {entry.Link}</li>
+          )
+        })}
       </ul>
     </Layout>
   )

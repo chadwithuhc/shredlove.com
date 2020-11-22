@@ -10,9 +10,9 @@ export default function Person({ personId }) {
   return (
     <Layout pageTitle={`crew: ${person.displayName}`} breadcrumbs={[
       { href: '/crew', label: 'Crew' },
-      { href: person.url, label: person.uid }
+      { href: person.url, label: person.uid.replace(/-/, ' ') }
     ]}>
-      <h1 className="title">{person.displayName}</h1>
+      <h1 className="title"><abbr className="aka" title="also known as">a.k.a.</abbr> {person.displayName}</h1>
       <dl className="meta-list">
         <dt>Media</dt>
         <dd className="meta-sublist-group">
