@@ -21,7 +21,8 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Content UI: [http://localhost:3000](http://localhost:3000)
+- Admin UI: [http://localhost:3000/manager](http://localhost:3000/manager)
 
 ## TODO
 
