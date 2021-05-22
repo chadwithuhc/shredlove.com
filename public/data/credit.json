@@ -1,0 +1,18 @@
+[
+  {
+    "uid": "director",
+    "displayName": "Director"
+  },
+  {
+    "uid": "photographer",
+    "displayName": "Photographer"
+  },
+  {
+    "uid": "skateboarder",
+    "displayName": "Skateboarder"
+  },
+  {
+    "uid": "videographer",
+    "displayName": "Videographer"
+  }
+]

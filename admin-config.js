@@ -15,6 +15,20 @@ module.exports = {
   },
   collections: [
     {
+      name: 'credit',
+      label: 'Credit',
+      folder: 'public/data/credit',
+      extension: 'json',
+      create: true,
+      slug: '{{uid}}',
+      identifier_field: 'uid',
+      sort_by: 'displayName',
+      fields: [
+        { label: 'ID', name: 'uid', widget: 'string' },
+        { label: 'Display Name', name: 'displayName', widget: 'string' }
+      ]
+    },
+    {
       name: 'people',
       label: 'People',
       folder: 'public/data/people',

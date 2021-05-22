@@ -1,24 +1,6 @@
-import React from 'react'
-
-const creditsOptions = [
-  'director',
-  'photographer',
-  'skateboarder',
-  'videographer'
-]
-
-const creditsPeople = [
-  'alec',
-  'andrew',
-  'ben',
-  'brandon',
-  'chad',
-  'danny',
-  'don',
-  'geralle',
-  'kevin-romar',
-  'youngblood'
-]
+import React, { Fragment } from 'react'
+import credit from 'public/data/credit.json'
+import people from 'public/data/people.json'
 
 export default class Control extends React.Component {
 //  static propTypes = {
@@ -29,20 +11,20 @@ export default class Control extends React.Component {
 //  }
 
   static defaultProps = {
-    value: [
-      {
-        "type": "skateboarder",
-        "person": "don"
-      },
-      {
-        "type": "director",
-        "person": "chad"
-      },
-      {
-        "type": "skateboarder",
-        "person": "geralle"
-      }
-    ]
+    // value: [
+    //   {
+    //     "type": "skateboarder",
+    //     "person": "don"
+    //   },
+    //   {
+    //     "type": "director",
+    //     "person": "chad"
+    //   },
+    //   {
+    //     "type": "skateboarder",
+    //     "person": "geralle"
+    //   }
+    // ]
   }
 
   state = {
@@ -107,7 +89,7 @@ export default class Control extends React.Component {
       // console.log('focusedField', focusedField)
 
       return (
-        <>
+        <Fragment key={valueIndex}>
           <select
             id={!!creditValue ? undefined : this.props.forID}
             data-field-index={valueIndex}
@@ -119,8 +101,8 @@ export default class Control extends React.Component {
             autoFocus={focusedField.index === valueIndex && focusedField.prop === 'type'}
           >
             <option></option>
-            {creditsOptions.map(optionName => (
-              <option>{optionName}</option>
+            {credit.map(cred => (
+              <option key={cred.uid} value={cred.uid}>{cred.displayName}</option>
             ))}
           </select>
           <select
@@ -133,11 +115,11 @@ export default class Control extends React.Component {
             autoFocus={focusedField.index === valueIndex && focusedField.prop === 'person'}
           >
             <option></option>
-            {creditsPeople.map(optionName => (
-              <option>{optionName}</option>
+            {people.map(person => (
+              <option key={person.uid} value={person.uid}>{person.displayName}</option>
             ))}
           </select>
-        </>
+        </Fragment>
       )
 
       return [
