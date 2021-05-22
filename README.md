@@ -6,14 +6,7 @@ It also uses [Netlify CMS](https://www.netlifycms.org/) to provide the admin int
 
 ## Getting Started
 
-Create a `.env` file with the following contents:
-
-```
-REST_CLIENT_URL=http://localhost:3030
-NODE_CLIENT_URL=http://localhost:3000
-```
-
-Then, run the development server:
+Run the development server:
 
 ```bash
 npm run dev

@@ -2,7 +2,6 @@ people
 ===
 id  (string manual)
 displayName  (string)
-dob  (timestamp)
 + credits[]
 + media[]
 
