@@ -12,32 +12,32 @@ module.exports = {
         label: 'Vimeo Video',
         type: 'vimeoVideo',
         fields: [
-          { label: 'Vimeo ID', prop: 'vimeoId', renderAs: 'vimeo' },
-          { label: 'Length', prop: 'length', renderAs: 'text' },
+          { label: 'Vimeo ID', name: 'vimeoId', renderAs: 'vimeo' },
+          { label: 'Length', name: 'length', renderAs: 'text' },
         ]
       },
       {
         label: 'Vimeo Playlist',
         type: 'vimeoPlaylist',
         fields: [
-          { label: 'Playlist URL', prop: 'playlistUrl', renderAs: 'link' },
-          { label: 'Length', prop: 'length', renderAs: 'text' },
+          { label: 'Playlist URL', name: 'playlistUrl', renderAs: 'link' },
+          { label: 'Length', name: 'length', renderAs: 'text' },
         ]
       },
       {
         label: 'YouTube Video',
         type: 'youtubeVideo',
         fields: [
-          { label: 'YouTube ID', prop: 'youtubeId', renderAs: 'youtube' },
-          { label: 'Length', prop: 'length', renderAs: 'text' },
+          { label: 'YouTube ID', name: 'youtubeId', renderAs: 'youtube' },
+          { label: 'Length', name: 'length', renderAs: 'text' },
         ]
       },
       {
         label: 'YouTube Playlist',
         type: 'youtubePlaylist',
         fields: [
-          { label: 'Playlist URL', prop: 'playlistUrl', renderAs: 'link' },
-          { label: 'Length', prop: 'length', renderAs: 'text' },
+          { label: 'Playlist URL', name: 'playlistUrl', renderAs: 'link' },
+          { label: 'Length', name: 'length', renderAs: 'text' },
         ]
       }
     ],

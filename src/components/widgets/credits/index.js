@@ -7,10 +7,11 @@ import Preview from './CreditsPreview'
 //   window.Preview = Preview
 // }
 
+// a JSON Schema to validate field config
 const schema = {
-  properties: {
-    separator: { type: 'string' },
-  },
+  // properties: {
+  //   separator: { type: 'string' },
+  // },
 }
 
 export default { Control, Preview, schema }

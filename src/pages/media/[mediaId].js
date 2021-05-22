@@ -34,7 +34,7 @@ export default function Media({ mediaId }) {
         </dd>
 
         {entry.mediaFields.map(field => (
-          <React.Fragment key={field.prop}>
+          <React.Fragment key={field.name}>
             <dt>{field.label}</dt>
             <dd>{field.value}</dd>
           </React.Fragment>

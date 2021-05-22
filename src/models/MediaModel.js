@@ -33,11 +33,11 @@ class MediaModel {
   // additional data fields provided by `source.fields[]`
   get mediaFields() {
     return this.mediaSource?.fields?.map(field => {
-      if (this.source?.parameters?.hasOwnProperty(field.prop)) {
+      if (this.source?.parameters?.hasOwnProperty(field.name)) {
         return {
-          prop: field.prop,
+          name: field.name,
           label: field.label,
-          value: renderMediaField(this, field, this.source.parameters[field.prop])
+          value: renderMediaField(this, field, this.source.parameters[field.name])
         }
       }
     }).filter(Boolean) || []

@@ -2,17 +2,19 @@ const MediaTypes = require('./media-type-config')
 const isLocalhost = typeof window !== 'undefined' && window.location.host === 'localhost:3000'
 
 module.exports = {
-  backend: isLocalhost ? { name: 'test-repo' } : {
-    name: 'git-gateway',
-    branch: 'master'
-  },
+  backend: isLocalhost
+    ? { name: 'test-repo' }
+    : {
+        name: 'git-gateway',
+        branch: 'master',
+      },
   load_config_file: false,
   media_library: {
     name: 'cloudinary',
     config: {
       cloud_name: 'cheddar',
-      api_key: 585212835591167
-    }
+      api_key: 585212835591167,
+    },
   },
   collections: [
     {
@@ -26,8 +28,8 @@ module.exports = {
       sort_by: 'displayName',
       fields: [
         { label: 'ID', name: 'uid', widget: 'string' },
-        { label: 'Display Name', name: 'displayName', widget: 'string' }
-      ]
+        { label: 'Display Name', name: 'displayName', widget: 'string' },
+      ],
     },
     {
       name: 'people',
@@ -40,8 +42,8 @@ module.exports = {
       sort_by: 'displayName',
       fields: [
         { label: 'ID', name: 'uid', widget: 'string' },
-        { label: 'Display Name', name: 'displayName', widget: 'string' }
-      ]
+        { label: 'Display Name', name: 'displayName', widget: 'string' },
+      ],
     },
     {
       name: 'media',
@@ -54,14 +56,14 @@ module.exports = {
       sort_by: 'date',
       fields: [
         { label: 'Credits', name: 'credits', widget: 'credits' },
+        // { label: 'Source', name: 'source', widget: 'source' },
         { label: 'Slug', name: 'slug', widget: 'string' },
         { label: 'Title', name: 'title', widget: 'string' },
         { label: 'Description', name: 'description', widget: 'text' },
         { label: 'Date', name: 'date', widget: 'datetime' },
-        { label: 'Type', name: 'type', widget: 'select', options: Object.keys(MediaTypes) },
         // { label: 'Credits', name: 'credits', widget: 'credits' },
         // { label: 'Featured Image', name: 'thumbnail', widget: 'image', required: false }
-      ]
+      ],
     }
-  ]
+  ],
 }

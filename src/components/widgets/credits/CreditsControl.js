@@ -33,6 +33,12 @@ export default class Control extends React.Component {
     }
   }
 
+  componentDidMount() {
+    console.log('this.props', this.props)
+    console.log('this.context', this.context)
+    console.log('this', this)
+  }
+
   // this.props.value
   // [
   //   { type: 'skateboarder', person: 'don' }
