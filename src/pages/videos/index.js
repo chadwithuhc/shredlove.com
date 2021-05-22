@@ -4,7 +4,7 @@ import Layout from 'src/components/Layout'
 export default function Videos() {
   const { media } = datastore
 
-  const videos = media.filter(entry => entry.type === 'video')
+  const videos = media.filter(entry => entry.source.mediaType === 'video')
 
   return (
     <Layout pageTitle="videos">

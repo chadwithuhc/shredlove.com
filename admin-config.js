@@ -1,3 +1,4 @@
+const MediaTypes = require('./media-type-config')
 const isLocalhost = typeof window !== 'undefined' && window.location.host === 'localhost:3000'
 
 module.exports = {
@@ -57,8 +58,9 @@ module.exports = {
         { label: 'Title', name: 'title', widget: 'string' },
         { label: 'Description', name: 'description', widget: 'text' },
         { label: 'Date', name: 'date', widget: 'datetime' },
+        { label: 'Type', name: 'type', widget: 'select', options: Object.keys(MediaTypes) },
         // { label: 'Credits', name: 'credits', widget: 'credits' },
-        { label: 'Featured Image', name: 'thumbnail', widget: 'image', required: false }
+        // { label: 'Featured Image', name: 'thumbnail', widget: 'image', required: false }
       ]
     }
   ]

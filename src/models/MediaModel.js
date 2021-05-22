@@ -1,6 +1,5 @@
 import Link from 'next/link'
-// import datastore from 'src/data/store'
-import MediaTypes from './MediaTypes'
+import MediaTypes from 'media-type-config'
 import CreditModel from './CreditModel'
 
 class MediaModel {
@@ -13,24 +12,32 @@ class MediaModel {
   // database props
   slug = null // string: 'video-name'
   date = null // timestamp: 123456789
-  type = null // enum: ['photo','video'] matching MediaTypes
-  config = {} // object: { ..anyData }
+  source = {
+    mediaType: 'unknown'
+    // mediaType: photo | video | article
+    // type: vimeoVideo | vimeoPlaylist ...
+    // parameters: object { ... key/values }
+  }
   title = null // string: 'Working Title'
   description = null // string: 'Text Description'
   //credits = [] // array: [ { type, person } ]
 
   get mediaType() {
-    return MediaTypes[this.type]
+    return MediaTypes[this.source.mediaType]
   }
 
-  // additional data fields provided by `config.fields[]`
+  get mediaSource() {
+    return this.mediaType.sources.find(source => source.type === this.source.type)
+  }
+
+  // additional data fields provided by `source.fields[]`
   get mediaFields() {
-    return this.mediaType.fields?.map(field => {
-      if (this.config?.fields?.hasOwnProperty(field.prop)) {
+    return this.mediaSource?.fields?.map(field => {
+      if (this.source?.parameters?.hasOwnProperty(field.prop)) {
         return {
           prop: field.prop,
           label: field.label,
-          value: renderMediaField(this, field, this.config.fields[field.prop])
+          value: renderMediaField(this, field, this.source.parameters[field.prop])
         }
       }
     }).filter(Boolean) || []
@@ -53,7 +60,7 @@ class MediaModel {
   }
 
   get Media() {
-    return renderMediaType(this.type, this.config)
+    return renderMediaType(this.source)
   }
 
   get linkProps() {
@@ -72,27 +79,29 @@ class MediaModel {
   }
 }
 
-function renderMediaType(type, config) {
-  if (type === 'video') {
-    if (config.sourceType === 'vimeo') {
-      return <iframe src={`https://player.vimeo.com/video/${config.vimeoId}`} width="640" height="480" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+function renderMediaType(source) {
+  const { mediaType } = source
+
+  if (mediaType === 'video') {
+    if (source.type === 'vimeoVideo') {
+      return <iframe src={`https://player.vimeo.com/video/${source.parameters.vimeoId}`} width="640" height="480" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
     }
 
-    if (config.sourceType === 'youtube') {
-      return <iframe width="640" height="480" src={`https://www.youtube.com/embed/${config.youtubeId}`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+    if (source.type === 'youtubeVideo') {
+      return <iframe width="640" height="480" src={`https://www.youtube.com/embed/${source.parameters.youtubeId}`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
     }
-    if (config.sourceType === 'youtubePlaylist') {
-      return <iframe width="640" height="480" src={`https://www.youtube.com/embed/videoseries?list=${config.youtubeId}`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+    if (source.type === 'youtubePlaylist') {
+      return <iframe width="640" height="480" src={`https://www.youtube.com/embed/videoseries?list=${source.parameters.youtubeId}`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
     }
   }
 
-  if (type === 'photo') {
-    if (config.sourceType === 'url') {
-      return <img src={config.url} />
+  if (mediaType === 'photo') {
+    if (source.type === 'url') {
+      return <img src={source.parameters.url} />
     }
   }
 
-  return <em className="info-text">Could not load media player for {type}.{config.sourceType}</em>
+  return <em className="info-text">Could not load media player for source {mediaType}.{source.type}</em>
 }
 
 function renderMediaField(media, field, value) {
@@ -109,7 +118,7 @@ function renderMediaField(media, field, value) {
       <a href={`https://vimeo.com/${value}`} rel="noopener noreferer" target="_blank" title={`Watch "${media.title}" on Vimeo`}>Watch on Vimeo</a>
       <details>
         <summary title={`Watch "${media.title}" here`}>Watch here</summary>
-        <iframe src={`https://player.vimeo.com/video/${value}`} width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe src={`https://player.vimeo.com/video/${value}`} width="640" height="480" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
       </details>
     </>
   }

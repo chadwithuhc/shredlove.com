@@ -7,6 +7,7 @@ const config = require('./admin-config')
 // [
 //   { inputDirectory: 'public/data/posts', outputFile: 'public/data/posts.json' }
 // ]
+// we are pulling from all defined netlify-cms collections
 const scanDirectories = config.collections
   .filter(collection => collection.extension === 'json')
   .map(collection => ({

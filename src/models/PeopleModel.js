@@ -9,7 +9,7 @@ class PeopleModel {
     return this
   }
 
-  uid = null // string: 'cheddar'
+  uid = null // string: 'chad'
   displayName = null // string: 'chadwithuhc'
 
   get media() {

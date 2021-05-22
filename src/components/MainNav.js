@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import MediaTypes from 'src/models/MediaTypes'
+import MediaTypes from 'media-type-config'
 
 export default function MainNav() {
   return (

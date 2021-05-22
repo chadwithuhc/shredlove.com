@@ -10,7 +10,7 @@ media
 id  (string autogen)
 date  (timestamp)
 type  (enum: MediaType)
-config  (json)
+source  (json)
 title  (string)
 description  (string)
 creditIds[string, strings]

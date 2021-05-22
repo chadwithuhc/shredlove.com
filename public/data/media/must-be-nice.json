@@ -3,7 +3,6 @@
   "title": "Must Be Nice",
   "description": "The full length video by the shred dogz",
   "date": "2007-01-19T06:09:00.000Z",
-  "type": "video",
   "credits": [
     {
       "type": "skateboarder",
@@ -22,10 +21,11 @@
       "person": "chad"
     }
   ],
-  "config": {
-    "sourceType": "vimeoPlaylist",
-    "vimeoId": "11661446",
-    "fields": {
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoPlaylist",
+    "parameters": {
+      "vimeoId": "154707",
       "playlistUrl": "https://vimeo.com/showcase/154707"
     }
   },

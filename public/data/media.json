@@ -4,7 +4,6 @@
     "title": "Must Be Nice",
     "description": "The full length video by the shred dogz",
     "date": "2007-01-19T06:09:00.000Z",
-    "type": "video",
     "credits": [
       {
         "type": "skateboarder",
@@ -23,10 +22,11 @@
         "person": "chad"
       }
     ],
-    "config": {
-      "sourceType": "vimeoPlaylist",
-      "vimeoId": "11661446",
-      "fields": {
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoPlaylist",
+      "parameters": {
+        "vimeoId": "154707",
         "playlistUrl": "https://vimeo.com/showcase/154707"
       }
     },
@@ -36,7 +36,6 @@
     "date": "2006-07-19T06:09:00.000Z",
     "slug": "must-be-nice-teaser",
     "title": "Must Be Nice: Teaser",
-    "type": "video",
     "description": "A teaser of the full length video",
     "credits": [
       {
@@ -56,10 +55,11 @@
         "person": "chad"
       }
     ],
-    "config": {
-      "sourceType": "vimeo",
-      "vimeoId": "11661446",
-      "fields": {
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "11661446",
         "length": "4:13"
       }
     },

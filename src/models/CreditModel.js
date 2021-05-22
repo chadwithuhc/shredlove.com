@@ -1,4 +1,3 @@
-// import datastore from 'src/data/store'
 import people from 'public/data/people'
 import PeopleModel from './PeopleModel'
 

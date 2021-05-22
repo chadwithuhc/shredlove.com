@@ -4,7 +4,7 @@ import Layout from 'src/components/Layout'
 export default function Photos() {
   const { media } = datastore
 
-  const photos = media.filter(entry => entry.type === 'photo')
+  const photos = media.filter(entry => entry.source.mediaType === 'photo')
 
   return (
     <Layout pageTitle="photos">

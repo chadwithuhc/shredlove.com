@@ -1,5 +1,7 @@
 # shredlove.com static site
 
+> A website for the archives of shredlove.com content
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 It also uses [Netlify CMS](https://www.netlifycms.org/) to provide the admin interface.

@@ -2,7 +2,6 @@
   "date": "2006-07-19T06:09:00.000Z",
   "slug": "must-be-nice-teaser",
   "title": "Must Be Nice: Teaser",
-  "type": "video",
   "description": "A teaser of the full length video",
   "credits": [
     {
@@ -22,10 +21,11 @@
       "person": "chad"
     }
   ],
-  "config": {
-    "sourceType": "vimeo",
-    "vimeoId": "11661446",
-    "fields": {
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "11661446",
       "length": "4:13"
     }
   },
