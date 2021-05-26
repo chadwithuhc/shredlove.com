@@ -4,6 +4,10 @@
     {
       "type": "skateboarder",
       "person": "don"
+    },
+    {
+      "person": "jake",
+      "type": "director"
     }
   ],
   "source": {
