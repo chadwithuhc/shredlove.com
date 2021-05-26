@@ -56,7 +56,7 @@ module.exports = {
       sort_by: 'date',
       fields: [
         { label: 'Credits', name: 'credits', widget: 'credits' },
-        // { label: 'Source', name: 'source', widget: 'source' },
+        { label: 'Source', name: 'source', widget: 'source' },
         { label: 'Slug', name: 'slug', widget: 'string' },
         { label: 'Title', name: 'title', widget: 'string' },
         { label: 'Description', name: 'description', widget: 'text' },

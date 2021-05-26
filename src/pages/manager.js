@@ -5,6 +5,7 @@ import config from 'admin-config'
 
 // Custom Widgets
 import CreditsWidget from 'src/components/widgets/credits'
+import SourceWidget from 'src/components/widgets/source'
 
 const CMSComponent = dynamic(async () => {
   window.CMS_MANUAL_INIT = true
@@ -14,6 +15,7 @@ const CMSComponent = dynamic(async () => {
   CMS.registerMediaLibrary(cloudinary.default)
 
   CMS.registerWidget('credits', CreditsWidget.Control, CreditsWidget.Preview, CreditsWidget.schema)
+  CMS.registerWidget('source', SourceWidget.Control, SourceWidget.Preview, SourceWidget.schema)
 
   CMS.init({ config })
 
