@@ -8,6 +8,14 @@
     {
       "person": "jake",
       "type": "director"
+    },
+    {
+      "type": "photographer",
+      "person": "ben"
+    },
+    {
+      "type": "videographer",
+      "person": "chad"
     }
   ],
   "source": {
