@@ -27,7 +27,7 @@
     "type": "vimeoVideo",
     "parameters": {
       "vimeoId": "551318758",
-      "length": "3:45"
+      "runTime": "3:45"
     }
   },
   "slug": "ordinary-people-don",

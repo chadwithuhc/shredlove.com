@@ -26,7 +26,7 @@
     "type": "vimeoVideo",
     "parameters": {
       "vimeoId": "11661446",
-      "length": "4:13"
+      "runTime": "4:13"
     }
   },
   "dateFormatted": "Wednesday, July 19, 2006"

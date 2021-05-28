@@ -12,7 +12,9 @@ export default function Media({ mediaId }) {
       { href: entry.mediaType.url, label: entry.mediaType.labelPlural },
       { href: entry.url, label: entry.title }
     ]}>
-      {entry.Media}
+      <div className={`media-wrapper ${entry.source.mediaType}-wrapper`}>
+        {entry.Media}
+      </div>
       
       <dl className="meta-list">
         <dt>Title</dt>

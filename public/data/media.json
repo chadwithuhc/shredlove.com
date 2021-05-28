@@ -9,6 +9,18 @@
       {
         "person": "jake",
         "type": "director"
+      },
+      {
+        "type": "photographer",
+        "person": "ben"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "jake"
       }
     ],
     "source": {
@@ -16,7 +28,7 @@
       "type": "vimeoVideo",
       "parameters": {
         "vimeoId": "551318758",
-        "length": "3:45"
+        "runTime": "3:45"
       }
     },
     "slug": "ordinary-people-don",
@@ -52,7 +64,8 @@
       "type": "vimeoPlaylist",
       "parameters": {
         "vimeoId": "154707",
-        "playlistUrl": "https://vimeo.com/showcase/154707"
+        "playlistUrl": "https://vimeo.com/showcase/154707",
+        "runTime": "1:05:55"
       }
     },
     "dateFormatted": "Thursday, January 18, 2007"
@@ -85,7 +98,7 @@
       "type": "vimeoVideo",
       "parameters": {
         "vimeoId": "11661446",
-        "length": "4:13"
+        "runTime": "4:13"
       }
     },
     "dateFormatted": "Wednesday, July 19, 2006"

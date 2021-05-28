@@ -26,7 +26,8 @@
     "type": "vimeoPlaylist",
     "parameters": {
       "vimeoId": "154707",
-      "playlistUrl": "https://vimeo.com/showcase/154707"
+      "playlistUrl": "https://vimeo.com/showcase/154707",
+      "runTime": "1:05:55"
     }
   },
   "dateFormatted": "Thursday, January 18, 2007"

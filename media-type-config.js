@@ -13,7 +13,7 @@ module.exports = {
         type: 'vimeoVideo',
         fields: [
           { label: 'Vimeo ID', name: 'vimeoId', renderAs: 'vimeo' },
-          { label: 'Length', name: 'length', renderAs: 'text' },
+          { label: 'Run Time', name: 'runTime', renderAs: 'text' },
         ]
       },
       {
@@ -21,7 +21,7 @@ module.exports = {
         type: 'vimeoPlaylist',
         fields: [
           { label: 'Playlist URL', name: 'playlistUrl', renderAs: 'link' },
-          { label: 'Length', name: 'length', renderAs: 'text' },
+          { label: 'Run Time', name: 'runTime', renderAs: 'text' },
         ]
       },
       {
@@ -29,7 +29,7 @@ module.exports = {
         type: 'youtubeVideo',
         fields: [
           { label: 'YouTube ID', name: 'youtubeId', renderAs: 'youtube' },
-          { label: 'Length', name: 'length', renderAs: 'text' },
+          { label: 'Run Time', name: 'runTime', renderAs: 'text' },
         ]
       },
       {
@@ -37,7 +37,7 @@ module.exports = {
         type: 'youtubePlaylist',
         fields: [
           { label: 'Playlist URL', name: 'playlistUrl', renderAs: 'link' },
-          { label: 'Length', name: 'length', renderAs: 'text' },
+          { label: 'Run Time', name: 'runTime', renderAs: 'text' },
         ]
       }
     ],

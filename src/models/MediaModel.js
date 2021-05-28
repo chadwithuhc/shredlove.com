@@ -119,10 +119,6 @@ function renderMediaField(media, field, value) {
   if (field.renderAs === 'vimeo') {
     return <>
       <a href={`https://vimeo.com/${value}`} rel="noopener noreferer" target="_blank" title={`Watch "${media.title}" on Vimeo`}>Watch on Vimeo</a>
-      <details>
-        <summary title={`Watch "${media.title}" here`}>Watch here</summary>
-        <iframe src={`https://player.vimeo.com/video/${value}`} width="640" height="480" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
-      </details>
     </>
   }
 
