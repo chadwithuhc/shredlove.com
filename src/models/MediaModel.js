@@ -86,6 +86,9 @@ function renderMediaType(source) {
     if (source.type === 'vimeoVideo') {
       return <iframe src={`https://player.vimeo.com/video/${source.parameters.vimeoId}`} width="640" height="480" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
     }
+    if (source.type === 'vimeoPlaylist') {
+      return <iframe src={`${source.parameters.playlistUrl}/embed`} width="640" height="480" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+    }
 
     if (source.type === 'youtubeVideo') {
       return <iframe width="640" height="480" src={`https://www.youtube.com/embed/${source.parameters.youtubeId}`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
