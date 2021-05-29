@@ -27,6 +27,7 @@ export default class Control extends React.Component {
   }
 
   state = {
+    localValue: [{}],
     focusedField: {
       // index: 0
       // prop: 'type'
@@ -34,9 +35,7 @@ export default class Control extends React.Component {
   }
 
   componentDidMount() {
-    console.log('this.props', this.props)
-    console.log('this.context', this.context)
-    console.log('this', this)
+    this.setLocalValue(this.getCurrentCredits())
   }
 
   // this.props.value
@@ -47,6 +46,10 @@ export default class Control extends React.Component {
   //   const separator = this.props.field.get('separator', ', ')
   //   this.props.onChange(e.target.value.split(separator).map((e) => e.trim()));
   // },
+
+  setLocalValue = (localValue) => {
+    this.setState({ localValue })
+  }
 
   setHasFocus = (e) => {
     this.setState({
@@ -59,12 +62,14 @@ export default class Control extends React.Component {
 
   handleChangeForIndex = (index) => {
     return (e) => {
-      const creditValues = this.getCurrentCredits()
-      if (index > creditValues.length - 1) { // create a new item if needed
-        creditValues.push({})
+      const currentValues = this.getCurrentCredits()
+      const localValues = [...this.state.localValue]
+
+      if (index > localValues.length - 1) { // create a new item if needed
+        localValues.push({})
       }
 
-      const updatedCreditValues = creditValues.map((creditValue, i) => {
+      const updatedLocalValues = localValues.map((creditValue, i) => {
         if (i === index) {
           return {
             ...creditValue,
@@ -73,14 +78,24 @@ export default class Control extends React.Component {
         }
 
         return creditValue
-      })
+      }).filter(creditValue => !(
+        (creditValue.type === "" && creditValue.person === "")
+        || (creditValue.type === "" && !creditValue.person)
+        || (!creditValue.type && creditValue.person === "")
+      ))
+      
+      const validatedLocalValues = updatedLocalValues.filter(creditValue => (!!creditValue.type && !!creditValue.person))
 
-      this.props.onChange(updatedCreditValues)
+      if (validatedLocalValues.length !== currentValues.length) {
+        this.props.onChange(validatedLocalValues)
+      }
+
+      this.setLocalValue(updatedLocalValues)
     }
   }
 
   getCurrentCredits = () => {
-    return JSON.parse(JSON.stringify(this.props.value || [{}]))
+    return JSON.parse(JSON.stringify(this.props.value || []))
   }
 
   renderInputRow = (creditValue = null, valueIndex = 0) => {
@@ -124,7 +139,7 @@ export default class Control extends React.Component {
   render() {
     const { forID, classNameWrapper } = this.props;
     // const separator = this.props.field.get('separator', ', ');
-    const creditValues = this.getCurrentCredits();
+    const creditValues = this.state.localValue;
     // console.log('credits this.props.value', this.props.value)
     // console.log('credits render creditValues', creditValues)
 

@@ -77,7 +77,7 @@ export default function Control({ forID, classNameWrapper, value, onChange }) {
             <option></option>
             {Object.entries(MediaTypes).map(([mediaType, mediaTypeInfo]) => {
               return (
-                <option value={mediaType}>
+                <option key={mediaType} value={mediaType}>
                   {mediaTypeInfo.label}
                 </option>
               )
@@ -92,7 +92,7 @@ export default function Control({ forID, classNameWrapper, value, onChange }) {
               <option></option>
               {mediaType.sources.map((source) => {
                 return (
-                  <option value={source.type}>
+                  <option key={source.type} value={source.type}>
                     {source.label}
                   </option>
                 )
@@ -105,7 +105,7 @@ export default function Control({ forID, classNameWrapper, value, onChange }) {
           <form id="source-form">
             {mediaSource.fields.map(field => {
               return (
-                <fieldset>
+                <fieldset key={field.name}>
                   <label>{field.inputLabel || field.label}</label>
                   <input type="text" name={field.name} onChange={onInputChange} defaultValue={sourceValue.parameters?.[field.name]} />
                 </fieldset>
