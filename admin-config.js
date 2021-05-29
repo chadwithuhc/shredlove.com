@@ -61,6 +61,7 @@ module.exports = {
         { label: 'Title', name: 'title', widget: 'string' },
         { label: 'Description', name: 'description', widget: 'text' },
         { label: 'Date', name: 'date', widget: 'datetime' },
+        { label: 'Show In Timeline', name: 'showInTimeline', widget: 'boolean' },
         // { label: 'Credits', name: 'credits', widget: 'credits' },
         // { label: 'Featured Image', name: 'thumbnail', widget: 'image', required: false }
       ],

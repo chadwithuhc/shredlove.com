@@ -31,6 +31,7 @@
         "runTime": "3:45"
       }
     },
+    "showInTimeline": true,
     "slug": "ordinary-people-don",
     "title": "Ordinary People: Don Luong",
     "description": "A short behind the scenes on dons life as a skateboard filmer",
@@ -68,6 +69,7 @@
         "runTime": "1:05:55"
       }
     },
+    "showInTimeline": true,
     "dateFormatted": "Thursday, January 18, 2007"
   },
   {
@@ -101,6 +103,7 @@
         "runTime": "4:13"
       }
     },
+    "showInTimeline": true,
     "dateFormatted": "Wednesday, July 19, 2006"
   }
 ]

@@ -4,8 +4,8 @@ import Layout from 'src/components/Layout'
 export default function Timeline() {
   const { media } = datastore
 
-  // content with dates
-  const content = media.filter(entry => entry.date).sort((a,b) => new Date(b.date) - new Date(a.date))
+  // content with dates && shown in timeline
+  const content = media.filter(entry => entry.date && entry.showInTimeline).sort((a,b) => new Date(b.date) - new Date(a.date))
 
   return (
     <Layout pageTitle="timeline">
