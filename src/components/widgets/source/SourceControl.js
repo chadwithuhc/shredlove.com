@@ -72,7 +72,7 @@ export default function Control({ forID, classNameWrapper, value, onChange }) {
       <div className="source-inputs">
         {/* step 1: pick a media type (photo, video, article) */}
         <fieldset>
-          <label>Media Type:</label>
+          <label>Media Type</label>
           <select onChange={onMediaTypeChange} defaultValue={sourceValue.mediaType}>
             <option></option>
             {Object.entries(MediaTypes).map(([mediaType, mediaTypeInfo]) => {
@@ -87,7 +87,7 @@ export default function Control({ forID, classNameWrapper, value, onChange }) {
         {/* step 2: pick a media source (vimeoVideo, vimeoPlaylist) */}
         {mediaType && (
           <fieldset>
-            <label>Source Type:</label>
+            <label>Source Type</label>
             <select onChange={onMediaSourceChange} defaultValue={sourceValue.type}>
               <option></option>
               {mediaType.sources.map((source) => {
@@ -106,7 +106,7 @@ export default function Control({ forID, classNameWrapper, value, onChange }) {
             {mediaSource.fields.map(field => {
               return (
                 <fieldset>
-                  <label>{field.label}</label>
+                  <label>{field.inputLabel || field.label}</label>
                   <input type="text" name={field.name} onChange={onInputChange} defaultValue={sourceValue.parameters?.[field.name]} />
                 </fieldset>
               )

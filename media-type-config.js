@@ -12,7 +12,7 @@ module.exports = {
         label: 'Vimeo Video',
         type: 'vimeoVideo',
         fields: [
-          { label: 'Vimeo ID', name: 'vimeoId', renderAs: 'vimeo' },
+          { label: 'Vimeo Link', inputLabel: 'Vimeo ID', name: 'vimeoId', renderAs: 'vimeo' },
           { label: 'Run Time', name: 'runTime', renderAs: 'text' },
         ]
       },
@@ -28,7 +28,7 @@ module.exports = {
         label: 'YouTube Video',
         type: 'youtubeVideo',
         fields: [
-          { label: 'YouTube ID', name: 'youtubeId', renderAs: 'youtube' },
+          { label: 'YouTube Link', inputLabel: 'YouTube ID', name: 'youtubeId', renderAs: 'youtube' },
           { label: 'Run Time', name: 'runTime', renderAs: 'text' },
         ]
       },
