@@ -1,0 +1,23 @@
+{
+  "date": "2021-06-05T04:37:50.293Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "video-editor",
+      "person": "ryan-moore"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "9253236",
+      "runTime": "3:22"
+    }
+  },
+  "slug": "ry-mo-in-must-be-nice",
+  "title": "Ry Mo / Must Be Nice"
+}
