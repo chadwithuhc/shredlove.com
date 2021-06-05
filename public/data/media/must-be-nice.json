@@ -9,6 +9,10 @@
       "person": "chad"
     },
     {
+      "type": "director",
+      "person": "brandon"
+    },
+    {
       "type": "video-editor",
       "person": "chad"
     },
@@ -47,6 +51,10 @@
     {
       "type": "photographer",
       "person": "ben"
+    },
+    {
+      "type": "photographer",
+      "person": "matt-mc"
     }
   ],
   "source": {
