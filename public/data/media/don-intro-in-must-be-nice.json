@@ -1,0 +1,19 @@
+{
+  "date": "2021-06-05T04:44:35.374Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "8511053",
+      "runTime": "0:48"
+    }
+  },
+  "slug": "don-intro-in-must-be-nice",
+  "title": "Don Intro / Must Be Nice"
+}
