@@ -1,0 +1,35 @@
+{
+  "date": "2021-06-05T04:40:54.473Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "youngblood"
+    },
+    {
+      "type": "skateboarder",
+      "person": "randy"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "videographer",
+      "person": "randy"
+    },
+    {
+      "type": "videographer",
+      "person": "youngblood"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "8782625",
+      "runTime": "5:19"
+    }
+  },
+  "slug": "youngblood-and-randy-in-must-be-nice",
+  "title": "Youngblood and Randy / Must Be Nice"
+}
