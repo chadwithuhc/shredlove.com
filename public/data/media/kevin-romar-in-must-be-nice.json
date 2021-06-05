@@ -1,0 +1,19 @@
+{
+  "date": "2021-06-05T04:13:26.445Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "9973467",
+      "runTime": "3:59"
+    }
+  },
+  "slug": "kevin-romar-in-must-be-nice",
+  "title": "Kevin Romar / Must Be Nice"
+}
