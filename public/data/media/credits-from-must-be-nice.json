@@ -1,5 +1,5 @@
 {
-  "date": "2007-01-20T02:00:00.000Z",
+  "date": "2007-01-20T03:00:00.000Z",
   "source": {
     "mediaType": "video",
     "type": "vimeoVideo",
@@ -10,11 +10,12 @@
   },
   "slug": "credits-from-must-be-nice",
   "title": "Credits / Must Be Nice",
-  "description": "Roll the Credits! This is the end of Must Be Nice. Thanks for the good times all.",
+  "description": "Roll the Credits! This is the end of Must Be Nice. Thanks for the good times, all.",
   "credits": [
     {
       "person": "chad",
-      "type": "director"
+      "type": "video-editor"
     }
-  ]
+  ],
+  "dateFormatted": "Friday, January 19, 2007"
 }

@@ -38,10 +38,31 @@
     "dateFormatted": "Tuesday, May 18, 2021"
   },
   {
+    "date": "2007-01-20T03:00:00.000Z",
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "10673959",
+        "runTime": "06:55"
+      }
+    },
+    "slug": "credits-from-must-be-nice",
+    "title": "Credits / Must Be Nice",
+    "description": "Roll the Credits! This is the end of Must Be Nice. Thanks for the good times, all.",
+    "credits": [
+      {
+        "person": "chad",
+        "type": "video-editor"
+      }
+    ],
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
     "slug": "must-be-nice",
     "title": "Must Be Nice",
     "description": "The full length video by the shred dogz",
-    "date": "2007-01-19T06:09:00.000Z",
+    "date": "2007-01-20T03:00:00.000Z",
     "credits": [
       {
         "type": "skateboarder",
@@ -70,7 +91,7 @@
       }
     },
     "showInTimeline": true,
-    "dateFormatted": "Thursday, January 18, 2007"
+    "dateFormatted": "Friday, January 19, 2007"
   },
   {
     "date": "2006-07-19T06:09:00.000Z",

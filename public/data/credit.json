@@ -4,12 +4,20 @@
     "displayName": "Director"
   },
   {
+    "uid": "photo-editor",
+    "displayName": "Photo Editor"
+  },
+  {
     "uid": "photographer",
     "displayName": "Photographer"
   },
   {
     "uid": "skateboarder",
     "displayName": "Skateboarder"
+  },
+  {
+    "uid": "video-editor",
+    "displayName": "Video Editor"
   },
   {
     "uid": "videographer",
