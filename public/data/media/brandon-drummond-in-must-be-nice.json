@@ -8,6 +8,14 @@
     {
       "type": "videographer",
       "person": "chad"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "video-editor",
+      "person": "brandon"
     }
   ],
   "source": {

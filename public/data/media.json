@@ -47,6 +47,10 @@
       {
         "type": "videographer",
         "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
       }
     ],
     "source": {
@@ -147,6 +151,14 @@
       {
         "type": "videographer",
         "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "brandon"
       }
     ],
     "source": {
@@ -202,6 +214,10 @@
         "person": "cody"
       },
       {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
         "type": "videographer",
         "person": "chad"
       },
@@ -249,6 +265,14 @@
       {
         "type": "skateboarder",
         "person": "danny"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "danny"
       }
     ],
     "source": {
@@ -269,6 +293,14 @@
       {
         "type": "skateboarder",
         "person": "don"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
       }
     ],
     "source": {
@@ -288,6 +320,14 @@
     "credits": [
       {
         "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
         "person": "don"
       }
     ],
@@ -320,6 +360,10 @@
       {
         "type": "videographer",
         "person": "don"
+      },
+      {
+        "type": "video-editor",
+        "person": "ben"
       },
       {
         "person": "geralle",
@@ -358,6 +402,10 @@
       {
         "type": "skateboarder",
         "person": "kevin-romar"
+      },
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
       }
     ],
     "source": {
@@ -378,6 +426,10 @@
       {
         "type": "skateboarder",
         "person": "carney"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
       },
       {
         "type": "videographer",
@@ -481,6 +533,14 @@
       {
         "type": "video-editor",
         "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
       }
     ],
     "source": {
@@ -505,6 +565,10 @@
       {
         "type": "skateboarder",
         "person": "beaker"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
       }
     ],
     "source": {
@@ -534,6 +598,10 @@
       {
         "type": "video-editor",
         "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "randy"
       },
       {
         "type": "videographer",

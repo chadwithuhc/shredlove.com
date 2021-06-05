@@ -4,6 +4,14 @@
     {
       "type": "skateboarder",
       "person": "danny"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "video-editor",
+      "person": "danny"
     }
   ],
   "source": {
