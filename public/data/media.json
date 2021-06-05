@@ -39,12 +39,197 @@
   },
   {
     "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "10493686",
+        "runTime": "3:22"
+      }
+    },
+    "slug": "alec-in-must-be-nice",
+    "title": "Alec / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "andrew"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "8923515",
+        "runTime": "1:44"
+      }
+    },
+    "slug": "androo-in-must-be-nice",
+    "title": "Androo / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "video-editor",
+        "person": "ben"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "8657210",
+        "runTime": "2:20"
+      }
+    },
+    "slug": "ben-karp-in-must-be-nice",
+    "title": "Ben Karp / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "9584701",
+        "runTime": "2:19"
+      }
+    },
+    "slug": "billy-dav-in-must-be-nice",
+    "title": "Billy Dav / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "10665245",
+        "runTime": "4:00"
+      }
+    },
+    "slug": "brandon-drummond-in-must-be-nice",
+    "title": "BDrum / Must Be Nice",
+    "description": "",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "brandon"
+      },
+      {
+        "type": "videographer",
+        "person": "youngblood"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "9093705",
+        "runTime": "3:32"
+      }
+    },
+    "slug": "chad-d-in-must-be-nice",
+    "title": "Chad D / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "randy"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "10122261",
+        "runTime": "4:10"
+      }
+    },
+    "slug": "cody-in-must-be-nice",
+    "title": "Cody / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
     "source": {
       "mediaType": "video",
       "type": "vimeoVideo",
       "parameters": {
         "vimeoId": "10673959",
-        "runTime": "06:55"
+        "runTime": "06:56"
       }
     },
     "slug": "credits-from-must-be-nice",
@@ -56,6 +241,163 @@
         "type": "video-editor"
       }
     ],
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "danny"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "8401725",
+        "runTime": "2:03"
+      }
+    },
+    "slug": "danny-k-in-must-be-nice",
+    "title": "Danny K / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "8512497",
+        "runTime": "3:31"
+      }
+    },
+    "slug": "don-in-must-be-nice",
+    "title": "Don / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "8511053",
+        "runTime": "0:48"
+      }
+    },
+    "slug": "don-intro-in-must-be-nice",
+    "title": "Don Intro / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "9482207",
+        "runTime": "4:22"
+      }
+    },
+    "slug": "friends-in-must-be-nice",
+    "title": "Friends / Must Be Nice",
+    "description": "Friends of shreddogz and shredlove share a part in Must Be Nice.\n\nFeaturing: SkateAZ crew, Bucky, Preston Harper, Matt Price, Mark Chavez, Brian Price, Matt Mc, Phil Ceja, Collin Campbell, Justin Brubaker, Buckshot, Adam Alvilar, Chris Laxi, James, Josh, Shawn, Carlos, Boosh, Steffan Attardo, Chad Tim Tim, Dave Hoang, R Cavallo, Geralle.\n\nAdditional Footage By: Dave Hoang",
+    "credits": [
+      {
+        "type": "videographer",
+        "person": "don"
+      },
+      {
+        "person": "geralle",
+        "type": "skateboarder"
+      },
+      {
+        "person": "r-cavallo",
+        "type": "skateboarder"
+      }
+    ],
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "8102737",
+        "runTime": "1:40"
+      }
+    },
+    "slug": "intro-of-must-be-nice",
+    "title": "Intro / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "9973467",
+        "runTime": "3:59"
+      }
+    },
+    "slug": "kevin-romar-in-must-be-nice",
+    "title": "Kevin Romar / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "carney"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "youngblood"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "8273330",
+        "runTime": "4:29"
+      }
+    },
+    "slug": "mark-carney-in-must-be-nice",
+    "title": "Mark Carney / Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -91,6 +433,91 @@
       }
     },
     "showInTimeline": true,
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "9253236",
+        "runTime": "3:22"
+      }
+    },
+    "slug": "ry-mo-in-must-be-nice",
+    "title": "Ry Mo / Must Be Nice",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "balls"
+      },
+      {
+        "type": "skateboarder",
+        "person": "beaker"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "9840398",
+        "runTime": "3:46"
+      }
+    },
+    "slug": "sdz-montage-in-must-be-nice",
+    "title": "SDZ Montage / Must Be Nice",
+    "description": "A part shared by Balls, Beaker, Frank, Jeff, and Taylor",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "youngblood"
+      },
+      {
+        "type": "skateboarder",
+        "person": "randy"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "randy"
+      },
+      {
+        "type": "videographer",
+        "person": "youngblood"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "8782625",
+        "runTime": "5:19"
+      }
+    },
+    "slug": "youngblood-and-randy-in-must-be-nice",
+    "title": "Youngblood and Randy / Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {

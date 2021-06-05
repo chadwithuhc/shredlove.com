@@ -1,5 +1,5 @@
 {
-  "date": "2021-06-05T04:20:47.618Z",
+  "date": "2007-01-20T03:00:00.000Z",
   "source": {
     "mediaType": "video",
     "type": "vimeoVideo",
@@ -9,7 +9,7 @@
     }
   },
   "slug": "friends-in-must-be-nice",
-  "title": "Friends in Must Be Nice",
+  "title": "Friends / Must Be Nice",
   "description": "Friends of shreddogz and shredlove share a part in Must Be Nice.\n\nFeaturing: SkateAZ crew, Bucky, Preston Harper, Matt Price, Mark Chavez, Brian Price, Matt Mc, Phil Ceja, Collin Campbell, Justin Brubaker, Buckshot, Adam Alvilar, Chris Laxi, James, Josh, Shawn, Carlos, Boosh, Steffan Attardo, Chad Tim Tim, Dave Hoang, R Cavallo, Geralle.\n\nAdditional Footage By: Dave Hoang",
   "credits": [
     {
@@ -24,5 +24,6 @@
       "person": "r-cavallo",
       "type": "skateboarder"
     }
-  ]
+  ],
+  "dateFormatted": "Friday, January 19, 2007"
 }
