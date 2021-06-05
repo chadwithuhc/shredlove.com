@@ -1,0 +1,24 @@
+{
+  "date": "2021-06-05T04:14:25.170Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "balls"
+    },
+    {
+      "type": "skateboarder",
+      "person": "beaker"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "9840398",
+      "runTime": "3:46"
+    }
+  },
+  "slug": "sdz-montage-in-must-be-nice",
+  "title": "SDZ Montage / Must Be Nice",
+  "description": "A part shared by Balls, Beaker, Frank, Jeff, and Taylor"
+}
