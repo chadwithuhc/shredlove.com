@@ -1,0 +1,27 @@
+{
+  "date": "2021-06-05T04:12:13.494Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "videographer",
+      "person": "chad"
+    },
+    {
+      "type": "videographer",
+      "person": "randy"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "10122261",
+      "runTime": "4:10"
+    }
+  },
+  "slug": "cody-in-must-be-nice",
+  "title": "Cody / Must Be Nice"
+}
