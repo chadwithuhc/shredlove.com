@@ -1,0 +1,23 @@
+{
+  "date": "2021-06-05T04:40:01.314Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "andrew"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "8923515",
+      "runTime": "1:44"
+    }
+  },
+  "slug": "androo-in-must-be-nice",
+  "title": "Androo / Must Be Nice"
+}
