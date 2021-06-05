@@ -1,0 +1,27 @@
+{
+  "date": "2021-06-05T04:42:28.753Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    },
+    {
+      "type": "video-editor",
+      "person": "ben"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "8657210",
+      "runTime": "2:20"
+    }
+  },
+  "slug": "ben-karp-in-must-be-nice",
+  "title": "Ben Karp / Must Be Nice"
+}
