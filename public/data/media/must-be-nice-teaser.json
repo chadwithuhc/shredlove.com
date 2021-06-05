@@ -2,23 +2,91 @@
   "date": "2006-07-19T06:09:00.000Z",
   "slug": "must-be-nice-teaser",
   "title": "Must Be Nice: Teaser",
-  "description": "A teaser of the full length video",
+  "description": "A teaser of the third full length video from the shred dogz",
   "credits": [
-    {
-      "type": "skateboarder",
-      "person": "don"
-    },
     {
       "type": "director",
       "person": "chad"
     },
     {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "videographer",
+      "person": "chad"
+    },
+    {
+      "type": "videographer",
+      "person": "brandon"
+    },
+    {
+      "type": "videographer",
+      "person": "youngblood"
+    },
+    {
+      "type": "videographer",
+      "person": "carney"
+    },
+    {
+      "type": "videographer",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "videographer",
+      "person": "randy"
+    },
+    {
       "type": "skateboarder",
-      "person": "geralle"
+      "person": "brandon"
     },
     {
       "type": "skateboarder",
       "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "youngblood"
+    },
+    {
+      "type": "skateboarder",
+      "person": "jeff"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "danny"
+    },
+    {
+      "type": "skateboarder",
+      "person": "balls"
+    },
+    {
+      "type": "skateboarder",
+      "person": "randy"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    },
+    {
+      "type": "skateboarder",
+      "person": "andrew"
+    },
+    {
+      "type": "skateboarder",
+      "person": "carney"
+    },
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
     }
   ],
   "source": {
