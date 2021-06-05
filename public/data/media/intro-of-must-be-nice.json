@@ -1,0 +1,19 @@
+{
+  "date": "2021-06-05T04:47:23.053Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "8102737",
+      "runTime": "1:40"
+    }
+  },
+  "slug": "intro-of-must-be-nice",
+  "title": "Intro / Must Be Nice"
+}
