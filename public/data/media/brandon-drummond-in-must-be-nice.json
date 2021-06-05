@@ -1,0 +1,24 @@
+{
+  "date": "2021-06-05T04:07:04.665Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "videographer",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "10665245",
+      "runTime": "4:00"
+    }
+  },
+  "slug": "brandon-drummond-in-must-be-nice",
+  "title": "BDrum in Must Be Nice",
+  "description": ""
+}
