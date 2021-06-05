@@ -1,0 +1,19 @@
+{
+  "date": "2021-06-05T04:45:33.939Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "danny"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "8401725",
+      "runTime": "2:03"
+    }
+  },
+  "slug": "danny-k-in-must-be-nice",
+  "title": "Danny K / Must Be Nice"
+}
