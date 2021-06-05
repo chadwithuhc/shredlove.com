@@ -20,15 +20,26 @@ export default function Media({ mediaId }) {
         <dt>Title</dt>
         <dd>{entry.title}</dd>
 
-        <dt>Description</dt>
-        <dd>{entry.description}</dd>
+        {entry.description && (
+          <>
+          <dt>Description</dt>
+          <dd>{entry.description}</dd>
+          </>
+        )}
+
+        {entry.dateFormatted && (
+          <>
+          <dt>Date</dt>
+          <dd>{entry.dateFormatted}</dd>
+          </>
+        )}
 
         <dt>Credits</dt>
         <dd className="meta-sublist-group">
           <dl className="meta-sublist">
           {entry.credits.map(credit => (
             <React.Fragment key={credit.uid}>
-              <dt>{credit.type}</dt>
+              <dt>{credit.displayName}</dt>
               <dd>{credit.person.Link}</dd>
             </React.Fragment>
           ))}

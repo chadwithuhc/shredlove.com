@@ -1,6 +1,6 @@
 [
   {
-    "date": "2021-05-19T01:13:24.059Z",
+    "date": "2021-05-18T01:13:00.000Z",
     "credits": [
       {
         "type": "skateboarder",
@@ -35,7 +35,7 @@
     "slug": "ordinary-people-don",
     "title": "Ordinary People: Don Luong",
     "description": "A short behind the scenes on dons life as a skateboard filmer",
-    "dateFormatted": "Tuesday, May 18, 2021"
+    "dateFormatted": "Monday, May 17, 2021"
   },
   {
     "date": "2007-01-20T03:00:00.000Z",
@@ -62,7 +62,7 @@
       }
     },
     "slug": "alec-in-must-be-nice",
-    "title": "Alec / Must Be Nice",
+    "title": "Alec in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -86,7 +86,7 @@
       }
     },
     "slug": "androo-in-must-be-nice",
-    "title": "Androo / Must Be Nice",
+    "title": "Androo in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -114,7 +114,7 @@
       }
     },
     "slug": "ben-karp-in-must-be-nice",
-    "title": "Ben Karp / Must Be Nice",
+    "title": "Ben Karp in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -138,7 +138,7 @@
       }
     },
     "slug": "billy-dav-in-must-be-nice",
-    "title": "Billy Dav / Must Be Nice",
+    "title": "Billy Dav in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -170,7 +170,7 @@
       }
     },
     "slug": "brandon-drummond-in-must-be-nice",
-    "title": "BDrum / Must Be Nice",
+    "title": "BDrum in Must Be Nice",
     "description": "",
     "dateFormatted": "Friday, January 19, 2007"
   },
@@ -203,7 +203,7 @@
       }
     },
     "slug": "chad-d-in-must-be-nice",
-    "title": "Chad D / Must Be Nice",
+    "title": "Chad D in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -235,7 +235,7 @@
       }
     },
     "slug": "cody-in-must-be-nice",
-    "title": "Cody / Must Be Nice",
+    "title": "Cody in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -249,7 +249,7 @@
       }
     },
     "slug": "credits-from-must-be-nice",
-    "title": "Credits / Must Be Nice",
+    "title": "Credits in Must Be Nice",
     "description": "Roll the Credits! This is the end of Must Be Nice. Thanks for the good times, all.",
     "credits": [
       {
@@ -284,7 +284,7 @@
       }
     },
     "slug": "danny-k-in-must-be-nice",
-    "title": "Danny K / Must Be Nice",
+    "title": "Danny K in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -312,7 +312,7 @@
       }
     },
     "slug": "don-in-must-be-nice",
-    "title": "Don / Must Be Nice",
+    "title": "Don in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -340,7 +340,7 @@
       }
     },
     "slug": "don-intro-in-must-be-nice",
-    "title": "Don Intro / Must Be Nice",
+    "title": "Don Intro in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -354,7 +354,7 @@
       }
     },
     "slug": "friends-in-must-be-nice",
-    "title": "Friends / Must Be Nice",
+    "title": "Friends in Must Be Nice",
     "description": "Friends of shreddogz and shredlove share a part in Must Be Nice.\n\nFeaturing: SkateAZ Crew, Bucky Miller, Preston Harper, Matt Price, Mark Chavez, Brian Price, Matt Mc, Phil Ceja, Collin Campbell, Justin Brubaker, Buckshot, Adam Alvillar, Chris Laxi, James, Josh, Shawn, Carlos, Boosh, 508 Crew, Steffan Attardo, Chad Tim Tim, Dave Hoang, R Cavallo, Geralle.\n\nAdditional Footage By: Dave Hoang",
     "credits": [
       {
@@ -393,7 +393,7 @@
       }
     },
     "slug": "intro-of-must-be-nice",
-    "title": "Intro / Must Be Nice",
+    "title": "Intro in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -417,7 +417,7 @@
       }
     },
     "slug": "kevin-romar-in-must-be-nice",
-    "title": "Kevin Romar / Must Be Nice",
+    "title": "Kevin Romar in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -449,7 +449,7 @@
       }
     },
     "slug": "mark-carney-in-must-be-nice",
-    "title": "Mark Carney / Must Be Nice",
+    "title": "Mark Carney in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -552,7 +552,7 @@
       }
     },
     "slug": "ry-mo-in-must-be-nice",
-    "title": "Ry Mo / Must Be Nice",
+    "title": "Ry Mo in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -580,7 +580,7 @@
       }
     },
     "slug": "sdz-montage-in-must-be-nice",
-    "title": "SDZ Montage / Must Be Nice",
+    "title": "SDZ Montage in Must Be Nice",
     "description": "A part shared by Balls, Beaker, Frank, Jeff, and Taylor",
     "dateFormatted": "Friday, January 19, 2007"
   },
@@ -621,30 +621,98 @@
       }
     },
     "slug": "youngblood-and-randy-in-must-be-nice",
-    "title": "Youngblood and Randy / Must Be Nice",
+    "title": "Youngblood and Randy in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
     "date": "2006-07-19T06:09:00.000Z",
     "slug": "must-be-nice-teaser",
     "title": "Must Be Nice: Teaser",
-    "description": "A teaser of the full length video",
+    "description": "A teaser of the third full length video from the shred dogz",
     "credits": [
-      {
-        "type": "skateboarder",
-        "person": "don"
-      },
       {
         "type": "director",
         "person": "chad"
       },
       {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "brandon"
+      },
+      {
+        "type": "videographer",
+        "person": "youngblood"
+      },
+      {
+        "type": "videographer",
+        "person": "carney"
+      },
+      {
+        "type": "videographer",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "videographer",
+        "person": "randy"
+      },
+      {
         "type": "skateboarder",
-        "person": "geralle"
+        "person": "brandon"
       },
       {
         "type": "skateboarder",
         "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "youngblood"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jeff"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "danny"
+      },
+      {
+        "type": "skateboarder",
+        "person": "balls"
+      },
+      {
+        "type": "skateboarder",
+        "person": "randy"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "andrew"
+      },
+      {
+        "type": "skateboarder",
+        "person": "carney"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
       }
     ],
     "source": {

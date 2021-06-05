@@ -33,7 +33,7 @@ export default function Person({ personId }) {
           <dl className="meta-sublist">
           {person.credits.map(credit => (
             <React.Fragment key={credit.uid}>
-              <dt>{credit.type}</dt>
+              <dt>{credit.displayName}</dt>
               <dd>{credit.media.Link}</dd>
             </React.Fragment>
           ))}

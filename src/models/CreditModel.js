@@ -1,5 +1,6 @@
-import people from 'public/data/people'
+import people from 'public/data/people.json'
 import PeopleModel from './PeopleModel'
+import credit from 'public/data/credit.json'
 
 class CreditModel {
 
@@ -14,6 +15,10 @@ class CreditModel {
 
   get uid() {
     return `${this.type}-${this.person.uid}-${this.media?.slug}`
+  }
+
+  get displayName() {
+    return credit.find(c => c.uid === this.type)?.displayName
   }
 
   get person() {

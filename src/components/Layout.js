@@ -15,7 +15,7 @@ export default function Layout({ pageTitle = '', breadcrumbs = [], children }) {
 
       <section className="content-container">
         {breadcrumbs && breadcrumbs.length > 0 && (
-          <nav className="breadcrumb" aria-label="breadcrumbs">
+          <nav className="breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
             <ul>
               {breadcrumbs.map((breadcrumb, i) => (
                 i === breadcrumbs.length - 1 ?
@@ -29,7 +29,7 @@ export default function Layout({ pageTitle = '', breadcrumbs = [], children }) {
       </section>
 
       <footer className="main-footer">
-        &copy; shredlove.com 2005 - now
+        &copy; shredlove.com 2005 - {new Date().getFullYear()}
       </footer>
     </main>
   )
