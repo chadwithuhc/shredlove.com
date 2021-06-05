@@ -5,20 +5,48 @@
   "date": "2007-01-20T03:00:00.000Z",
   "credits": [
     {
-      "type": "skateboarder",
-      "person": "don"
-    },
-    {
       "type": "director",
       "person": "chad"
     },
     {
-      "type": "skateboarder",
-      "person": "geralle"
+      "type": "video-editor",
+      "person": "chad"
     },
     {
-      "type": "skateboarder",
+      "type": "video-editor",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "videographer",
+      "person": "brandon"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "youngblood"
+    },
+    {
+      "type": "videographer",
+      "person": "randy"
+    },
+    {
+      "type": "videographer",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "videographer",
+      "person": "carney"
+    },
+    {
+      "type": "videographer",
       "person": "chad"
+    },
+    {
+      "type": "photographer",
+      "person": "ben"
     }
   ],
   "source": {
