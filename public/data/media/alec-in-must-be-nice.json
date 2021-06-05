@@ -1,0 +1,23 @@
+{
+  "date": "2021-06-05T04:09:43.897Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "videographer",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "10493686",
+      "runTime": "3:22"
+    }
+  },
+  "slug": "alec-in-must-be-nice",
+  "title": "Alec in Must Be Nice"
+}
