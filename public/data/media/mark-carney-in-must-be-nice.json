@@ -1,0 +1,27 @@
+{
+  "date": "2021-06-05T04:46:25.009Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "carney"
+    },
+    {
+      "type": "videographer",
+      "person": "chad"
+    },
+    {
+      "type": "videographer",
+      "person": "youngblood"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "8273330",
+      "runTime": "4:29"
+    }
+  },
+  "slug": "mark-carney-in-must-be-nice",
+  "title": "Mark Carney / Must Be Nice"
+}
