@@ -1,0 +1,21 @@
+{
+  "date": "2002-06-14T22:27:00.000Z",
+  "credits": [
+    {
+      "type": "director",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoPlaylist",
+    "parameters": {
+      "playlistUrl": "https://vimeo.com/showcase/8567257",
+      "runTime": ""
+    }
+  },
+  "slug": "hated-by-all",
+  "title": "hated by all",
+  "description": "the first skateboard video from the shred dogz",
+  "showInTimeline": true
+}
