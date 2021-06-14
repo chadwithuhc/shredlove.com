@@ -1,0 +1,23 @@
+{
+  "date": "2003-03-15T00:39:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562624314",
+      "runTime": "2:00"
+    }
+  },
+  "slug": "bdrum-in-gangster-funk",
+  "title": "BDrum in Gangster Funk"
+}
