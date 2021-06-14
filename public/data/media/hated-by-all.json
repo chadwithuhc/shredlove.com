@@ -7,11 +7,10 @@
     }
   ],
   "source": {
-    "mediaType": "video",
     "type": "vimeoPlaylist",
     "parameters": {
       "playlistUrl": "https://vimeo.com/showcase/8567257",
-      "runTime": ""
+      "runTime": "55:06"
     }
   },
   "slug": "hated-by-all",
