@@ -1,5 +1,5 @@
 {
-  "date": "2006-06-14T22:50:00.000Z",
+  "date": "2003-03-14T22:50:00.000Z",
   "credits": [
     {
       "type": "director",
@@ -17,5 +17,6 @@
   "slug": "gangster-funk",
   "title": "Gangster Funk",
   "description": "a skateboard film by 640 productions",
-  "dateFormatted": "Wednesday, June 14, 2006"
+  "showInTimeline": true,
+  "dateFormatted": "Friday, March 14, 2003"
 }
