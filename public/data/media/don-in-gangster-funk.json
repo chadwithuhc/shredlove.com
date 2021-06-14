@@ -1,0 +1,23 @@
+{
+  "date": "2003-03-15T00:31:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562624186",
+      "runTime": "4:17"
+    }
+  },
+  "slug": "don-in-gangster-funk",
+  "title": "Don in Gangster Funk"
+}
