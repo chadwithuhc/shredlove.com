@@ -1,0 +1,23 @@
+{
+  "date": "2003-03-15T00:44:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "ry-cou"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ry-cou"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562624204",
+      "runTime": "3:17"
+    }
+  },
+  "title": "Ry Cou & Hermanns in Gangster Funk",
+  "slug": "ry-cou-and-hermanns-in-gangster-funk"
+}
