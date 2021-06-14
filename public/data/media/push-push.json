@@ -1,11 +1,10 @@
 {
   "date": "2004-06-14T22:23:00.000Z",
   "source": {
-    "mediaType": "video",
     "type": "vimeoPlaylist",
     "parameters": {
       "playlistUrl": "https://vimeo.com/showcase/8569967",
-      "runTime": ""
+      "runTime": "35:19"
     }
   },
   "credits": [
