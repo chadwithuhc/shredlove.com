@@ -1,6 +1,7 @@
 {
   "date": "2004-06-14T22:23:00.000Z",
   "source": {
+    "mediaType": "video",
     "type": "vimeoPlaylist",
     "parameters": {
       "playlistUrl": "https://vimeo.com/showcase/8569967",
@@ -16,5 +17,6 @@
   "slug": "push-push",
   "title": "push push",
   "description": "the second skateboard video from the shred dogz",
-  "showInTimeline": true
+  "showInTimeline": true,
+  "dateFormatted": "Monday, June 14, 2004"
 }

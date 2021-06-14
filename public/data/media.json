@@ -725,5 +725,70 @@
     },
     "showInTimeline": true,
     "dateFormatted": "Wednesday, July 19, 2006"
+  },
+  {
+    "date": "2006-06-14T22:50:00.000Z",
+    "credits": [
+      {
+        "type": "director",
+        "person": "ryan-moore"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoPlaylist",
+      "parameters": {
+        "playlistUrl": "https://vimeo.com/showcase/8567177",
+        "runTime": "55:05"
+      }
+    },
+    "slug": "gangster-funk",
+    "title": "Gangster Funk",
+    "description": "a skateboard film by 640 productions",
+    "dateFormatted": "Wednesday, June 14, 2006"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoPlaylist",
+      "parameters": {
+        "playlistUrl": "https://vimeo.com/showcase/8569967",
+        "runTime": "35:19"
+      }
+    },
+    "credits": [
+      {
+        "type": "director",
+        "person": "chad"
+      }
+    ],
+    "slug": "push-push",
+    "title": "push push",
+    "description": "the second skateboard video from the shred dogz",
+    "showInTimeline": true,
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2002-06-14T22:27:00.000Z",
+    "credits": [
+      {
+        "type": "director",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoPlaylist",
+      "parameters": {
+        "playlistUrl": "https://vimeo.com/showcase/8567257",
+        "runTime": "55:06"
+      }
+    },
+    "slug": "hated-by-all",
+    "title": "hated by all",
+    "description": "the first skateboard video from the shred dogz",
+    "showInTimeline": true,
+    "dateFormatted": "Friday, June 14, 2002"
   }
 ]
