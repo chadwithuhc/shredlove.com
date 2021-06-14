@@ -1,0 +1,35 @@
+{
+  "date": "2003-03-15T00:35:00.000Z",
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562624296",
+      "runTime": "1:47"
+    }
+  },
+  "slug": "sdz-montage-in-gangster-funk",
+  "title": "SDZ Montage in Gangster Funk",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "andrew"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    },
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    }
+  ]
+}
