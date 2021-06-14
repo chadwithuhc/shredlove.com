@@ -1,0 +1,23 @@
+{
+  "date": "2003-03-15T00:41:00.000Z",
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562624343",
+      "runTime": "4:29"
+    }
+  },
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    }
+  ],
+  "slug": "kevin-romar-in-gangsta-funk",
+  "title": "Kevin Romar in Gangsta Funk"
+}
