@@ -1,0 +1,23 @@
+{
+  "date": "2003-03-15T00:40:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ryan-moore"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562624329",
+      "runTime": "4:13"
+    }
+  },
+  "slug": "ry-mo-in-gangster-funk",
+  "title": "Ry Mo in Gangster Funk"
+}
