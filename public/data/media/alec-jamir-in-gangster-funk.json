@@ -1,0 +1,23 @@
+{
+  "date": "2003-03-15T00:43:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562624347",
+      "runTime": "4:43"
+    }
+  },
+  "slug": "alec-jamir-in-gangster-funk",
+  "title": "Alec Jamir in Gangster Funk"
+}
