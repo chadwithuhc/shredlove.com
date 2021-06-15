@@ -1,0 +1,27 @@
+{
+  "date": "2021-06-15T00:10:37.377Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562625165",
+      "runTime": "3:59"
+    }
+  },
+  "slug": "cody-and-chad-in-push-push",
+  "title": "Cody & Chad in push push"
+}
