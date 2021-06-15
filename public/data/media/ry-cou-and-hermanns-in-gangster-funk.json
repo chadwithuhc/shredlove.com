@@ -8,6 +8,10 @@
     {
       "type": "skateboarder",
       "person": "ry-cou"
+    },
+    {
+      "type": "skateboarder",
+      "person": "bobby"
     }
   ],
   "source": {
@@ -19,5 +23,6 @@
     }
   },
   "title": "Ry Cou & Hermanns in Gangster Funk",
-  "slug": "ry-cou-and-hermanns-in-gangster-funk"
+  "slug": "ry-cou-and-hermanns-in-gangster-funk",
+  "dateFormatted": "Friday, March 14, 2003"
 }

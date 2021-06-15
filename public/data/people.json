@@ -5,7 +5,7 @@
   },
   {
     "uid": "andrew",
-    "displayName": "androo"
+    "displayName": "andrew"
   },
   {
     "uid": "balls",
@@ -20,12 +20,20 @@
     "displayName": "beaker"
   },
   {
+    "uid": "bellew",
+    "displayName": "bellew"
+  },
+  {
     "uid": "ben",
     "displayName": "ben karpinski"
   },
   {
     "uid": "billy-d",
     "displayName": "billy dav"
+  },
+  {
+    "uid": "bucky",
+    "displayName": "buckshot"
   },
   {
     "uid": "chad",
@@ -52,6 +60,10 @@
     "displayName": "g-rail"
   },
   {
+    "uid": "bobby",
+    "displayName": "hermanns"
+  },
+  {
     "uid": "jeff",
     "displayName": "jeff edwards"
   },
@@ -62,6 +74,10 @@
   {
     "uid": "kevin-romar",
     "displayName": "kevin romar"
+  },
+  {
+    "uid": "chavez",
+    "displayName": "m chavez"
   },
   {
     "uid": "carney",

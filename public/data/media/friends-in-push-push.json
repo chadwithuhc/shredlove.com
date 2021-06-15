@@ -1,5 +1,5 @@
 {
-  "date": "2021-06-15T00:11:37.824Z",
+  "date": "2004-06-14T22:23:00.000Z",
   "credits": [
     {
       "type": "video-editor",
@@ -8,6 +8,14 @@
     {
       "type": "skateboarder",
       "person": "ry-cou"
+    },
+    {
+      "person": "bobby",
+      "type": "skateboarder"
+    },
+    {
+      "person": "bucky",
+      "type": "skateboarder"
     },
     {
       "person": "r-cavallo",
@@ -35,5 +43,6 @@
     }
   },
   "slug": "friends-in-push-push",
-  "title": "Friends in push push"
+  "title": "Friends in push push",
+  "dateFormatted": "Monday, June 14, 2004"
 }

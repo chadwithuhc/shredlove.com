@@ -10,6 +10,18 @@
       "person": "beaker"
     },
     {
+      "person": "frank",
+      "type": "skateboarder"
+    },
+    {
+      "person": "jeff",
+      "type": "skateboarder"
+    },
+    {
+      "person": "taylor",
+      "type": "skateboarder"
+    },
+    {
       "type": "video-editor",
       "person": "chad"
     }

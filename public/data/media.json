@@ -85,8 +85,8 @@
         "runTime": "1:44"
       }
     },
-    "slug": "androo-in-must-be-nice",
-    "title": "Androo in Must Be Nice",
+    "slug": "andrew-in-must-be-nice",
+    "title": "Andrew in Must Be Nice",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
@@ -366,6 +366,18 @@
         "person": "ben"
       },
       {
+        "person": "chavez",
+        "type": "skateboarder"
+      },
+      {
+        "person": "matt-mc",
+        "type": "skateboarder"
+      },
+      {
+        "person": "bucky",
+        "type": "skateboarder"
+      },
+      {
         "person": "geralle",
         "type": "skateboarder"
       },
@@ -567,6 +579,18 @@
         "person": "beaker"
       },
       {
+        "person": "frank",
+        "type": "skateboarder"
+      },
+      {
+        "person": "jeff",
+        "type": "skateboarder"
+      },
+      {
+        "person": "taylor",
+        "type": "skateboarder"
+      },
+      {
         "type": "video-editor",
         "person": "chad"
       }
@@ -610,6 +634,10 @@
       {
         "type": "videographer",
         "person": "youngblood"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
       }
     ],
     "source": {
@@ -728,6 +756,290 @@
   },
   {
     "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "videographer",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "videographer",
+        "person": "youngblood"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625179",
+        "runTime": "2:45"
+      }
+    },
+    "slug": "alec-jamir-in-push-push",
+    "title": "Alec Jamir in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "andrew"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625146",
+        "runTime": "1:57"
+      }
+    },
+    "slug": "andrew-in-push-push",
+    "title": "Andrew in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "videographer",
+        "person": "youngblood"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625184",
+        "runTime": "3:38"
+      }
+    },
+    "slug": "bdrum-in-push-push",
+    "title": "BDrum in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625150",
+        "runTime": "2:40"
+      }
+    },
+    "slug": "ben-in-push-push",
+    "title": "Ben in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625165",
+        "runTime": "3:59"
+      }
+    },
+    "slug": "cody-and-chad-in-push-push",
+    "title": "Cody & Chad in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625189",
+        "runTime": "3:24"
+      }
+    },
+    "slug": "credits-from-push-push",
+    "title": "Credits from push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "danny"
+      },
+      {
+        "type": "videographer",
+        "person": "ben"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "ryan-moore"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625176",
+        "runTime": "3:22"
+      }
+    },
+    "slug": "danny-k-in-push-push",
+    "title": "Danny K in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ry-cou"
+      },
+      {
+        "person": "bobby",
+        "type": "skateboarder"
+      },
+      {
+        "person": "bucky",
+        "type": "skateboarder"
+      },
+      {
+        "person": "r-cavallo",
+        "type": "skateboarder"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625170",
+        "runTime": "4:09"
+      }
+    },
+    "slug": "friends-in-push-push",
+    "title": "Friends in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625136",
+        "runTime": "2:02"
+      }
+    },
+    "slug": "intro-from-push-push",
+    "title": "Intro from push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "jeff"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625159",
+        "runTime": "3:33"
+      }
+    },
+    "slug": "jeff-in-push-push",
+    "title": "Jeff in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
     "source": {
       "mediaType": "video",
       "type": "vimeoPlaylist",
@@ -747,6 +1059,250 @@
     "description": "the second skateboard video from the shred dogz",
     "showInTimeline": true,
     "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "randy"
+      },
+      {
+        "type": "skateboarder",
+        "person": "youngblood"
+      },
+      {
+        "type": "skateboarder",
+        "person": "bellew"
+      },
+      {
+        "type": "videographer",
+        "person": "youngblood"
+      },
+      {
+        "type": "videographer",
+        "person": "randy"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625173",
+        "runTime": "2:27"
+      }
+    },
+    "slug": "randy-youngblood-bellew-in-push-push",
+    "title": "Rockin Randall, Youngblood, & Bellew in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562625128",
+        "runTime": "1:23"
+      }
+    },
+    "slug": "titles-from-push-push",
+    "title": "Titles from push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2003-03-15T00:44:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "ry-cou"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ry-cou"
+      },
+      {
+        "type": "skateboarder",
+        "person": "bobby"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562624204",
+        "runTime": "3:17"
+      }
+    },
+    "title": "Ry Cou & Hermanns in Gangster Funk",
+    "slug": "ry-cou-and-hermanns-in-gangster-funk",
+    "dateFormatted": "Friday, March 14, 2003"
+  },
+  {
+    "date": "2003-03-15T00:43:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562624347",
+        "runTime": "4:43"
+      }
+    },
+    "slug": "alec-jamir-in-gangster-funk",
+    "title": "Alec Jamir in Gangster Funk",
+    "dateFormatted": "Friday, March 14, 2003"
+  },
+  {
+    "date": "2003-03-15T00:41:00.000Z",
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562624343",
+        "runTime": "4:29"
+      }
+    },
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      }
+    ],
+    "slug": "kevin-romar-in-gangsta-funk",
+    "title": "Kevin Romar in Gangsta Funk",
+    "dateFormatted": "Friday, March 14, 2003"
+  },
+  {
+    "date": "2003-03-15T00:40:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ryan-moore"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562624329",
+        "runTime": "4:13"
+      }
+    },
+    "slug": "ry-mo-in-gangster-funk",
+    "title": "Ry Mo in Gangster Funk",
+    "dateFormatted": "Friday, March 14, 2003"
+  },
+  {
+    "date": "2003-03-15T00:39:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562624314",
+        "runTime": "2:00"
+      }
+    },
+    "slug": "bdrum-in-gangster-funk",
+    "title": "BDrum in Gangster Funk",
+    "dateFormatted": "Friday, March 14, 2003"
+  },
+  {
+    "date": "2003-03-15T00:35:00.000Z",
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562624296",
+        "runTime": "1:47"
+      }
+    },
+    "slug": "sdz-montage-in-gangster-funk",
+    "title": "SDZ Montage in Gangster Funk",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "andrew"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      }
+    ],
+    "dateFormatted": "Friday, March 14, 2003"
+  },
+  {
+    "date": "2003-03-15T00:31:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "562624186",
+        "runTime": "4:17"
+      }
+    },
+    "slug": "don-in-gangster-funk",
+    "title": "Don in Gangster Funk",
+    "dateFormatted": "Friday, March 14, 2003"
   },
   {
     "date": "2003-03-14T22:50:00.000Z",
