@@ -1,0 +1,23 @@
+{
+  "date": "2021-06-15T00:08:03.202Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "ben"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562625150",
+      "runTime": "2:40"
+    }
+  },
+  "slug": "ben-in-push-push",
+  "title": "Ben in push push"
+}
