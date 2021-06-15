@@ -1,0 +1,23 @@
+{
+  "date": "2021-06-15T00:05:55.955Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "andrew"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562625146",
+      "runTime": "1:57"
+    }
+  },
+  "slug": "andrew-in-push-push",
+  "title": "Andrew in push push"
+}
