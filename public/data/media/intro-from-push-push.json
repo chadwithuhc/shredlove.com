@@ -1,0 +1,19 @@
+{
+  "date": "2021-06-15T00:04:50.680Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562625136",
+      "runTime": "2:02"
+    }
+  },
+  "slug": "intro-from-push-push",
+  "title": "Intro from push push"
+}
