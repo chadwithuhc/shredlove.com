@@ -1,0 +1,39 @@
+{
+  "date": "2021-06-15T00:11:37.824Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ry-cou"
+    },
+    {
+      "person": "r-cavallo",
+      "type": "skateboarder"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562625170",
+      "runTime": "4:09"
+    }
+  },
+  "slug": "friends-in-push-push",
+  "title": "Friends in push push"
+}
