@@ -1,0 +1,19 @@
+{
+  "date": "2021-06-15T00:09:20.844Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "jeff"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562625159",
+      "runTime": "3:33"
+    }
+  },
+  "slug": "jeff-in-push-push",
+  "title": "Jeff in push push"
+}
