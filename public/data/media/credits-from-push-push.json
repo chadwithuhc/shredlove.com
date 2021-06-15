@@ -1,0 +1,19 @@
+{
+  "date": "2021-06-15T00:40:48.456Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562625189",
+      "runTime": "3:24"
+    }
+  },
+  "slug": "credits-from-push-push",
+  "title": "Credits from push push"
+}
