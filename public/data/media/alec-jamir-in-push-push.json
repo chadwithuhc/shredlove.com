@@ -1,0 +1,31 @@
+{
+  "date": "2021-06-15T00:30:07.338Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "videographer",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "videographer",
+      "person": "youngblood"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562625179",
+      "runTime": "2:45"
+    }
+  },
+  "slug": "alec-jamir-in-push-push",
+  "title": "Alec Jamir in push push"
+}
