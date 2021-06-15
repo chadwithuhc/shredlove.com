@@ -1,0 +1,19 @@
+{
+  "date": "2021-06-14T23:49:53.602Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "562625128",
+      "runTime": "1:23"
+    }
+  },
+  "slug": "titles-from-push-push",
+  "title": "Titles from Push Push"
+}
