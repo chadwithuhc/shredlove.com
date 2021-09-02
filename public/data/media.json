@@ -94,6 +94,39 @@
     "credits": [
       {
         "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "brandon"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "10665245",
+        "runTime": "4:00"
+      }
+    },
+    "slug": "bdrum-in-must-be-nice",
+    "title": "BDrum in Must Be Nice",
+    "description": "",
+    "dateFormatted": "Friday, January 19, 2007"
+  },
+  {
+    "date": "2007-01-20T03:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
         "person": "ben"
       },
       {
@@ -139,39 +172,6 @@
     },
     "slug": "billy-dav-in-must-be-nice",
     "title": "Billy Dav in Must Be Nice",
-    "dateFormatted": "Friday, January 19, 2007"
-  },
-  {
-    "date": "2007-01-20T03:00:00.000Z",
-    "credits": [
-      {
-        "type": "skateboarder",
-        "person": "brandon"
-      },
-      {
-        "type": "videographer",
-        "person": "chad"
-      },
-      {
-        "type": "video-editor",
-        "person": "chad"
-      },
-      {
-        "type": "video-editor",
-        "person": "brandon"
-      }
-    ],
-    "source": {
-      "mediaType": "video",
-      "type": "vimeoVideo",
-      "parameters": {
-        "vimeoId": "10665245",
-        "runTime": "4:00"
-      }
-    },
-    "slug": "brandon-drummond-in-must-be-nice",
-    "title": "BDrum in Must Be Nice",
-    "description": "",
     "dateFormatted": "Friday, January 19, 2007"
   },
   {
