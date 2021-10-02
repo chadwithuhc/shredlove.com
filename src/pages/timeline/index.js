@@ -16,7 +16,10 @@ export default function Timeline() {
         {content.map(entry => {
           const date = new Date(entry.date)
           return (
-            <li key={entry.slug}>{date.getFullYear()} - {entry.Link}</li>
+            <li key={entry.slug}>
+              <span>{entry.Link}</span>
+              <span>{date.getFullYear()}</span>
+            </li>
           )
         })}
       </ul>

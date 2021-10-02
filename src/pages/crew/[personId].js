@@ -30,7 +30,7 @@ export default function Person({ personId }) {
         <dt>Credits</dt>
         <dd className="meta-sublist-group">
           {person.credits.length === 0 && <em className="info-text">None Yet</em>}
-          <dl className="meta-sublist meta-sublist-aggregated">
+          <dl className="meta-sublist meta-sublist-aggregated standard-link-list">
           {person.sortedCredits.map(credit => (
             <React.Fragment key={credit.type}>
               <dt>{credit.displayName}</dt>
