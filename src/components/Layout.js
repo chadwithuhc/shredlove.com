@@ -19,7 +19,7 @@ export default function Layout({ pageTitle = '', breadcrumbs = [], children }) {
             <ul>
               {breadcrumbs.map((breadcrumb, i) => (
                 i === breadcrumbs.length - 1 ?
-                <li key={i} className="is-active"><Link href={breadcrumb.href}><a aria-current="page">{breadcrumb.label}</a></Link></li>
+                <li key={i} className="is-active no-underlined-links"><Link href={breadcrumb.href}><a aria-current="page">{breadcrumb.label}</a></Link></li>
                 : <li key={i}><Link href={breadcrumb.href}><a>{breadcrumb.label}</a></Link></li>
               ))}
             </ul>

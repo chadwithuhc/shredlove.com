@@ -14,27 +14,29 @@ export default function Person({ personId }) {
     ]}>
       <h1 className="title"><abbr className="aka" title="also known as">a.k.a.</abbr> {person.displayName}</h1>
       <dl className="meta-list">
-        <dt>Media</dt>
+        {/* <dt>Media</dt>
         <dd className="meta-sublist-group">
           {person.media.length === 0 && <em className="info-text">None Yet</em>}
           <dl className="meta-sublist is-reverse">
-          {person.media.map(entry => (
-            <React.Fragment key={entry.slug}>
-              <dt>{entry.Link}</dt>
-              <dd>{entry.mediaType.label}</dd>
+          {person.mediaWithCredits.map(entry => (
+            <React.Fragment key={entry.media.slug}>
+              <dt>{entry.media.Link}</dt>
+              <dd>{entry.creditsLabel}</dd>
             </React.Fragment>
           ))}
           </dl>
-        </dd>
+        </dd> */}
 
         <dt>Credits</dt>
         <dd className="meta-sublist-group">
           {person.credits.length === 0 && <em className="info-text">None Yet</em>}
-          <dl className="meta-sublist">
-          {person.credits.map(credit => (
-            <React.Fragment key={credit.uid}>
+          <dl className="meta-sublist meta-sublist-aggregated">
+          {person.sortedCredits.map(credit => (
+            <React.Fragment key={credit.type}>
               <dt>{credit.displayName}</dt>
-              <dd>{credit.media.Link}</dd>
+              {credit.values.map(mediaCredit => (
+                <dd key={mediaCredit.uid}>{mediaCredit.media.Link}</dd>
+              ))}
             </React.Fragment>
           ))}
           </dl>

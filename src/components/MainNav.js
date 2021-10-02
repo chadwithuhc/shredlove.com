@@ -3,7 +3,7 @@ import MediaTypes from 'media-type-config'
 
 export default function MainNav() {
   return (
-    <nav className="main-nav">
+    <nav className="main-nav no-underlined-links">
       <Link href="/">
         <a className="logo-link folder-style">
           <img className="logo" src="/images/shredlove-logo.svg" />
@@ -11,11 +11,11 @@ export default function MainNav() {
         </a>
       </Link>
       <ul className="link-list">
+        <li><a href="/crew">Crew</a></li>
         <li><Link href="/timeline"><a>Timeline</a></Link></li>
         {Object.values(MediaTypes).map(mediaType => (
           <li key={mediaType.label}><Link href={mediaType.url}><a>{mediaType.labelPlural}</a></Link></li>
         ))}
-        <li><a href="/crew">Crew</a></li>
       </ul>
 
       <div className="social-links">

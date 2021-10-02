@@ -36,11 +36,13 @@ export default function Media({ mediaId }) {
 
         <dt>Credits</dt>
         <dd className="meta-sublist-group">
-          <dl className="meta-sublist">
-          {entry.credits.map(credit => (
-            <React.Fragment key={credit.uid}>
+          <dl className="meta-sublist meta-sublist-aggregated">
+          {entry.sortedCredits.map(credit => (
+            <React.Fragment key={credit.type}>
               <dt>{credit.displayName}</dt>
-              <dd>{credit.person.Link}</dd>
+              {credit.values.map(mediaCredit => (
+                <dd key={mediaCredit.uid}>{mediaCredit.person.Link}</dd>
+              ))}
             </React.Fragment>
           ))}
           </dl>

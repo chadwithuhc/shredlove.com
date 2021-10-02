@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import MediaTypes from 'media-type-config'
 import CreditModel from './CreditModel'
+import { sortBy, groupBy, pick } from 'lodash'
 
 class MediaModel {
 
@@ -53,6 +54,19 @@ class MediaModel {
 
   set credits(credits) {
     this._credits = credits.map(credit => new CreditModel(credit))
+  }
+
+  /**
+   * array = [
+   *   { type: credit.type, displayName: credit.displayName, values: credits }
+   * ]
+   */
+   get sortedCredits() {
+    const groupedCredits = groupBy(this.credits, "displayName")
+    return sortBy(Object.keys(groupedCredits).map(displayName => ({
+      ...pick(groupedCredits[displayName][0], ["type","displayName"]),
+      values: groupedCredits[displayName]
+    })), "displayName")
   }
 
   get Link() {
