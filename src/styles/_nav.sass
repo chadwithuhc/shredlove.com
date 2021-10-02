@@ -7,15 +7,28 @@
   border-radius: 50%
 
   @media (max-width: $breakpoint-sm)
+    flex-direction: row
+    align-items: flex-end
     max-width: 100%
-    marign-left: 1rem
+    .nav-groups
+      display: flex
+      flex-direction: column-reverse
+      justify-content: center
+      align-items: flex-start
+      margin-left: 2rem
+      .link-list
+        margin: 1rem 0 0
   
 
 .social-links
+  display: flex
+  flex-direction: column-reverse
   text-transform: none
   text-align: center
   margin-top: 1rem
   margin-right: 1rem
+  @media (max-width: $breakpoint-sm)
+    flex-direction: column
 .social-links-title
   display: block
   font-size: 0.8rem
