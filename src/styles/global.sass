@@ -103,10 +103,18 @@ a:hover, a:visited, .breadcrumb a:hover
   .meta-sublist-aggregated
     display: flex
     flex-wrap: wrap
+    @media (max-width: $breakpoint-md)
+      justify-content: flex-end
     > dt
       width: 100%
+      @media (max-width: $breakpoint-md)
+        text-align: right
+        margin-right: 0
     > dd
       margin-right: 1rem
+      @media (max-width: $breakpoint-md)
+        margin-left: 1rem
+        margin-right: 0
       + dt
         margin-top: 1rem
 

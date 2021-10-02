@@ -29,7 +29,7 @@ export default function Media({ mediaId }) {
 
         {entry.dateFormatted && (
           <>
-          <dt>Date</dt>
+          <dt>Release Date</dt>
           <dd>{entry.dateFormatted}</dd>
           </>
         )}

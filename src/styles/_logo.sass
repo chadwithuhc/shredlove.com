@@ -36,11 +36,13 @@
     transform: rotate(-5deg) scale(1.1)
   &.folder-style
     height: $size-2 + 1
-    padding: 1rem
+    padding: 0.8rem
     border-right: solid 0.3rem $folder-2
     border-bottom: 0
     border-radius: 4px
     text-decoration: none
+    @media (max-width: $breakpoint-md)
+      padding: 0.4rem
     .archives
       position: static
       margin-top: 1rem
