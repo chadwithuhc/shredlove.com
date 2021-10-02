@@ -9,7 +9,7 @@ export default function Crew() {
       <h1 className="title">Crew</h1>
       <p className="subtitle">shredlove, shred dogz, and friends</p>
 
-      <ul>
+      <ul className="standard-link-list">
         {people.map(person => <li key={person.uid}>{person.Link}</li>)}
       </ul>
     </Layout>

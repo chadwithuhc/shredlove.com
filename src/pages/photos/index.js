@@ -11,7 +11,7 @@ export default function Photos() {
       <h1 className="title">Photos</h1>
       <p className="subtitle">film, scans, powershot sd750</p>
 
-      <ul>
+      <ul className="standard-link-list">
         {photos.map(entry => <li key={entry.slug}>{entry.Link}</li>)}
       </ul>
     </Layout>

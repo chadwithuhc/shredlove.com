@@ -12,7 +12,7 @@ export default function Timeline() {
       <h1 className="title">Timeline</h1>
       <p className="subtitle">a date-driven view of the archives</p>
       
-      <ul>
+      <ul className="standard-link-list">
         {content.map(entry => {
           const date = new Date(entry.date)
           return (

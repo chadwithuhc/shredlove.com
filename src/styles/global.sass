@@ -34,6 +34,7 @@ a:hover, a:visited, .breadcrumb a:hover
   align-items: flex-start
   @media (max-width: $breakpoint-md)
     padding: 1rem 1rem 4rem
+    width: 100vw
   .main-footer
     position: absolute
     bottom: 0
@@ -114,6 +115,9 @@ a:hover, a:visited, .breadcrumb a:hover
   
   .media-wrapper
     margin-bottom: 2rem
+    @media (max-width: $breakpoint-md)
+      width: 100vw
+      margin: 0 -2rem 2rem
   .video-wrapper
     background-color: #222
 

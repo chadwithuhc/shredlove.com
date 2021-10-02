@@ -11,7 +11,7 @@ export default function Videos() {
       <h1 className="title">Videos</h1>
       <p className="subtitle">VX1000, miniDV, hi-8?</p>
 
-      <ul>
+      <ul className="standard-link-list">
         {videos.map(entry => <li key={entry.slug}>{entry.Link}</li>)}
       </ul>
     </Layout>
