@@ -1,3 +1,6 @@
+*
+  box-sizing: border-box
+
 html, body
   min-height: 100%
   background-color: $body-bg
@@ -17,9 +20,13 @@ a:hover, a:visited, .breadcrumb a:hover
   color: $body-copy
   text-decoration: none
 // bulma fixes
+.breadcrumb li
+  @media (max-width: $breakpoint-md)
+    align-items: start
 .breadcrumb a
   padding: 0
   margin: 0 0.75rem
+  white-space: break-spaces
 .breadcrumb li:first-child a
   margin-left: 0
 
@@ -50,6 +57,7 @@ a:hover, a:visited, .breadcrumb a:hover
     padding: 1rem
     margin-left: 2rem
     @media (max-width: 480px)
+      padding: 1rem 0
       margin-left: 0
       max-width: 100%
       iframe
@@ -67,6 +75,8 @@ a:hover, a:visited, .breadcrumb a:hover
       margin-bottom: 1rem
       font-style: italic
       white-space: nowrap
+    > dd
+      word-break: break-word
     @media (max-width: 480px)
       grid-template-columns: 1fr
       > dt
@@ -116,7 +126,7 @@ a:hover, a:visited, .breadcrumb a:hover
   .media-wrapper
     margin-bottom: 2rem
     @media (max-width: $breakpoint-md)
-      margin: 0 -4rem 0 -2rem
+      margin: 0 -2rem 0 -1rem
 
 .homepage-hero
   display: flex

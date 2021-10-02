@@ -127,12 +127,12 @@ function renderMediaField(media, field, value) {
   }
 
   if (field.renderAs === 'link') {
-    return <a href={value} rel="noopener noreferer" target="_blank">{value}</a>
+    return <a href={value} rel="noopener noreferer" target="_blank">{value.replace(/^https?:\/\//, "")}</a>
   }
 
   if (field.renderAs === 'vimeo') {
     return <>
-      <a href={`https://vimeo.com/${value}`} rel="noopener noreferer" target="_blank" title={`Watch "${media.title}" on Vimeo`}>Watch on Vimeo</a>
+      <a href={`https://vimeo.com/${value}`} rel="noopener noreferer" target="_blank" title={`Watch "${media.title}" on Vimeo`}>vimeo.com/{value}</a>
     </>
   }
 
