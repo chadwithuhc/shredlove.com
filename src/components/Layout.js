@@ -9,6 +9,9 @@ export default function Layout({ pageTitle = '', breadcrumbs = [], children }) {
         <title>{pageTitle ? pageTitle + ' // ' : '' }shredlove.com</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous" />
+        <style>
+          {`body { background-color: #222; }`}
+        </style>
       </Head>
 
       <MainNav />
