@@ -12,6 +12,7 @@ export default function MainNav() {
       </Link>
       <div className="nav-groups">
         <ul className="link-list">
+          <li><a href="/search">Search</a></li>
           <li><a href="/crew">Crew</a></li>
           <li><Link href="/timeline"><a>Timeline</a></Link></li>
           {Object.values(MediaTypes).map(mediaType => (
