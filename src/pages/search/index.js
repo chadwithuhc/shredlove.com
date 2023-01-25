@@ -42,8 +42,6 @@ export default function Search() {
     }))
   }, [people, media, credits, searchTerm])
 
-  console.log("searchResults", searchResults)
-
   return (
     <Layout pageTitle="search">
       <h1 className="title">Search</h1>
