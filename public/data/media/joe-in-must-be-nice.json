@@ -1,0 +1,28 @@
+{
+  "date": "2007-01-20T03:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "joe"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "video-editor",
+      "person": "joe"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "981066501",
+      "runTime": "3:39"
+    }
+  },
+  "slug": "joe-in-must-be-nice",
+  "title": "Joe in Must Be Nice",
+  "dateFormatted": "Friday, January 19, 2007"
+}
