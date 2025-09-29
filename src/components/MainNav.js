@@ -21,9 +21,9 @@ export default function MainNav() {
         </ul>
 
         <div className="social-links">
-          <span className="social-links-title">@shredlove</span>
+          {/* <span className="social-links-title">@shredlove</span> */}
           <ul className="social-links-icons">
-            <li><a href="https://twitter.com/shredlove" target="_blank" rel="noopener nofollow"><i className="fa fa-twitter" /></a></li>
+            {/* <li><a href="https://twitter.com/shredlove" target="_blank" rel="noopener nofollow"><i className="fa fa-twitter" /></a></li> */}
             <li><a href="https://instagram.com/shredlove" target="_blank" rel="noopener nofollow"><i className="fa fa-instagram" /></a></li>
           </ul>
         </div>
