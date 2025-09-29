@@ -136,6 +136,12 @@ function renderMediaField(media, field, value) {
     </>
   }
 
+  if (field.renderAs === 'youtube') {
+    return <>
+      <a href={`https://youtube.com/v/${value}`} rel="noopener noreferer" target="_blank" title={`Watch "${media.title}" on YouTube`}>youtube.com/v/{value}</a>
+    </>
+  }
+
   // just plain text
   return value
 }
