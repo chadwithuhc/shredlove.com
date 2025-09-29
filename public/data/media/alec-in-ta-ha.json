@@ -1,0 +1,28 @@
+{
+  "date": "2010-12-18T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "35999798",
+      "runTime": "2:45"
+    }
+  },
+  "slug": "alec-jamir-in-ta-ha",
+  "title": "Alec Jamir in TA HA",
+  "dateFormatted": "Saturday, December 18, 2010"
+}

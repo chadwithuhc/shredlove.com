@@ -1,19 +1,8 @@
 {
-  "slug": "ta-ha",
-  "title": "TA HA",
-  "description": "Don's first full length video for Furnace Skate Shop. Winner of Skateshop Video of the Year in 2011.",
   "date": "2010-12-18T19:00:00.000Z",
   "credits": [
     {
-      "type": "director",
-      "person": "don"
-    },
-    {
       "type": "video-editor",
-      "person": "don"
-    },
-    {
-      "type": "videographer",
       "person": "don"
     },
     {
@@ -39,12 +28,13 @@
   ],
   "source": {
     "mediaType": "video",
-    "type": "youtubeVideo",
+    "type": "vimeoVideo",
     "parameters": {
-      "youtubeId": "GBENbuIYsQ8",
-      "runTime": "35:08"
+      "vimeoId": "35999672",
+      "runTime": "3:19"
     }
   },
-  "showInTimeline": true,
+  "slug": "intro-of-ta-ha",
+  "title": "Intro of TA HA",
   "dateFormatted": "Saturday, December 18, 2010"
 }
