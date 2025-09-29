@@ -38,6 +38,100 @@
     "dateFormatted": "Monday, May 17, 2021"
   },
   {
+    "date": "2019-02-17T16:31:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "randy"
+      },
+      {
+        "type": "director",
+        "person": "don"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "315992985",
+        "runTime": "1:00"
+      }
+    },
+    "slug": "furnace-skate-shop-profile",
+    "title": "Furnace Skate Shop Profile",
+    "dateFormatted": "Sunday, February 17, 2019"
+  },
+  {
+    "slug": "tee-hee",
+    "title": "TEE HEE",
+    "description": "Don's second video for Furnace Skate Shop.",
+    "date": "2016-05-04T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "director",
+        "person": "don"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jordan"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "otoole"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "RXsSqfgKZYg",
+        "runTime": "15:00"
+      }
+    },
+    "showInTimeline": true,
+    "dateFormatted": "Wednesday, May 4, 2016"
+  },
+  {
     "date": "2010-12-18T19:00:00.000Z",
     "credits": [
       {
@@ -97,6 +191,34 @@
     "date": "2010-12-18T19:00:00.000Z",
     "credits": [
       {
+        "type": "skateboarder",
+        "person": "brian"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "35999983",
+        "runTime": "3:25"
+      }
+    },
+    "slug": "brian-in-ta-ha",
+    "title": "Brian Price in TA HA",
+    "dateFormatted": "Saturday, December 18, 2010"
+  },
+  {
+    "date": "2010-12-18T19:00:00.000Z",
+    "credits": [
+      {
         "type": "video-editor",
         "person": "don"
       },
@@ -138,6 +260,34 @@
     "credits": [
       {
         "type": "skateboarder",
+        "person": "jordan"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "36000224",
+        "runTime": "2:36"
+      }
+    },
+    "slug": "jordan-in-ta-ha",
+    "title": "Jordan Vititow in TA HA",
+    "dateFormatted": "Saturday, December 18, 2010"
+  },
+  {
+    "date": "2010-12-18T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
         "person": "nick-gar"
       },
       {
@@ -163,6 +313,34 @@
     },
     "slug": "nick-garcia-in-ta-ha",
     "title": "Nick Garcia in TA HA",
+    "dateFormatted": "Saturday, December 18, 2010"
+  },
+  {
+    "date": "2010-12-18T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "otoole"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "36000628",
+        "runTime": "1:39"
+      }
+    },
+    "slug": "otoole-in-ta-ha",
+    "title": "Michael O'Toole in TA HA",
     "dateFormatted": "Saturday, December 18, 2010"
   },
   {
@@ -202,6 +380,18 @@
       {
         "type": "skateboarder",
         "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jordan"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "otoole"
       }
     ],
     "source": {
@@ -545,6 +735,10 @@
       },
       {
         "person": "chavez",
+        "type": "skateboarder"
+      },
+      {
+        "person": "brian",
         "type": "skateboarder"
       },
       {

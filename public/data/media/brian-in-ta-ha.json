@@ -1,0 +1,28 @@
+{
+  "date": "2010-12-18T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "brian"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "35999983",
+      "runTime": "3:25"
+    }
+  },
+  "slug": "brian-in-ta-ha",
+  "title": "Brian Price in TA HA",
+  "dateFormatted": "Saturday, December 18, 2010"
+}
