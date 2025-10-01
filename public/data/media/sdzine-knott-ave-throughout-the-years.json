@@ -1,0 +1,76 @@
+{
+  "date": "2007-01-25T12:00:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "frank"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ry-cou"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chavez"
+    },
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "skateboarder",
+      "person": "youngblood"
+    },
+    {
+      "type": "skateboarder",
+      "person": "carney"
+    },
+    {
+      "type": "skateboarder",
+      "person": "joe"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "balls"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "taylor"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "8Da0ZqbNmBs",
+      "runTime": "3:42"
+    }
+  },
+  "slug": "sdzine-knott-ave-throughout-the-years",
+  "title": "SDZine: Knott Ave: footage throughout the years",
+  "categories": [
+    "sdzine"
+  ],
+  "showInTimeline": true,
+  "dateFormatted": "Thursday, January 25, 2007"
+}

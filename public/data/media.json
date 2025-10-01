@@ -406,6 +406,309 @@
     "dateFormatted": "Saturday, December 18, 2010"
   },
   {
+    "date": "2007-04-17T12:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "adam"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "KtyuOUCffYc",
+        "runTime": "5:12"
+      }
+    },
+    "slug": "sdzine-a-hella-tight-norcal-trip",
+    "title": "SDZine: A hella tight norcal trip",
+    "description": "a northern california / san francisco trip montage as seen in the sdzine Issue 05: April 07",
+    "categories": [
+      "sdzine"
+    ],
+    "showInTimeline": true,
+    "dateFormatted": "Tuesday, April 17, 2007"
+  },
+  {
+    "date": "2007-03-30T12:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "skateaz"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ry-cou"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chavez"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-mc"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "f7D6OjBjmug",
+        "runTime": "5:39"
+      }
+    },
+    "slug": "sdzine-bargeizona-az-montage",
+    "title": "SDZine: bARgeIZONA: AZ montage",
+    "description": "a trip to az from feb 2007. as seen in sdzine Issue 04: March 2007",
+    "categories": [
+      "sdzine"
+    ],
+    "showInTimeline": true,
+    "dateFormatted": "Friday, March 30, 2007"
+  },
+  {
+    "date": "2007-02-14T12:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "youngblood"
+      },
+      {
+        "type": "skateboarder",
+        "person": "adam"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ryan-moore"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "ZePfP3TeQrk",
+        "runTime": "3:21"
+      }
+    },
+    "slug": "sdzine-a-valentines-day-special-norwalk-love",
+    "title": "SDZine: A Valentines Day special: Norwalk Love",
+    "description": "A special treat from sdzine Issue 03: February 07",
+    "categories": [
+      "sdzine"
+    ],
+    "showInTimeline": true,
+    "dateFormatted": "Wednesday, February 14, 2007"
+  },
+  {
+    "date": "2007-01-25T12:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "AyeGeAlBdBc",
+        "runTime": "3:55"
+      }
+    },
+    "slug": "sdzine-a-hard-days-work-8-hours-with-bdrum",
+    "title": "SDZine: A hard days work: 8 hours with bdrum",
+    "categories": [
+      "sdzine"
+    ],
+    "showInTimeline": true,
+    "dateFormatted": "Thursday, January 25, 2007"
+  },
+  {
+    "date": "2007-01-25T12:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "frank"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ry-cou"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chavez"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "youngblood"
+      },
+      {
+        "type": "skateboarder",
+        "person": "carney"
+      },
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "balls"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "taylor"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "8Da0ZqbNmBs",
+        "runTime": "3:42"
+      }
+    },
+    "slug": "sdzine-knott-ave-throughout-the-years",
+    "title": "SDZine: Knott Ave: footage throughout the years",
+    "categories": [
+      "sdzine"
+    ],
+    "showInTimeline": true,
+    "dateFormatted": "Thursday, January 25, 2007"
+  },
+  {
     "date": "2007-01-20T03:00:00.000Z",
     "credits": [
       {
@@ -734,6 +1037,10 @@
         "person": "ben"
       },
       {
+        "person": "skateaz",
+        "type": "skateboarder"
+      },
+      {
         "person": "chavez",
         "type": "skateboarder"
       },
@@ -746,15 +1053,23 @@
         "type": "skateboarder"
       },
       {
+        "person": "brubaker",
+        "type": "skateboarder"
+      },
+      {
         "person": "bucky",
         "type": "skateboarder"
       },
       {
-        "person": "geralle",
-        "type": "skateboarder"
+        "type": "skateboarder",
+        "person": "adam"
       },
       {
         "person": "r-cavallo",
+        "type": "skateboarder"
+      },
+      {
+        "person": "geralle",
         "type": "skateboarder"
       }
     ],
@@ -1362,11 +1677,31 @@
         "person": "brandon"
       },
       {
+        "type": "videographer",
+        "person": "bucky"
+      },
+      {
+        "type": "videographer",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
         "type": "skateboarder",
         "person": "ry-cou"
       },
       {
+        "type": "skateboarder",
+        "person": "brubaker"
+      },
+      {
         "person": "bobby",
+        "type": "skateboarder"
+      },
+      {
+        "person": "dcon",
         "type": "skateboarder"
       },
       {
@@ -1387,6 +1722,10 @@
       },
       {
         "type": "skateboarder",
+        "person": "chavez"
+      },
+      {
+        "type": "skateboarder",
         "person": "kevin-romar"
       }
     ],
@@ -1400,6 +1739,7 @@
     },
     "slug": "friends-in-push-push",
     "title": "Friends in push push",
+    "description": "Friends of sdz: Joe, Ryan Richardson, Panduh, Brubaker, Bobby, Oliver, David, Lance Jr., Nice Guy Eddy, Adrian, Bucky, Robert, Austin Bennett, Phil, Ryan Moore, McKrooks, Mark Chavez, Lil' Kevin",
     "dateFormatted": "Monday, June 14, 2004"
   },
   {
@@ -1663,6 +2003,10 @@
     "credits": [
       {
         "type": "video-editor",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "videographer",
         "person": "ryan-moore"
       },
       {

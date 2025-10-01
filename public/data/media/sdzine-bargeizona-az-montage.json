@@ -1,0 +1,73 @@
+{
+  "date": "2007-03-30T12:00:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "skateaz"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ry-cou"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chavez"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "joe"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-mc"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "f7D6OjBjmug",
+      "runTime": "5:39"
+    }
+  },
+  "slug": "sdzine-bargeizona-az-montage",
+  "title": "SDZine: bARgeIZONA: AZ montage",
+  "description": "a trip to az from feb 2007. as seen in sdzine Issue 04: March 2007",
+  "categories": [
+    "sdzine"
+  ],
+  "showInTimeline": true,
+  "dateFormatted": "Friday, March 30, 2007"
+}

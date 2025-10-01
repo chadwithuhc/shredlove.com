@@ -1,0 +1,53 @@
+{
+  "date": "2007-04-17T12:00:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "adam"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "KtyuOUCffYc",
+      "runTime": "5:12"
+    }
+  },
+  "slug": "sdzine-a-hella-tight-norcal-trip",
+  "title": "SDZine: A hella tight norcal trip",
+  "description": "a northern california / san francisco trip montage as seen in the sdzine Issue 05: April 07",
+  "categories": [
+    "sdzine"
+  ],
+  "showInTimeline": true,
+  "dateFormatted": "Tuesday, April 17, 2007"
+}

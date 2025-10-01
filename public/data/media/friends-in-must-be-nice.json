@@ -21,6 +21,10 @@
       "person": "ben"
     },
     {
+      "person": "skateaz",
+      "type": "skateboarder"
+    },
+    {
       "person": "chavez",
       "type": "skateboarder"
     },
@@ -33,15 +37,23 @@
       "type": "skateboarder"
     },
     {
+      "person": "brubaker",
+      "type": "skateboarder"
+    },
+    {
       "person": "bucky",
       "type": "skateboarder"
     },
     {
-      "person": "geralle",
-      "type": "skateboarder"
+      "type": "skateboarder",
+      "person": "adam"
     },
     {
       "person": "r-cavallo",
+      "type": "skateboarder"
+    },
+    {
+      "person": "geralle",
       "type": "skateboarder"
     }
   ],

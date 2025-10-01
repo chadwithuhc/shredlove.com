@@ -6,11 +6,31 @@
       "person": "brandon"
     },
     {
+      "type": "videographer",
+      "person": "bucky"
+    },
+    {
+      "type": "videographer",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "joe"
+    },
+    {
       "type": "skateboarder",
       "person": "ry-cou"
     },
     {
+      "type": "skateboarder",
+      "person": "brubaker"
+    },
+    {
       "person": "bobby",
+      "type": "skateboarder"
+    },
+    {
+      "person": "dcon",
       "type": "skateboarder"
     },
     {
@@ -31,6 +51,10 @@
     },
     {
       "type": "skateboarder",
+      "person": "chavez"
+    },
+    {
+      "type": "skateboarder",
       "person": "kevin-romar"
     }
   ],
@@ -44,5 +68,6 @@
   },
   "slug": "friends-in-push-push",
   "title": "Friends in push push",
+  "description": "Friends of sdz: Joe, Ryan Richardson, Panduh, Brubaker, Bobby, Oliver, David, Lance Jr., Nice Guy Eddy, Adrian, Bucky, Robert, Austin Bennett, Phil, Ryan Moore, McKrooks, Mark Chavez, Lil' Kevin",
   "dateFormatted": "Monday, June 14, 2004"
 }

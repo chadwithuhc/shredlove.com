@@ -1,0 +1,28 @@
+{
+  "date": "2007-01-25T12:00:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "AyeGeAlBdBc",
+      "runTime": "3:55"
+    }
+  },
+  "slug": "sdzine-a-hard-days-work-8-hours-with-bdrum",
+  "title": "SDZine: A hard days work: 8 hours with bdrum",
+  "categories": [
+    "sdzine"
+  ],
+  "showInTimeline": true,
+  "dateFormatted": "Thursday, January 25, 2007"
+}
