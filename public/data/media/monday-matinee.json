@@ -1,0 +1,25 @@
+{
+  "date": "2007-04-23T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubePlaylist",
+    "parameters": {
+      "youtubeId": "PL44B1DFC04A789CBB"
+    }
+  },
+  "slug": "monday-matinee",
+  "title": "monday matinee",
+  "description": "every monday homey don comes through with a new video for everyone to enjoy.",
+  "showInTimeline": true,
+  "dateFormatted": "Monday, April 23, 2007"
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2007-06-21T19:03:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "r-cavallo"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "Wwrd3l43mXQ",
+      "runTime": "2:25"
+    }
+  },
+  "slug": "monday-matinee-kevin-at-peak",
+  "title": "monday matinee: kevin @ peak",
+  "dateFormatted": "Thursday, June 21, 2007"
+}

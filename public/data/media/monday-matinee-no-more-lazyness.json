@@ -1,0 +1,40 @@
+{
+  "date": "2007-09-08T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-mc"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "iE27nDQ2am0",
+      "runTime": "0:35"
+    }
+  },
+  "slug": "monday-matinee-no-more-lazyness",
+  "title": "monday matinee: no more lazyness",
+  "dateFormatted": "Saturday, September 8, 2007"
+}

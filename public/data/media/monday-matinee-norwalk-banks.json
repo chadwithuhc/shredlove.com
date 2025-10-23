@@ -1,0 +1,40 @@
+{
+  "date": "2007-06-21T19:02:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "skateaz"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-mc"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "tiraIC8h7xw",
+      "runTime": "1:29"
+    }
+  },
+  "slug": "monday-matinee-norwalk-banks",
+  "title": "monday matinee: norwalk banks",
+  "dateFormatted": "Thursday, June 21, 2007"
+}

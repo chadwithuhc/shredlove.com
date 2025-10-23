@@ -67,6 +67,7 @@
     },
     "slug": "furnace-skate-shop-profile",
     "title": "Furnace Skate Shop Profile",
+    "showInTimeline": true,
     "dateFormatted": "Sunday, February 17, 2019"
   },
   {
@@ -130,6 +131,111 @@
     },
     "showInTimeline": true,
     "dateFormatted": "Wednesday, May 4, 2016"
+  },
+  {
+    "date": "2012-03-21T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "derrick"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "38900463",
+        "runTime": "0:50"
+      }
+    },
+    "slug": "monday-matinee-alec-jamir-peakd",
+    "title": "monday matinee: alec jamir peak'd",
+    "dateFormatted": "Wednesday, March 21, 2012"
+  },
+  {
+    "date": "2011-05-09T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
+        "type": "skateboarder",
+        "person": "otoole"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-mc"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "derrick"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "ehaOWQpbc0M",
+        "runTime": "2:51"
+      }
+    },
+    "slug": "monday-matinee-sdz",
+    "title": "monday matinee: sdz",
+    "description": "here are some leftover tricks of sdz riders from ta-ha.",
+    "dateFormatted": "Monday, May 9, 2011"
   },
   {
     "date": "2010-12-18T19:00:00.000Z",
@@ -213,6 +319,34 @@
     },
     "slug": "brian-in-ta-ha",
     "title": "Brian Price in TA HA",
+    "dateFormatted": "Saturday, December 18, 2010"
+  },
+  {
+    "date": "2010-12-18T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "derrick"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "vimeoVideo",
+      "parameters": {
+        "vimeoId": "36001106",
+        "runTime": "4:56"
+      }
+    },
+    "slug": "derrick-in-ta-ha",
+    "title": "Derrick Wilson in TA HA",
     "dateFormatted": "Saturday, December 18, 2010"
   },
   {
@@ -392,6 +526,10 @@
       {
         "type": "skateboarder",
         "person": "otoole"
+      },
+      {
+        "type": "skateboarder",
+        "person": "derrick"
       }
     ],
     "source": {
@@ -404,6 +542,1704 @@
     },
     "showInTimeline": true,
     "dateFormatted": "Saturday, December 18, 2010"
+  },
+  {
+    "slug": "ta-ha-final-promo",
+    "title": "TA HA: Final Promo",
+    "description": "the final ta ha teaser! ta-ha premiere @ art theater / 4th & cherry, long beach, ca / sat dec 18, 2010 / 9pm / $2 entry",
+    "date": "2010-12-09T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "derrick"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "murPhEwnpo4",
+        "runTime": "1:49"
+      }
+    },
+    "showInTimeline": true,
+    "dateFormatted": "Thursday, December 9, 2010"
+  },
+  {
+    "date": "2009-05-11T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "derrick"
+      },
+      {
+        "type": "skateboarder",
+        "person": "butler"
+      },
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "E0UuTwgYDhk",
+        "runTime": "1:17"
+      }
+    },
+    "slug": "monday-matinee-afefwefinternet",
+    "title": "monday matinee: afefwefinternet",
+    "dateFormatted": "Monday, May 11, 2009"
+  },
+  {
+    "date": "2009-01-02T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "KykLO3rRCjg",
+        "runTime": "1:06"
+      }
+    },
+    "slug": "monday-matinee-kevin-redondo-hurteen",
+    "title": "monday matinee: kevin redondo hurteen",
+    "description": "kevin romar tries a nollie variel heel down redondo thirteen",
+    "dateFormatted": "Friday, January 2, 2009"
+  },
+  {
+    "date": "2008-12-08T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "M1ah19OWPUA",
+        "runTime": "1:42"
+      }
+    },
+    "slug": "monday-matinee-secret-mini-ramp",
+    "title": "monday matinee: secret mini ramp",
+    "description": "a slo mo montage of mini ramp shredding by nick garcia and billy davenport. filmed by don luong.",
+    "dateFormatted": "Monday, December 8, 2008"
+  },
+  {
+    "date": "2008-09-22T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jordan"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "otoole"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-b"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "derrick"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "r-RiiQXUgTs",
+        "runTime": "1:59"
+      }
+    },
+    "slug": "monday-matinee-latest-and-gretest",
+    "title": "monday matinee: latest and gretest",
+    "description": "watch for subliminal messages",
+    "dateFormatted": "Monday, September 22, 2008"
+  },
+  {
+    "date": "2008-08-01T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "derrick"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-b"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jordan"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "a5Ctj6Sj3p0",
+        "runTime": "1:52"
+      }
+    },
+    "slug": "monday-matinee-wilco-montage",
+    "title": "monday matinee: wilco montage",
+    "dateFormatted": "Friday, August 1, 2008"
+  },
+  {
+    "date": "2008-06-19T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-b"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jordan"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "UtMOgnqq_Ag",
+        "runTime": "1:53"
+      }
+    },
+    "slug": "monday-matinee-dr-dog-montage",
+    "title": "monday matinee: dr dog montage",
+    "dateFormatted": "Thursday, June 19, 2008"
+  },
+  {
+    "date": "2008-06-19T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "5lWqdvHf0rw",
+        "runTime": "1:27"
+      }
+    },
+    "slug": "monday-matinee-nick-garcia-eldo-quarterpipe",
+    "title": "monday matinee: nick garcia eldo quarterpipe",
+    "description": "nick skates a quarter pipe",
+    "dateFormatted": "Thursday, June 19, 2008"
+  },
+  {
+    "date": "2008-06-13T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "4KJe0pPT4AI",
+        "runTime": "1:36"
+      }
+    },
+    "slug": "alec-orisue-promo",
+    "title": "Alec Orisue Promo",
+    "dateFormatted": "Friday, June 13, 2008"
+  },
+  {
+    "date": "2008-04-17T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chavez"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ry-cou"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-b"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "youngblood"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jordan"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "SYKliDJTnT0",
+        "runTime": "1:38"
+      }
+    },
+    "slug": "monday-matinee-bounce-that-montage",
+    "title": "monday matinee: bounce that montage",
+    "dateFormatted": "Thursday, April 17, 2008"
+  },
+  {
+    "slug": "ta-ha-promo-2",
+    "title": "TA HA: Promo 2",
+    "description": "Skate Video presented by: Don Luong. Featuring: Kevin Romar, Alec Jamir, Don Luong, Nick Garcia, Julian Davidson, Brandon Drummond, Geralle Estes, Billy Davenport and more...",
+    "date": "2008-03-14T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "yy8n-dNC604",
+        "runTime": "1:55"
+      }
+    },
+    "showInTimeline": true,
+    "dateFormatted": "Friday, March 14, 2008"
+  },
+  {
+    "date": "2008-03-13T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "andrew"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-b"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "otoole"
+      },
+      {
+        "type": "skateboarder",
+        "person": "greg"
+      },
+      {
+        "type": "skateboarder",
+        "person": "adam"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "rsa8zpZyp4A",
+        "runTime": "2:09"
+      }
+    },
+    "slug": "monday-matinee-shred-dogz-montage",
+    "title": "monday matinee: shred dogz montage",
+    "dateFormatted": "Thursday, March 13, 2008"
+  },
+  {
+    "date": "2007-10-30T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "WvU3xRWva0A",
+        "runTime": "1:08"
+      }
+    },
+    "slug": "monday-matinee-alec-jamir-tries-to-get-some-lines",
+    "title": "monday matinee: Alec Jamir tries to get some lines",
+    "dateFormatted": "Tuesday, October 30, 2007"
+  },
+  {
+    "date": "2007-10-22T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "4CWWDwqLy1w",
+        "runTime": "0:29"
+      }
+    },
+    "slug": "monday-matinee-kevin-and-nick",
+    "title": "monday matinee: kevin and nick",
+    "dateFormatted": "Monday, October 22, 2007"
+  },
+  {
+    "date": "2007-10-15T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "butler"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "ubjvKqCt5cg",
+        "runTime": "2:15"
+      }
+    },
+    "slug": "monday-matinee-san-fran-07",
+    "title": "monday matinee: san fran 07",
+    "dateFormatted": "Monday, October 15, 2007"
+  },
+  {
+    "date": "2007-10-08T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "adam"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "KAjce5hTd10",
+        "runTime": "1:13"
+      }
+    },
+    "slug": "monday-matinee-nicktage-and-some-others",
+    "title": "monday matinee: nicktage and some others",
+    "dateFormatted": "Monday, October 8, 2007"
+  },
+  {
+    "date": "2007-10-02T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "adam"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "P-oWUg6yPt0",
+        "runTime": "1:48"
+      }
+    },
+    "slug": "monday-matinee-just-some-tricks-filmed-for-fun",
+    "title": "monday matinee: just some tricks filmed for fun",
+    "dateFormatted": "Tuesday, October 2, 2007"
+  },
+  {
+    "date": "2007-09-25T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jordan"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "richie"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "greg"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "TDzUyWTSp9Y",
+        "runTime": "2:01"
+      }
+    },
+    "slug": "monday-matinee-gangstuh-shit",
+    "title": "monday matinee: gangstuh shit",
+    "dateFormatted": "Tuesday, September 25, 2007"
+  },
+  {
+    "date": "2007-09-25T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "greg"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "aELGyazBJug",
+        "runTime": "1:22"
+      }
+    },
+    "slug": "monday-matinee-skateboarding-is-fun",
+    "title": "monday matinee: skateboarding is fun",
+    "dateFormatted": "Tuesday, September 25, 2007"
+  },
+  {
+    "date": "2007-09-10T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-mc"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "iTACK-aAhHA",
+        "runTime": "1:17"
+      }
+    },
+    "slug": "monday-matinee-2-in-a-row",
+    "title": "monday matinee: 2 in a row!",
+    "dateFormatted": "Monday, September 10, 2007"
+  },
+  {
+    "date": "2007-09-08T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-mc"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "iE27nDQ2am0",
+        "runTime": "0:35"
+      }
+    },
+    "slug": "monday-matinee-no-more-lazyness",
+    "title": "monday matinee: no more lazyness",
+    "dateFormatted": "Saturday, September 8, 2007"
+  },
+  {
+    "date": "2007-08-06T19:01:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "r-cavallo"
+      },
+      {
+        "type": "skateboarder",
+        "person": "greg"
+      },
+      {
+        "type": "skateboarder",
+        "person": "butler"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "RBofOexREOY",
+        "runTime": "1:53"
+      }
+    },
+    "slug": "monday-matinee-on-time-this-time",
+    "title": "monday matinee: on time this time",
+    "dateFormatted": "Monday, August 6, 2007"
+  },
+  {
+    "date": "2007-08-06T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "adam"
+      },
+      {
+        "type": "skateboarder",
+        "person": "r-cavallo"
+      },
+      {
+        "type": "skateboarder",
+        "person": "greg"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "rTD6NnXjsqE",
+        "runTime": "1:29"
+      }
+    },
+    "slug": "monday-matinee-suck-it",
+    "title": "monday matinee: suck it",
+    "dateFormatted": "Monday, August 6, 2007"
+  },
+  {
+    "date": "2007-07-21T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "r-cavallo"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-mc"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "b2MOXJoQhgM",
+        "runTime": "1:14"
+      }
+    },
+    "slug": "monday-matinee-stackage",
+    "title": "monday matinee: stackage",
+    "dateFormatted": "Saturday, July 21, 2007"
+  },
+  {
+    "date": "2007-07-02T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "21B6kGfH-Hs",
+        "runTime": "1:20"
+      }
+    },
+    "slug": "monday-matinee-were-just-friends-2",
+    "title": "monday matinee: We're JUST Friends 2",
+    "description": "The sequel!",
+    "dateFormatted": "Monday, July 2, 2007"
+  },
+  {
+    "date": "2007-06-26T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "videographer",
+        "person": "ryan-moore"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "OYNE_DTHEFc",
+        "runTime": "1:24"
+      }
+    },
+    "slug": "monday-matinee-alecs-really-really-old-stuff",
+    "title": "monday matinee: alecs really really old stuff",
+    "dateFormatted": "Tuesday, June 26, 2007"
+  },
+  {
+    "date": "2007-06-21T19:03:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "r-cavallo"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "Wwrd3l43mXQ",
+        "runTime": "2:25"
+      }
+    },
+    "slug": "monday-matinee-kevin-at-peak",
+    "title": "monday matinee: kevin @ peak",
+    "dateFormatted": "Thursday, June 21, 2007"
+  },
+  {
+    "date": "2007-06-21T19:02:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "skateaz"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-mc"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "tiraIC8h7xw",
+        "runTime": "1:29"
+      }
+    },
+    "slug": "monday-matinee-norwalk-banks",
+    "title": "monday matinee: norwalk banks",
+    "dateFormatted": "Thursday, June 21, 2007"
+  },
+  {
+    "date": "2007-06-21T19:01:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "skateaz"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "r-cavallo"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "FcYVgNI0CO8",
+        "runTime": "0:54"
+      }
+    },
+    "slug": "monday-matinee-funtage",
+    "title": "monday matinee: funtage",
+    "dateFormatted": "Thursday, June 21, 2007"
+  },
+  {
+    "date": "2007-06-21T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "butler"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "pIV48rKiTJo",
+        "runTime": "0:41"
+      }
+    },
+    "slug": "monday-matinee-slo-mo",
+    "title": "monday matinee: slo mo",
+    "dateFormatted": "Thursday, June 21, 2007"
+  },
+  {
+    "slug": "ta-ha-promo",
+    "title": "TA HA: Promo",
+    "description": "a video that i am making...in progress. coming ??? starring....",
+    "date": "2007-06-21T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "julian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "matt-mc"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jordan"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "0eZa0b6yjZA",
+        "runTime": "1:47"
+      }
+    },
+    "showInTimeline": true,
+    "dateFormatted": "Thursday, June 21, 2007"
+  },
+  {
+    "date": "2007-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "6sUe1OWN7rw",
+        "runTime": "3:58"
+      }
+    },
+    "slug": "chad-throwaway-from-must-be-nice",
+    "title": "chad throwaway from must be nice",
+    "dateFormatted": "Thursday, June 14, 2007"
+  },
+  {
+    "date": "2007-05-22T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "andrew"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "butler"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ry-cou"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chavez"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "k4s-2X_QaBI",
+        "runTime": "1:57"
+      }
+    },
+    "slug": "monday-matinee-shred-love",
+    "title": "monday matinee: shred love",
+    "dateFormatted": "Tuesday, May 22, 2007"
+  },
+  {
+    "date": "2007-05-15T19:01:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "balls"
+      },
+      {
+        "type": "skateboarder",
+        "person": "carney"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "billy-d"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "randy"
+      },
+      {
+        "type": "skateboarder",
+        "person": "skateaz"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brian"
+      },
+      {
+        "type": "skateboarder",
+        "person": "r-cavallo"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "WUKh6Zd8ytU",
+        "runTime": "2:56"
+      }
+    },
+    "slug": "monday-matinee-shred-dogz",
+    "title": "monday matinee: shred dogz",
+    "dateFormatted": "Tuesday, May 15, 2007"
+  },
+  {
+    "date": "2007-05-15T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "butler"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "AoK-axe_0jU",
+        "runTime": "0:49"
+      }
+    },
+    "slug": "monday-matinee-flat-bar-sesh",
+    "title": "monday matinee: Flat bar sesh",
+    "dateFormatted": "Tuesday, May 15, 2007"
+  },
+  {
+    "date": "2007-04-23T19:03:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "_QcAMmaa5zg",
+        "runTime": "2:05"
+      }
+    },
+    "slug": "monday-matinee-were-just-friends",
+    "title": "monday matinee: We're JUST Friends",
+    "description": "A couple of dudes having some fun at Larwin Park",
+    "dateFormatted": "Monday, April 23, 2007"
+  },
+  {
+    "date": "2007-04-23T19:02:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chavez"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "npYkbirsDoE",
+        "runTime": "0:50"
+      }
+    },
+    "slug": "monday-matinee-cypress-rules",
+    "title": "monday matinee: Cypress Rules",
+    "description": "A day of low-key cypress spots",
+    "dateFormatted": "Monday, April 23, 2007"
+  },
+  {
+    "date": "2007-04-23T19:01:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "matt-mc"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "adam"
+      },
+      {
+        "type": "skateboarder",
+        "person": "jordan"
+      },
+      {
+        "type": "skateboarder",
+        "person": "richie"
+      },
+      {
+        "type": "skateboarder",
+        "person": "nick-gar"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "7VU_SFH3P6M",
+        "runTime": "1:15"
+      }
+    },
+    "slug": "monday-matinee-old-and-unused",
+    "title": "monday matinee: Old and Unused",
+    "dateFormatted": "Monday, April 23, 2007"
+  },
+  {
+    "date": "2007-04-23T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "richie"
+      },
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "GM65JBute90",
+        "runTime": "1:24"
+      }
+    },
+    "slug": "monday-matinee-richie-parry",
+    "title": "monday matinee: Richie Parry",
+    "dateFormatted": "Monday, April 23, 2007"
+  },
+  {
+    "date": "2007-04-23T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "video-editor",
+        "person": "don"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubePlaylist",
+      "parameters": {
+        "youtubeId": "PL44B1DFC04A789CBB"
+      }
+    },
+    "slug": "monday-matinee",
+    "title": "monday matinee",
+    "description": "every monday homey don comes through with a new video for everyone to enjoy.",
+    "showInTimeline": true,
+    "dateFormatted": "Monday, April 23, 2007"
   },
   {
     "date": "2007-04-17T12:00:00.000Z",
@@ -603,6 +2439,47 @@
     ],
     "showInTimeline": true,
     "dateFormatted": "Wednesday, February 14, 2007"
+  },
+  {
+    "date": "2007-01-25T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "ryan-moore"
+      },
+      {
+        "type": "skateboarder",
+        "person": "balls"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "chad"
+      },
+      {
+        "type": "videographer",
+        "person": "don"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "C8N6CcKcAjQ",
+        "runTime": "1:31"
+      }
+    },
+    "slug": "monday-matinee-las-flores",
+    "title": "monday matinee: las flores",
+    "description": "a night at las flores",
+    "dateFormatted": "Thursday, January 25, 2007"
   },
   {
     "date": "2007-01-25T12:00:00.000Z",
@@ -1474,6 +3351,150 @@
     "dateFormatted": "Wednesday, July 19, 2006"
   },
   {
+    "date": "2005-08-20T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "Rkb1TQHvRyo",
+        "runTime": "2:12"
+      }
+    },
+    "slug": "monday-matinee-mexico-05",
+    "title": "monday matinee: mexico 05",
+    "description": "a trip to mexico in 2005 with matt, bran, cody, and chad.",
+    "dateFormatted": "Saturday, August 20, 2005"
+  },
+  {
+    "date": "2005-05-25T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "ben"
+      },
+      {
+        "type": "skateboarder",
+        "person": "kevin-romar"
+      },
+      {
+        "type": "skateboarder",
+        "person": "joe"
+      },
+      {
+        "type": "skateboarder",
+        "person": "danny"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "Swtx4CiJJ0A",
+        "runTime": "1:01"
+      }
+    },
+    "slug": "monday-matinee-vans-525",
+    "title": "monday matinee: vans 5.25",
+    "description": "a session at vans skatepark of orange",
+    "dateFormatted": "Wednesday, May 25, 2005"
+  },
+  {
+    "date": "2005-05-20T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "don"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "geralle"
+      },
+      {
+        "type": "skateboarder",
+        "person": "carney"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "xxqYEpjdWEM",
+        "runTime": "1:01"
+      }
+    },
+    "slug": "monday-matinee-esperanza",
+    "title": "monday matinee: esperanza",
+    "description": "a night at esperanza",
+    "dateFormatted": "Friday, May 20, 2005"
+  },
+  {
+    "date": "2005-04-20T19:00:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "jbmGlEYHgkQ",
+        "runTime": "1:37"
+      }
+    },
+    "slug": "monday-matinee-chad-gets-complex",
+    "title": "monday matinee: chad gets complex",
+    "description": "chad gets complex. throw away footy from push push.",
+    "dateFormatted": "Wednesday, April 20, 2005"
+  },
+  {
     "date": "2004-06-14T22:23:00.000Z",
     "credits": [
       {
@@ -1583,6 +3604,66 @@
     },
     "slug": "ben-in-push-push",
     "title": "Ben in push push",
+    "dateFormatted": "Monday, June 14, 2004"
+  },
+  {
+    "date": "2004-06-14T22:23:00.000Z",
+    "credits": [
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "andrew"
+      },
+      {
+        "type": "skateboarder",
+        "person": "chad"
+      },
+      {
+        "type": "skateboarder",
+        "person": "taylor"
+      },
+      {
+        "type": "skateboarder",
+        "person": "balls"
+      },
+      {
+        "type": "skateboarder",
+        "person": "brandon"
+      },
+      {
+        "type": "skateboarder",
+        "person": "cody"
+      },
+      {
+        "type": "skateboarder",
+        "person": "alec"
+      },
+      {
+        "type": "skateboarder",
+        "person": "youngblood"
+      },
+      {
+        "type": "video-editor",
+        "person": "chad"
+      }
+    ],
+    "source": {
+      "mediaType": "video",
+      "type": "youtubeVideo",
+      "parameters": {
+        "youtubeId": "VDDlYceZ4AQ",
+        "runTime": "3:56"
+      }
+    },
+    "slug": "bonus-footy-from-push-push",
+    "title": "bonus footy from push push",
     "dateFormatted": "Monday, June 14, 2004"
   },
   {

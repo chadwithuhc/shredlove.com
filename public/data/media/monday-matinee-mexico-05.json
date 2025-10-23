@@ -1,0 +1,33 @@
+{
+  "date": "2005-08-20T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "Rkb1TQHvRyo",
+      "runTime": "2:12"
+    }
+  },
+  "slug": "monday-matinee-mexico-05",
+  "title": "monday matinee: mexico 05",
+  "description": "a trip to mexico in 2005 with matt, bran, cody, and chad.",
+  "dateFormatted": "Saturday, August 20, 2005"
+}

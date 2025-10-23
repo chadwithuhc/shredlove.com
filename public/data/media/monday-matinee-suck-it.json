@@ -1,0 +1,40 @@
+{
+  "date": "2007-08-06T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "adam"
+    },
+    {
+      "type": "skateboarder",
+      "person": "r-cavallo"
+    },
+    {
+      "type": "skateboarder",
+      "person": "greg"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "rTD6NnXjsqE",
+      "runTime": "1:29"
+    }
+  },
+  "slug": "monday-matinee-suck-it",
+  "title": "monday matinee: suck it",
+  "dateFormatted": "Monday, August 6, 2007"
+}

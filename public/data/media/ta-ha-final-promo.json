@@ -1,0 +1,62 @@
+{
+  "slug": "ta-ha-final-promo",
+  "title": "TA HA: Final Promo",
+  "description": "the final ta ha teaser! ta-ha premiere @ art theater / 4th & cherry, long beach, ca / sat dec 18, 2010 / 9pm / $2 entry",
+  "date": "2010-12-09T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "derrick"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "murPhEwnpo4",
+      "runTime": "1:49"
+    }
+  },
+  "showInTimeline": true,
+  "dateFormatted": "Thursday, December 9, 2010"
+}

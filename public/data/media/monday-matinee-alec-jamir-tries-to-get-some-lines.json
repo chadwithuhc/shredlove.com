@@ -1,0 +1,28 @@
+{
+  "date": "2007-10-30T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "WvU3xRWva0A",
+      "runTime": "1:08"
+    }
+  },
+  "slug": "monday-matinee-alec-jamir-tries-to-get-some-lines",
+  "title": "monday matinee: Alec Jamir tries to get some lines",
+  "dateFormatted": "Tuesday, October 30, 2007"
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2007-05-22T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "andrew"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "butler"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ry-cou"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chavez"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "k4s-2X_QaBI",
+      "runTime": "1:57"
+    }
+  },
+  "slug": "monday-matinee-shred-love",
+  "title": "monday matinee: shred love",
+  "dateFormatted": "Tuesday, May 22, 2007"
+}

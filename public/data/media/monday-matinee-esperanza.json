@@ -1,0 +1,41 @@
+{
+  "date": "2005-05-20T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "carney"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "xxqYEpjdWEM",
+      "runTime": "1:01"
+    }
+  },
+  "slug": "monday-matinee-esperanza",
+  "title": "monday matinee: esperanza",
+  "description": "a night at esperanza",
+  "dateFormatted": "Friday, May 20, 2005"
+}

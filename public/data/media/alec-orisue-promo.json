@@ -1,0 +1,28 @@
+{
+  "date": "2008-06-13T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "4KJe0pPT4AI",
+      "runTime": "1:36"
+    }
+  },
+  "slug": "alec-orisue-promo",
+  "title": "Alec Orisue Promo",
+  "dateFormatted": "Friday, June 13, 2008"
+}

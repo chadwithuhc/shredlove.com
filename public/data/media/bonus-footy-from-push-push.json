@@ -1,0 +1,60 @@
+{
+  "date": "2004-06-14T22:23:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "andrew"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "taylor"
+    },
+    {
+      "type": "skateboarder",
+      "person": "balls"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "youngblood"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "VDDlYceZ4AQ",
+      "runTime": "3:56"
+    }
+  },
+  "slug": "bonus-footy-from-push-push",
+  "title": "bonus footy from push push",
+  "dateFormatted": "Monday, June 14, 2004"
+}

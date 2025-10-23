@@ -1,0 +1,48 @@
+{
+  "date": "2007-04-23T19:01:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "matt-mc"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "adam"
+    },
+    {
+      "type": "skateboarder",
+      "person": "jordan"
+    },
+    {
+      "type": "skateboarder",
+      "person": "richie"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "7VU_SFH3P6M",
+      "runTime": "1:15"
+    }
+  },
+  "slug": "monday-matinee-old-and-unused",
+  "title": "monday matinee: Old and Unused",
+  "dateFormatted": "Monday, April 23, 2007"
+}

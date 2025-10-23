@@ -1,0 +1,66 @@
+{
+  "slug": "ta-ha-promo",
+  "title": "TA HA: Promo",
+  "description": "a video that i am making...in progress. coming ??? starring....",
+  "date": "2007-06-21T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-mc"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "jordan"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "0eZa0b6yjZA",
+      "runTime": "1:47"
+    }
+  },
+  "showInTimeline": true,
+  "dateFormatted": "Thursday, June 21, 2007"
+}

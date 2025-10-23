@@ -1,0 +1,29 @@
+{
+  "date": "2008-06-19T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "5lWqdvHf0rw",
+      "runTime": "1:27"
+    }
+  },
+  "slug": "monday-matinee-nick-garcia-eldo-quarterpipe",
+  "title": "monday matinee: nick garcia eldo quarterpipe",
+  "description": "nick skates a quarter pipe",
+  "dateFormatted": "Thursday, June 19, 2008"
+}

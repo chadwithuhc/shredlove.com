@@ -1,0 +1,52 @@
+{
+  "date": "2007-06-21T19:01:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "joe"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "skateaz"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "r-cavallo"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "FcYVgNI0CO8",
+      "runTime": "0:54"
+    }
+  },
+  "slug": "monday-matinee-funtage",
+  "title": "monday matinee: funtage",
+  "dateFormatted": "Thursday, June 21, 2007"
+}

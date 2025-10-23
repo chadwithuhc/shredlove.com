@@ -1,0 +1,32 @@
+{
+  "date": "2007-10-15T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "butler"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "ubjvKqCt5cg",
+      "runTime": "2:15"
+    }
+  },
+  "slug": "monday-matinee-san-fran-07",
+  "title": "monday matinee: san fran 07",
+  "dateFormatted": "Monday, October 15, 2007"
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2008-03-13T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "andrew"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-b"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "skateboarder",
+      "person": "otoole"
+    },
+    {
+      "type": "skateboarder",
+      "person": "greg"
+    },
+    {
+      "type": "skateboarder",
+      "person": "adam"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "rsa8zpZyp4A",
+      "runTime": "2:09"
+    }
+  },
+  "slug": "monday-matinee-shred-dogz-montage",
+  "title": "monday matinee: shred dogz montage",
+  "dateFormatted": "Thursday, March 13, 2008"
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2007-09-25T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "skateboarder",
+      "person": "jordan"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "richie"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "skateboarder",
+      "person": "greg"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "TDzUyWTSp9Y",
+      "runTime": "2:01"
+    }
+  },
+  "slug": "monday-matinee-gangstuh-shit",
+  "title": "monday matinee: gangstuh shit",
+  "dateFormatted": "Tuesday, September 25, 2007"
+}

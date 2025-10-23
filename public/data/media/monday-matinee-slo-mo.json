@@ -1,0 +1,32 @@
+{
+  "date": "2007-06-21T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "butler"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "pIV48rKiTJo",
+      "runTime": "0:41"
+    }
+  },
+  "slug": "monday-matinee-slo-mo",
+  "title": "monday matinee: slo mo",
+  "dateFormatted": "Thursday, June 21, 2007"
+}

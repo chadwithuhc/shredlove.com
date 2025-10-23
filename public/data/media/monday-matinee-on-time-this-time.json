@@ -1,0 +1,44 @@
+{
+  "date": "2007-08-06T19:01:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "r-cavallo"
+    },
+    {
+      "type": "skateboarder",
+      "person": "greg"
+    },
+    {
+      "type": "skateboarder",
+      "person": "butler"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "RBofOexREOY",
+      "runTime": "1:53"
+    }
+  },
+  "slug": "monday-matinee-on-time-this-time",
+  "title": "monday matinee: on time this time",
+  "dateFormatted": "Monday, August 6, 2007"
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2007-01-25T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "balls"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "videographer",
+      "person": "chad"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "C8N6CcKcAjQ",
+      "runTime": "1:31"
+    }
+  },
+  "slug": "monday-matinee-las-flores",
+  "title": "monday matinee: las flores",
+  "description": "a night at las flores",
+  "dateFormatted": "Thursday, January 25, 2007"
+}

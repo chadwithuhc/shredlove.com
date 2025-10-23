@@ -1,0 +1,64 @@
+{
+  "date": "2008-06-19T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "skateboarder",
+      "person": "joe"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-b"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "jordan"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "UtMOgnqq_Ag",
+      "runTime": "1:53"
+    }
+  },
+  "slug": "monday-matinee-dr-dog-montage",
+  "title": "monday matinee: dr dog montage",
+  "dateFormatted": "Thursday, June 19, 2008"
+}

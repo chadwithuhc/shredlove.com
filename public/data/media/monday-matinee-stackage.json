@@ -1,0 +1,52 @@
+{
+  "date": "2007-07-21T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "r-cavallo"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-mc"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "b2MOXJoQhgM",
+      "runTime": "1:14"
+    }
+  },
+  "slug": "monday-matinee-stackage",
+  "title": "monday matinee: stackage",
+  "dateFormatted": "Saturday, July 21, 2007"
+}

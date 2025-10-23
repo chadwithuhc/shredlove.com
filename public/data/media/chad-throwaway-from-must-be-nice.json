@@ -1,0 +1,24 @@
+{
+  "date": "2007-06-14T22:23:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "6sUe1OWN7rw",
+      "runTime": "3:58"
+    }
+  },
+  "slug": "chad-throwaway-from-must-be-nice",
+  "title": "chad throwaway from must be nice",
+  "dateFormatted": "Thursday, June 14, 2007"
+}

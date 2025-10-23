@@ -1,0 +1,45 @@
+{
+  "date": "2005-05-25T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "joe"
+    },
+    {
+      "type": "skateboarder",
+      "person": "danny"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "Swtx4CiJJ0A",
+      "runTime": "1:01"
+    }
+  },
+  "slug": "monday-matinee-vans-525",
+  "title": "monday matinee: vans 5.25",
+  "description": "a session at vans skatepark of orange",
+  "dateFormatted": "Wednesday, May 25, 2005"
+}

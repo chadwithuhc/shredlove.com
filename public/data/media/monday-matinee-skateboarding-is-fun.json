@@ -1,0 +1,48 @@
+{
+  "date": "2007-09-25T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "skateboarder",
+      "person": "greg"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "aELGyazBJug",
+      "runTime": "1:22"
+    }
+  },
+  "slug": "monday-matinee-skateboarding-is-fun",
+  "title": "monday matinee: skateboarding is fun",
+  "dateFormatted": "Tuesday, September 25, 2007"
+}

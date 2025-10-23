@@ -1,0 +1,24 @@
+{
+  "date": "2007-10-22T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "4CWWDwqLy1w",
+      "runTime": "0:29"
+    }
+  },
+  "slug": "monday-matinee-kevin-and-nick",
+  "title": "monday matinee: kevin and nick",
+  "dateFormatted": "Monday, October 22, 2007"
+}

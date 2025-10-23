@@ -1,0 +1,36 @@
+{
+  "date": "2007-05-15T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "butler"
+    },
+    {
+      "type": "skateboarder",
+      "person": "cody"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "AoK-axe_0jU",
+      "runTime": "0:49"
+    }
+  },
+  "slug": "monday-matinee-flat-bar-sesh",
+  "title": "monday matinee: Flat bar sesh",
+  "dateFormatted": "Tuesday, May 15, 2007"
+}

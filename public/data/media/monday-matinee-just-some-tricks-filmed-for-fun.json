@@ -1,0 +1,32 @@
+{
+  "date": "2007-10-02T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "joe"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "adam"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "P-oWUg6yPt0",
+      "runTime": "1:48"
+    }
+  },
+  "slug": "monday-matinee-just-some-tricks-filmed-for-fun",
+  "title": "monday matinee: just some tricks filmed for fun",
+  "dateFormatted": "Tuesday, October 2, 2007"
+}

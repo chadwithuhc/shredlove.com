@@ -1,0 +1,57 @@
+{
+  "date": "2008-09-22T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "jordan"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "otoole"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-b"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "derrick"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "r-RiiQXUgTs",
+      "runTime": "1:59"
+    }
+  },
+  "slug": "monday-matinee-latest-and-gretest",
+  "title": "monday matinee: latest and gretest",
+  "description": "watch for subliminal messages",
+  "dateFormatted": "Monday, September 22, 2008"
+}

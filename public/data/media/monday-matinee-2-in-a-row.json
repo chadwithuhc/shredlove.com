@@ -1,0 +1,48 @@
+{
+  "date": "2007-09-10T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-mc"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ryan-moore"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "iTACK-aAhHA",
+      "runTime": "1:17"
+    }
+  },
+  "slug": "monday-matinee-2-in-a-row",
+  "title": "monday matinee: 2 in a row!",
+  "dateFormatted": "Monday, September 10, 2007"
+}

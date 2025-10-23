@@ -1,0 +1,28 @@
+{
+  "date": "2007-04-23T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "richie"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "GM65JBute90",
+      "runTime": "1:24"
+    }
+  },
+  "slug": "monday-matinee-richie-parry",
+  "title": "monday matinee: Richie Parry",
+  "dateFormatted": "Monday, April 23, 2007"
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2007-10-08T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    },
+    {
+      "type": "skateboarder",
+      "person": "adam"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "KAjce5hTd10",
+      "runTime": "1:13"
+    }
+  },
+  "slug": "monday-matinee-nicktage-and-some-others",
+  "title": "monday matinee: nicktage and some others",
+  "dateFormatted": "Monday, October 8, 2007"
+}

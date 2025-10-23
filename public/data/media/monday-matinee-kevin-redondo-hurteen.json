@@ -1,0 +1,29 @@
+{
+  "date": "2009-01-02T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "KykLO3rRCjg",
+      "runTime": "1:06"
+    }
+  },
+  "slug": "monday-matinee-kevin-redondo-hurteen",
+  "title": "monday matinee: kevin redondo hurteen",
+  "description": "kevin romar tries a nollie variel heel down redondo thirteen",
+  "dateFormatted": "Friday, January 2, 2009"
+}

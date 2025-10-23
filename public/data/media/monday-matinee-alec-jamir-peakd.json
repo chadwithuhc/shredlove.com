@@ -1,0 +1,32 @@
+{
+  "date": "2012-03-21T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "derrick"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "vimeoVideo",
+    "parameters": {
+      "vimeoId": "38900463",
+      "runTime": "0:50"
+    }
+  },
+  "slug": "monday-matinee-alec-jamir-peakd",
+  "title": "monday matinee: alec jamir peak'd",
+  "dateFormatted": "Wednesday, March 21, 2012"
+}

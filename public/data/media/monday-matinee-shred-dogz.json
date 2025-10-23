@@ -1,0 +1,64 @@
+{
+  "date": "2007-05-15T19:01:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "chad"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "balls"
+    },
+    {
+      "type": "skateboarder",
+      "person": "carney"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ben"
+    },
+    {
+      "type": "skateboarder",
+      "person": "randy"
+    },
+    {
+      "type": "skateboarder",
+      "person": "skateaz"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brian"
+    },
+    {
+      "type": "skateboarder",
+      "person": "r-cavallo"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "WUKh6Zd8ytU",
+      "runTime": "2:56"
+    }
+  },
+  "slug": "monday-matinee-shred-dogz",
+  "title": "monday matinee: shred dogz",
+  "dateFormatted": "Tuesday, May 15, 2007"
+}

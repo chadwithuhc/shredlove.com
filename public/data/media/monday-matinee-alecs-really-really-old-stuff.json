@@ -1,0 +1,24 @@
+{
+  "date": "2007-06-26T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "videographer",
+      "person": "ryan-moore"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "OYNE_DTHEFc",
+      "runTime": "1:24"
+    }
+  },
+  "slug": "monday-matinee-alecs-really-really-old-stuff",
+  "title": "monday matinee: alecs really really old stuff",
+  "dateFormatted": "Tuesday, June 26, 2007"
+}

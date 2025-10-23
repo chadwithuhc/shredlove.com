@@ -1,0 +1,48 @@
+{
+  "date": "2008-08-01T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "derrick"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-b"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "jordan"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "a5Ctj6Sj3p0",
+      "runTime": "1:52"
+    }
+  },
+  "slug": "monday-matinee-wilco-montage",
+  "title": "monday matinee: wilco montage",
+  "dateFormatted": "Friday, August 1, 2008"
+}

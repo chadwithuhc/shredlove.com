@@ -48,6 +48,10 @@
     "displayName": "buckshot"
   },
   {
+    "uid": "butler",
+    "displayName": "butler"
+  },
+  {
     "uid": "chad",
     "displayName": "chadwithuhc"
   },
@@ -64,6 +68,10 @@
     "displayName": "dcon"
   },
   {
+    "uid": "derrick",
+    "displayName": "derrick wilson"
+  },
+  {
     "uid": "jake",
     "displayName": "frankjake"
   },
@@ -74,6 +82,10 @@
   {
     "uid": "geralle",
     "displayName": "g-rail"
+  },
+  {
+    "uid": "greg",
+    "displayName": "greg crain"
   },
   {
     "uid": "bobby",
@@ -108,6 +120,10 @@
     "displayName": "mark carney"
   },
   {
+    "uid": "matt-b",
+    "displayName": "matt bublitz"
+  },
+  {
     "uid": "matt-mc",
     "displayName": "matt mc"
   },
@@ -122,6 +138,10 @@
   {
     "uid": "r-cavallo",
     "displayName": "r cavallo"
+  },
+  {
+    "uid": "richie",
+    "displayName": "richie parry"
   },
   {
     "uid": "randy",
@@ -142,6 +162,10 @@
   {
     "uid": "taylor",
     "displayName": "stormin mormon"
+  },
+  {
+    "uid": "tom",
+    "displayName": "tom karangelov"
   },
   {
     "uid": "don",

@@ -1,0 +1,58 @@
+{
+  "slug": "ta-ha-promo-2",
+  "title": "TA HA: Promo 2",
+  "description": "Skate Video presented by: Don Luong. Featuring: Kevin Romar, Alec Jamir, Don Luong, Nick Garcia, Julian Davidson, Brandon Drummond, Geralle Estes, Billy Davenport and more...",
+  "date": "2008-03-14T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "skateboarder",
+      "person": "brandon"
+    },
+    {
+      "type": "skateboarder",
+      "person": "geralle"
+    },
+    {
+      "type": "skateboarder",
+      "person": "billy-d"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "yy8n-dNC604",
+      "runTime": "1:55"
+    }
+  },
+  "showInTimeline": true,
+  "dateFormatted": "Friday, March 14, 2008"
+}

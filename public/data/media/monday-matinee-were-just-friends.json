@@ -1,0 +1,33 @@
+{
+  "date": "2007-04-23T19:03:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "video-editor",
+      "person": "chad"
+    },
+    {
+      "type": "videographer",
+      "person": "chad"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "_QcAMmaa5zg",
+      "runTime": "2:05"
+    }
+  },
+  "slug": "monday-matinee-were-just-friends",
+  "title": "monday matinee: We're JUST Friends",
+  "description": "A couple of dudes having some fun at Larwin Park",
+  "dateFormatted": "Monday, April 23, 2007"
+}

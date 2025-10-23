@@ -1,0 +1,64 @@
+{
+  "date": "2008-04-17T19:00:00.000Z",
+  "credits": [
+    {
+      "type": "skateboarder",
+      "person": "alec"
+    },
+    {
+      "type": "skateboarder",
+      "person": "chavez"
+    },
+    {
+      "type": "skateboarder",
+      "person": "ry-cou"
+    },
+    {
+      "type": "skateboarder",
+      "person": "matt-b"
+    },
+    {
+      "type": "skateboarder",
+      "person": "kevin-romar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "youngblood"
+    },
+    {
+      "type": "skateboarder",
+      "person": "jordan"
+    },
+    {
+      "type": "skateboarder",
+      "person": "don"
+    },
+    {
+      "type": "skateboarder",
+      "person": "nick-gar"
+    },
+    {
+      "type": "skateboarder",
+      "person": "julian"
+    },
+    {
+      "type": "video-editor",
+      "person": "don"
+    },
+    {
+      "type": "videographer",
+      "person": "don"
+    }
+  ],
+  "source": {
+    "mediaType": "video",
+    "type": "youtubeVideo",
+    "parameters": {
+      "youtubeId": "SYKliDJTnT0",
+      "runTime": "1:38"
+    }
+  },
+  "slug": "monday-matinee-bounce-that-montage",
+  "title": "monday matinee: bounce that montage",
+  "dateFormatted": "Thursday, April 17, 2008"
+}
